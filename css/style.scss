@@ -1,5 +1,7 @@
 @import "components/navbar";
 @import "./components/main-img";
+@import "./components/marcas";
+@import "./components/igFeed";
 
 * {
     margin: 0;
@@ -17,6 +19,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
+    z-index: -5;
 
     .test {
         background-color: #fff;

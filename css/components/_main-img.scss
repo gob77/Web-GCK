@@ -3,6 +3,8 @@
 #img-container {
     width: 100%;
     height: auto;
+    position: relative;
+    z-index: -4;
 
     .banner-bicicleta {
         width: 100%;
@@ -89,7 +91,7 @@
             height: 600px;
             display: flex;
             position: absolute;
-            z-index: 10;
+            z-index: 12;
 
             .izquierda,
             .derecha {
@@ -98,7 +100,7 @@
             }
 
             .centro {
-                width: 20%;
+                width: 27%;
                 height: 100%;
             }
 
@@ -187,6 +189,7 @@
                     justify-content: center;
                     align-items: center;
                     width: 60%;
+                    z-index: 15;
 
                     h3 {
                         color: white;
@@ -197,6 +200,10 @@
                     }
 
                     .info {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-decoration: none;
                         width: 100%;
                         height: 50px;
                         background-color: #ffffff;
@@ -206,6 +213,11 @@
                         font-family: $font;
                         font-size: 25px;
                         margin-top: 25px;
+
+                        &:active {
+                            position: relative;
+                            top: 1px;
+                        }
                     }
                 }
             }
@@ -225,8 +237,8 @@
             position: absolute;
             z-index: -2;
             background-color: $primary;
-            width: 20%;
-            height: 40%;
+            width: 23%;
+            height: 43%;
             border-radius: 50%;
             box-shadow: $shadow;
         }
