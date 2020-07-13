@@ -81,7 +81,8 @@ header {
     width: 100%;
     height: 835px; }
     #img-container .banner-bicicleta img {
-      width: 100%; }
+      width: 100%;
+      height: 835px; }
   #img-container .fortalezas {
     width: 100%;
     height: 1000px;
@@ -640,7 +641,7 @@ header {
 
 .team-venzo {
   width: 100%;
-  height: 1200px;
+  height: 3100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -651,8 +652,12 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-  .team-venzo img {
-    width: 100%; }
+  .team-venzo .team-venzo__img {
+    width: 100%;
+    height: 835px; }
+    .team-venzo .team-venzo__img img {
+      width: 100%;
+      height: 835px; }
   .team-venzo .team-venzo__resumen {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -687,6 +692,10 @@ header {
         font-family: "Roboto", sans-serif;
         font-size: 25px;
         width: 90%; }
+    .team-venzo .team-venzo__resumen .resumen-img {
+      width: 100%; }
+      .team-venzo .team-venzo__resumen .resumen-img img {
+        width: 100%; }
   .team-venzo .team-venzo__categorias {
     width: 100%;
     display: -webkit-box;
@@ -713,7 +722,8 @@ header {
     .team-venzo .team-venzo__categorias h2 {
       font-family: "Anton", sans-serif;
       color: white;
-      font-size: 50px; }
+      font-size: 60px;
+      letter-spacing: 2px; }
     .team-venzo .team-venzo__categorias .categorias-container {
       background-color: #e0e0e0;
       display: -webkit-box;
@@ -730,7 +740,7 @@ header {
           -ms-flex-align: center;
               align-items: center;
       width: 100%;
-      height: 650px; }
+      height: 750px; }
       .team-venzo .team-venzo__categorias .categorias-container .categorias {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -798,6 +808,104 @@ header {
     width: 90%;
     height: 450px; }
 
+.cicloturistas {
+  width: 100%;
+  height: 2500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .cicloturistas .cicloturistas-img {
+    width: 100%;
+    height: 835px; }
+    .cicloturistas .cicloturistas-img img {
+      width: 100%;
+      height: 100%; }
+  .cicloturistas .cicloturistas-txt {
+    width: 100%;
+    height: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #201d1b; }
+    .cicloturistas .cicloturistas-txt h2 {
+      font-size: 60px;
+      background-color: #ffdd12;
+      width: 20%;
+      text-align: center; }
+    .cicloturistas .cicloturistas-txt p {
+      font-size: 30px;
+      width: 72%;
+      text-align: center;
+      color: white; }
+  .cicloturistas .cicloturistas-perfiles {
+    margin-top: 50px;
+    width: 95%;
+    height: 400px;
+    background-color: #e0e0e0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .cicloturistas .cicloturistas-perfiles .perfil-foto {
+      width: 16%;
+      height: 70%;
+      background-color: #fff;
+      border-radius: 50%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: flex-end; }
+      .cicloturistas .cicloturistas-perfiles .perfil-foto .perfil-nombre {
+        height: 43px;
+        width: 100%;
+        bottom: -10px;
+        left: 20%;
+        font-size: 27px;
+        border: 2px solid #ffdd12;
+        background-color: #fff;
+        text-align: center; }
+  .cicloturistas .galeria {
+    margin-top: 50px;
+    width: 90%;
+    height: 500px;
+    background-color: #201d1b; }
+    .cicloturistas .galeria h2 {
+      font-family: "Roboto", sans-serif;
+      font-weight: 300;
+      color: white;
+      font-size: 60px; }
+    .cicloturistas .galeria .galeria-img {
+      background-color: #fff;
+      width: 100%;
+      height: 100%; }
+
 * {
   margin: 0;
   padding: 0;
@@ -825,5 +933,15 @@ body {
           flex-direction: column; }
   body .test {
     background-color: #fff; }
+  body h1,
+  body h2,
+  body h3,
+  body h4,
+  body h5,
+  body h6 {
+    font-family: "Anton", sans-serif;
+    letter-spacing: 2px; }
+  body p {
+    font-family: "Roboto", sans-serif; }
 
 /*# sourceMappingURL=style.css.map */

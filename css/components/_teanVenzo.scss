@@ -1,11 +1,18 @@
 .team-venzo {
     width: 100%;
-    height: 1200px;
+    height: 3100px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    img {
+
+    .team-venzo__img {
         width: 100%;
+        height: 835px;
+
+        img {
+            width: 100%;
+            height: 835px;
+        }
     }
 
     .team-venzo__resumen {
@@ -34,6 +41,14 @@
                 width: 90%;
             }
         }
+
+        .resumen-img {
+            width: 100%;
+
+            img {
+                width: 100%;
+            }
+        }
     }
 
     .team-venzo__categorias {
@@ -46,7 +61,8 @@
         h2 {
             font-family: $primary-font;
             color: white;
-            font-size: 50px;
+            font-size: 60px;
+            letter-spacing: 2px;
         }
 
         .categorias-container {
@@ -56,7 +72,7 @@
             justify-content: center;
             align-items: center;
             width: 100%;
-            height: 650px;
+            height: 750px;
 
             .categorias {
                 display: flex;
