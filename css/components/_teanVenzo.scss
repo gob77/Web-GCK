@@ -1,0 +1,135 @@
+.team-venzo {
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+        width: 100%;
+    }
+
+    .team-venzo__resumen {
+        display: flex;
+        flex-direction: column;
+
+        .resumen-txt {
+            margin: 50px auto;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h2 {
+                color: white;
+                font-family: $primary-font;
+                font-size: 70px;
+                letter-spacing: 3px;
+            }
+
+            p {
+                color: white;
+                font-family: $secondary-font;
+                font-size: 25px;
+                width: 90%;
+            }
+        }
+    }
+
+    .team-venzo__categorias {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+            font-family: $primary-font;
+            color: white;
+            font-size: 50px;
+        }
+
+        .categorias-container {
+            background-color: #e0e0e0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 650px;
+
+            .categorias {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 90%;
+
+                .juveniles,
+                .elite,
+                .master {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin: 50px;
+                    height: 500px;
+                    width: 35%;
+
+                    .miembros {
+                        display: flex;
+                    }
+
+                    h3 {
+                        font-family: $primary-font;
+                        letter-spacing: 2px;
+                        background-color: $secondary;
+                        width: 100%;
+                        text-align: center;
+                        font-size: 30px;
+                    }
+                }
+
+                .elite {
+                    width: 15%;
+                }
+            }
+        }
+
+        ul {
+            list-style: none;
+            margin: 20px;
+
+            li {
+                font-family: $secondary-font;
+                font-size: 23px;
+            }
+        }
+
+        a {
+            background-color: white;
+            border-radius: 28px;
+            border: 1px solid white;
+            display: inline-block;
+            cursor: pointer;
+            color: $primary;
+            font-family: Arial;
+            font-size: 23px;
+            padding: 10px 40px;
+            text-decoration: none;
+            text-shadow: 0px 1px 0px $primary;
+        }
+        /* a:hover {
+            border: 1px solid $primary;
+            box-shadow: $shadow;
+        }
+        a:active {
+            position: relative;
+            top: 1px;
+        } */
+    }
+
+    .team-venzo__feed {
+        margin-top: 50px;
+        width: 90%;
+        height: 450px;
+    }
+}

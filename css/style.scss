@@ -3,6 +3,7 @@
 @import "./components/marcas";
 @import "./components/igFeed";
 @import "./components/empresa";
+@import "./components/teanVenzo";
 
 * {
     margin: 0;
@@ -20,8 +21,6 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    position: relative;
-    z-index: -5;
 
     .test {
         background-color: #fff;

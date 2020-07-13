@@ -2,22 +2,33 @@
 
 .ig-feed {
     width: 100%;
-    height: 1300px;
+    height: 900px;
     background-color: $secondary;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
 
-    .ig-gck,
-    .ig-venzo {
+    h2 {
+        margin-top: 50px;
+        width: 250px;
+        letter-spacing: 2px;
+        font-size: 50px;
+        font-family: $primary-font;
+        background-color: $primary;
+        color: white;
+        text-align: center;
+        font-weight: lighter;
+    }
+
+    .feed-container {
         width: 90%;
         height: 500px;
         display: flex;
         flex-direction: column;
         justify-content: center;
 
-        h3 {
+        .ig-title {
             width: 20%;
             background-color: $primary;
             color: white;
@@ -26,7 +37,8 @@
             font-size: 25px;
         }
 
-        .ig-venzo iframe {
+        .ig-gck,
+        .ig-venzo {
             width: 100%;
             height: 300px;
             background-color: #fff;

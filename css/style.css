@@ -1,9 +1,15 @@
 header {
   width: 100%; }
   header .nav-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 100%;
     height: 85px; }
     header .nav-container .logo {
@@ -13,26 +19,48 @@ header {
         width: 100%;
         height: 100%; }
     header .nav-container .navbar {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      justify-content: space-between;
-      align-items: center;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
       width: 65%;
       height: 100%; }
       header .nav-container .navbar ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-evenly;
-        align-items: center;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         height: 100%;
         width: 100%; }
         header .nav-container .navbar ul li {
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
-          align-items: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
           width: 15%;
           height: 50%; }
           header .nav-container .navbar ul li a {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: center;
-            align-items: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             text-decoration: none;
             font-size: 23px;
             font-weight: 300;
@@ -41,11 +69,12 @@ header {
             height: 50%;
             color: #ffffff; }
             header .nav-container .navbar ul li a:hover {
-              box-shadow: 10px 10px 5px 0px #ffdd12; }
+              -webkit-box-shadow: 10px 10px 5px 0px #ffdd12;
+                      box-shadow: 10px 10px 5px 0px #ffdd12; }
 
 #img-container {
   width: 100%;
-  height: auto;
+  height: 1900px;
   position: relative;
   z-index: -4; }
   #img-container .banner-bicicleta {
@@ -56,9 +85,15 @@ header {
   #img-container .fortalezas {
     width: 100%;
     height: 1000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     position: relative;
     z-index: -3;
     /* filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5)); */ }
@@ -66,9 +101,15 @@ header {
     #img-container .fortalezas .low {
       width: 100%;
       height: 200px;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      justify-content: center;
-      align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
       position: absolute;
       z-index: 12; }
       #img-container .fortalezas .top .alcance-container,
@@ -77,8 +118,11 @@ header {
       #img-container .fortalezas .low .variedad-container {
         width: 40%;
         height: 150px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75); }
+        -webkit-box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75);
+                box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75); }
         #img-container .fortalezas .top .alcance-container .alcance-img,
         #img-container .fortalezas .top .alcance-container .variedad-img,
         #img-container .fortalezas .top .variedad-container .alcance-img,
@@ -114,10 +158,19 @@ header {
           color: white;
           font-family: "Roboto", sans-serif;
           font-size: 16px;
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
-          flex-direction: column;
-          justify-content: flex-start;
-          align-items: flex-start; }
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-pack: start;
+              -ms-flex-pack: start;
+                  justify-content: flex-start;
+          -webkit-box-align: start;
+              -ms-flex-align: start;
+                  align-items: flex-start; }
           #img-container .fortalezas .top .alcance-container .alcance-txt h3,
           #img-container .fortalezas .top .alcance-container .variedad-txt h3,
           #img-container .fortalezas .top .variedad-container .alcance-txt h3,
@@ -138,6 +191,8 @@ header {
     #img-container .fortalezas .mid {
       width: 100%;
       height: 600px;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
       position: absolute;
       z-index: 12; }
@@ -150,10 +205,19 @@ header {
         height: 100%; }
       #img-container .fortalezas .mid .izquierda,
       #img-container .fortalezas .mid .derecha {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly; }
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly; }
       #img-container .fortalezas .mid .izquierda .arriba,
       #img-container .fortalezas .mid .izquierda .central,
       #img-container .fortalezas .mid .izquierda .abajo,
@@ -162,15 +226,20 @@ header {
       #img-container .fortalezas .mid .derecha .abajo {
         width: 80%;
         height: 135px;
-        box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75);
+                box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75);
         background-color: #201d1b;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex; }
       #img-container .fortalezas .mid .izquierda .arriba,
       #img-container .fortalezas .mid .izquierda .abajo {
-        align-self: flex-end; }
+        -ms-flex-item-align: end;
+            align-self: flex-end; }
       #img-container .fortalezas .mid .derecha .arriba,
       #img-container .fortalezas .mid .derecha .abajo {
-        align-self: flex-start; }
+        -ms-flex-item-align: start;
+            align-self: flex-start; }
       #img-container .fortalezas .mid .experiencia-img,
       #img-container .fortalezas .mid .conocimiento-img,
       #img-container .fortalezas .mid .distribucion-img,
@@ -203,10 +272,19 @@ header {
         color: white;
         font-family: "Roboto", sans-serif;
         font-size: 16px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start; }
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start; }
         #img-container .fortalezas .mid .experiencia-txt h3,
         #img-container .fortalezas .mid .conocimiento-txt h3,
         #img-container .fortalezas .mid .distribucion-txt h3,
@@ -218,15 +296,33 @@ header {
           color: #ffdd12;
           font-weight: 700; }
       #img-container .fortalezas .mid .centro {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center; }
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
         #img-container .fortalezas .mid .centro .info-container {
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
           width: 60%;
           z-index: 15; }
           #img-container .fortalezas .mid .centro .info-container h3 {
@@ -237,9 +333,15 @@ header {
             text-align: center;
             font-family: "Anton", sans-serif; }
           #img-container .fortalezas .mid .centro .info-container .info {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: center;
-            align-items: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             text-decoration: none;
             width: 100%;
             height: 50px;
@@ -260,7 +362,8 @@ header {
       width: 35%;
       height: 65%;
       border-radius: 50%;
-      box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75); }
+      -webkit-box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75);
+              box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75); }
     #img-container .fortalezas .circulo-interior {
       position: absolute;
       z-index: -2;
@@ -268,16 +371,26 @@ header {
       width: 23%;
       height: 43%;
       border-radius: 50%;
-      box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75); }
+      -webkit-box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75);
+              box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75); }
 
 .principales-marcas {
   width: 100%;
   height: 500px;
   background-color: #e0e0e0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly; }
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly; }
   .principales-marcas h2 {
     text-align: center;
     font-family: "Roboto", sans-serif;
@@ -288,9 +401,14 @@ header {
     width: 30%;
     height: 60px; }
   .principales-marcas .marcas-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 100%;
     height: 250px;
     background-color: #fff; }
@@ -316,9 +434,15 @@ header {
         width: 200px;
         height: 70px; }
   .principales-marcas .ver-mas {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 18%;
     height: 45px;
     border-radius: 20px;
@@ -335,47 +459,90 @@ header {
 
 .ig-feed {
   width: 100%;
-  height: 1300px;
+  height: 900px;
   background-color: #ffdd12;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly; }
-  .ig-feed .ig-gck,
-  .ig-feed .ig-venzo {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly; }
+  .ig-feed h2 {
+    margin-top: 50px;
+    width: 250px;
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-family: "Anton", sans-serif;
+    background-color: #201d1b;
+    color: white;
+    text-align: center;
+    font-weight: lighter; }
+  .ig-feed .feed-container {
     width: 90%;
     height: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center; }
-    .ig-feed .ig-gck h3,
-    .ig-feed .ig-venzo h3 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .ig-feed .feed-container .ig-title {
       width: 20%;
       background-color: #201d1b;
       color: white;
       font-family: "Roboto", sans-serif;
       font-weight: 400;
       font-size: 25px; }
-    .ig-feed .ig-gck .ig-venzo iframe,
-    .ig-feed .ig-venzo .ig-venzo iframe {
+    .ig-feed .feed-container .ig-gck,
+    .ig-feed .feed-container .ig-venzo {
       width: 100%;
       height: 300px;
       background-color: #fff; }
 
 .empresa {
   width: 100%;
+  height: 1300px;
   margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
   .empresa .empresa-container {
     width: 80%;
     height: 600px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
     .empresa .empresa-container h2 {
       font-family: "Anton", sans-serif;
       font-size: 50px;
@@ -388,8 +555,12 @@ header {
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      justify-content: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
       position: relative; }
     .empresa .empresa-container .empresa-txt {
       position: absolute;
@@ -403,31 +574,57 @@ header {
       text-align: justify;
       padding: 0 30px;
       text-align: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      flex-direction: column;
-      justify-content: space-around; }
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
   .empresa .empresa-valores {
     width: 100%;
     height: 600px;
     background-color: #201d1b;
     margin-top: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     background-image: url(../../img/Empresa/bici_fondo.png); }
     .empresa .empresa-valores .valores-container {
       width: 30%;
       height: 300px;
       background-color: #ffdd12;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      flex-direction: column;
-      align-items: center;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
       text-align: center;
-      box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75); }
+      -webkit-box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75);
+              box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75); }
       .empresa .empresa-valores .valores-container h3 {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         background-color: #201d1b;
         color: white;
         font-family: "Anton", sans-serif;
@@ -441,10 +638,171 @@ header {
         font-family: "Roboto", sans-serif;
         font-size: 22px; }
 
+.team-venzo {
+  width: 100%;
+  height: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .team-venzo img {
+    width: 100%; }
+  .team-venzo .team-venzo__resumen {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .team-venzo .team-venzo__resumen .resumen-txt {
+      margin: 50px auto;
+      text-align: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .team-venzo .team-venzo__resumen .resumen-txt h2 {
+        color: white;
+        font-family: "Anton", sans-serif;
+        font-size: 70px;
+        letter-spacing: 3px; }
+      .team-venzo .team-venzo__resumen .resumen-txt p {
+        color: white;
+        font-family: "Roboto", sans-serif;
+        font-size: 25px;
+        width: 90%; }
+  .team-venzo .team-venzo__categorias {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* a:hover {
+        border: 1px solid $primary;
+        box-shadow: $shadow;
+    }
+    a:active {
+        position: relative;
+        top: 1px;
+    } */ }
+    .team-venzo .team-venzo__categorias h2 {
+      font-family: "Anton", sans-serif;
+      color: white;
+      font-size: 50px; }
+    .team-venzo .team-venzo__categorias .categorias-container {
+      background-color: #e0e0e0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      width: 100%;
+      height: 650px; }
+      .team-venzo .team-venzo__categorias .categorias-container .categorias {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        width: 90%; }
+        .team-venzo .team-venzo__categorias .categorias-container .categorias .juveniles,
+        .team-venzo .team-venzo__categorias .categorias-container .categorias .elite,
+        .team-venzo .team-venzo__categorias .categorias-container .categorias .master {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          margin: 50px;
+          height: 500px;
+          width: 35%; }
+          .team-venzo .team-venzo__categorias .categorias-container .categorias .juveniles .miembros,
+          .team-venzo .team-venzo__categorias .categorias-container .categorias .elite .miembros,
+          .team-venzo .team-venzo__categorias .categorias-container .categorias .master .miembros {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex; }
+          .team-venzo .team-venzo__categorias .categorias-container .categorias .juveniles h3,
+          .team-venzo .team-venzo__categorias .categorias-container .categorias .elite h3,
+          .team-venzo .team-venzo__categorias .categorias-container .categorias .master h3 {
+            font-family: "Anton", sans-serif;
+            letter-spacing: 2px;
+            background-color: #ffdd12;
+            width: 100%;
+            text-align: center;
+            font-size: 30px; }
+        .team-venzo .team-venzo__categorias .categorias-container .categorias .elite {
+          width: 15%; }
+    .team-venzo .team-venzo__categorias ul {
+      list-style: none;
+      margin: 20px; }
+      .team-venzo .team-venzo__categorias ul li {
+        font-family: "Roboto", sans-serif;
+        font-size: 23px; }
+    .team-venzo .team-venzo__categorias a {
+      background-color: white;
+      border-radius: 28px;
+      border: 1px solid white;
+      display: inline-block;
+      cursor: pointer;
+      color: #201d1b;
+      font-family: Arial;
+      font-size: 23px;
+      padding: 10px 40px;
+      text-decoration: none;
+      text-shadow: 0px 1px 0px #201d1b; }
+  .team-venzo .team-venzo__feed {
+    margin-top: 50px;
+    width: 90%;
+    height: 450px; }
+
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 body {
   margin: 0;
@@ -452,12 +810,19 @@ body {
   background-color: #201d1b;
   width: 100%;
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  position: relative;
-  z-index: -5; }
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
   body .test {
     background-color: #fff; }
 
