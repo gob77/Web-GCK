@@ -17,7 +17,8 @@ header {
       height: 100%; }
       header .nav-container .logo a img {
         width: 100%;
-        height: 100%; }
+        height: 100%;
+        background-color: #201d1b; }
     header .nav-container .navbar {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -810,7 +811,7 @@ header {
 
 .cicloturistas {
   width: 100%;
-  height: 2500px;
+  height: 2300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -906,6 +907,145 @@ header {
       width: 100%;
       height: 100%; }
 
+.productos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .productos .productos-txt {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 73%;
+    height: 300px; }
+    .productos .productos-txt h2 {
+      color: #201d1b;
+      background-color: #ffdd12;
+      letter-spacing: 2px;
+      width: 17%;
+      text-align: center;
+      font-size: 50px;
+      text-transform: uppercase; }
+    .productos .productos-txt p {
+      font-size: 28px;
+      text-align: center;
+      color: white; }
+  .productos .productos-container {
+    width: 90%;
+    height: 1000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .productos .productos-container .productos-menu {
+      width: 20%;
+      height: 50%;
+      border: 3px solid black;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      position: relative; }
+      .productos .productos-container .productos-menu .main {
+        width: 100%;
+        height: 50px;
+        font-size: 30px;
+        background-color: #ffdd12;
+        color: #201d1b;
+        border: 2px solid black;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
+      .productos .productos-container .productos-menu .prod,
+      .productos .productos-container .productos-menu .brand {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -ms-flex-item-align: end;
+            align-self: flex-end;
+        color: white;
+        background-color: #201d1b;
+        width: 50%;
+        height: 50px;
+        margin: 70px 0;
+        font-size: 28px; }
+        .productos .productos-container .productos-menu .prod:hover,
+        .productos .productos-container .productos-menu .brand:hover {
+          border: 2px solid #ffdd12;
+          cursor: pointer; }
+        .productos .productos-container .productos-menu .prod:active,
+        .productos .productos-container .productos-menu .brand:active {
+          border: 2px solid #ffdd12; }
+      .productos .productos-container .productos-menu .bgONE,
+      .productos .productos-container .productos-menu .bgTWO {
+        position: absolute;
+        border-bottom: 4px solid #ffdd12;
+        border-left: 4px solid #ffdd12;
+        -ms-flex-item-align: end;
+            align-self: flex-end;
+        z-index: -1; }
+      .productos .productos-container .productos-menu .bgONE {
+        top: 0;
+        right: 0;
+        width: 70%;
+        height: 30%; }
+      .productos .productos-container .productos-menu .bgTWO {
+        top: 30%;
+        right: 0;
+        width: 70%;
+        height: 38%; }
+    .productos .productos-container .productos-img {
+      width: 80%;
+      height: 100%;
+      background-color: coral;
+      border: 3px solid black; }
+      .productos .productos-container .productos-img .brand-img {
+        height: 100px;
+        width: 100px; }
+
 * {
   margin: 0;
   padding: 0;
@@ -940,7 +1080,8 @@ body {
   body h5,
   body h6 {
     font-family: "Anton", sans-serif;
-    letter-spacing: 2px; }
+    letter-spacing: 2px;
+    text-transform: uppercase; }
   body p {
     font-family: "Roboto", sans-serif; }
 
