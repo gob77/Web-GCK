@@ -5,23 +5,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous" />
         <link rel="stylesheet" href="./css/style.css" />
+        <script src="script.js"></script>
         <title>Carlos Karabitian - Agente oficial Shimano.</title>
     </head>
     <body>
         <header>
             <div id="nav-container" class="nav-container">
                 <div class="logo">
-                    <a href="#"><img src="./img/002-CK-3 (002).png" alt="" /></a>
+                    <a href="#"><img src="./img/logo2.png" alt="" /></a>
                 </div>
                 <nav class="navbar" id="navbar">
-                    <ul>
-                        <li><a href="#">INICIO</a></li>
-                        <li><a href="#">LA EMPRESA</a></li>
-                        <li><a href="#">TEAM VENZO</a></li>
-                        <li><a href="#">PRODUCTOS</a></li>
-                        <li><a href="#">CICLOTURISTAS</a></li>
-                        <li><a href="#">CONTACTO</a></li>
+                    <a href="#" id="open" class="open fa fa-bars fa-lg"></a>
+                    <a href="#" id="close" class="close fa fa-times fa-lg"></a>
+
+                    <ul id="menu-links">
+                        <li><a href="/">INICIO</a></li>
+                        <li><a href="./components/empresa/empresa.html">LA EMPRESA</a></li>
+                        <li><a href="./components/teamVenzo/teamVenzo.html">TEAM VENZO</a></li>
+                        <li><a href="./components/productos/productos.html">PRODUCTOS</a></li>
+                        <li><a href="./components/cicloturistas/cicloturistas.html">CICLOTURISTAS</a></li>
+                        <li><a href="./components/contacto/contacto.html">CONTACTO</a></li>
                     </ul>
                 </nav>
             </div>
@@ -115,258 +121,47 @@
                 <div class="low">
                     <div class="variedad-container">
                         <div class="variedad-img">
-                            <img src="./img/Iconos/svg/Web GCK-22.svg" alt="variedad" />
+                            <img src="./img/Iconos/svg/Web GCK-21.svg" alt="variedad" />
                         </div>
                         <div class="variedad-txt">
-                            <h3>ASESORAMIENTO PERSONALIZADO</h3>
-                            <p>Contamos con personal especializado para dar el mejor asesoramiento pre y post compra. Mantenemos cercanía con el cliente, hasta de los propios dueños.</p>
+                            <h3>variedad de productos</h3>
+                            <p>Mediante un constante abastecimiento, estamos capacitados para ser el principal proveedor del país en el rubro bicicletas. Cantidad y calidad de productos. Propuesta completa para solucionar las necesidades de cada distribuidor.</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
 
-        <section class="principales-marcas">
-            <h2>PRINCIPALES MARCAS</h2>
-            <div class="marcas-container">
-                <img src="./img/Marcas Exclusivas/weldtite-logo-1.png" alt="weldtite" class="marcas" />
-                <img src="./img/Marcas Exclusivas/wilier-triestina-vector-logo.png" alt="" class="marcas" />
-                <img src="./img/Marcas Exclusivas/venzo1.png" alt="" class="marcas" />
-                <img src="./img/Marcas Exclusivas/Selle_Italia-logo-45EBBB87F9-seeklogo.com.png" alt="" class="marcas" />
-                <img src="./img/Marcas Exclusivas/limar-logo-2018-1.png" alt="" class="marcas" />
-                <img src="./img/Marcas Exclusivas/rst-logo-4D0FCE8973-seeklogo.com.png" alt="" class="marcas" />
-            </div>
-            <a href="#" class="ver-mas">Ver más</a>
-        </section>
-
-        <section class="ig-feed">
-            <h2>NOVEDADES</h2>
-
-            <div class="feed-container">
-                <h3 class="ig-title">GRUPO CARLOS KARABITIAN</h3>
-                <div class="elfsight-app-c673a309-f5f1-491e-9797-1b7706c1624b ig-gck"></div>
-            </div>
-
-            <div class="feed-container">
-                <h3 class="ig-title">VENZO ARGENTINA</h3>
-                <div class="elfsight-app-c673a309-f5f1-491e-9797-1b7706c1624b ig-venzo"></div>
-            </div>
-        </section>
-
-        <section class="empresa">
-            <div class="empresa-container">
-                <h2>LA EMPRESA</h2>
-                <div class="empresa-img">
-                    <div class="empresa-txt">
-                        <p>
-                            GCK es una marca dedicada a la distribución y comercialización de bicicletas, repuestos y accesorios en todo el país. Nació en 1950 como negocio familiar y fue creciendo hasta alcanzar lo que es hoy. Lo que somos hoy. Un grupo de especialistas, listos para asesorarte y equipar las bicicleterías de Argentina con absolutamente todo lo que el ciclista puede necesitar. Somos vendedores exclusivos de una marca tan reconocida como Venzo y contamos con productos de todas las primeras marcas del rubro.
-                        </p>
-                        <p>
-                            Nuestro objetivo es fomentar el ciclismo, actividad que nos apasiona, aportando los insumos necesarios y asesorando a los aventureros que a esto se dedican.
-                        </p>
-                    </div>
+            <div class="principales-marcas">
+                <h2>PRINCIPALES MARCAS</h2>
+                <div class="marcas-container">
+                    <img src="./img/Marcas Exclusivas/weldtite-logo-1.png" alt="weldtite" class="marcas" />
+                    <img src="./img/Marcas Exclusivas/wilier-triestina-vector-logo.png" alt="" class="marcas" />
+                    <img src="./img/Marcas Exclusivas/venzo1.png" alt="" class="marcas" />
+                    <img src="./img/Marcas Exclusivas/Selle_Italia-logo-45EBBB87F9-seeklogo.com.png" alt="" class="marcas" />
+                    <img src="./img/Marcas Exclusivas/limar-logo-2018-1.png" alt="" class="marcas" />
+                    <img src="./img/Marcas Exclusivas/rst-logo-4D0FCE8973-seeklogo.com.png" alt="" class="marcas" />
                 </div>
+                <a href="#" class="ver-mas">Ver más</a>
             </div>
-            <div class="empresa-valores">
-                <div class="valores-container">
-                    <h3>MISION</h3>
-                    <p>Proveer a todas las bicicleterías del país el equipamiento necesario para desempeñarse en su actividad.</p>
+
+            <div class="ig-feed">
+                <h2>NOVEDADES</h2>
+
+                <div class="feed-container">
+                    <h3 class="ig-title">GRUPO CARLOS KARABITIAN</h3>
+                    <div class="elfsight-app-c673a309-f5f1-491e-9797-1b7706c1624b ig-gck"></div>
                 </div>
-                <div class="valores-container">
-                    <h3>VISION</h3>
-                    <p>Ser el referente número 1 en el rubro del ciclismo a nivel nacional.</p>
-                </div>
-                <div class="valores-container">
-                    <h3>VALORES</h3>
-                    <p>Honradez, perseverancia, exigencia, calidad, honestidad, esfuerzo, experiencias, respeto, equipo, hábitos saludables, seriedad, humildad, sacrificio, pasión.</p>
+
+                <div class="feed-container">
+                    <h3 class="ig-title">VENZO ARGENTINA</h3>
+                    <div class="elfsight-app-c673a309-f5f1-491e-9797-1b7706c1624b ig-venzo"></div>
                 </div>
             </div>
         </section>
 
-        <section class="team-venzo">
-            <div class="team-venzo__img">
-                <img src="./img/Team Venzo/Banner principal/banner prinicpal team venzo-24.png" alt="" />
-            </div>
-            <div class="team-venzo__resumen">
-                <div class="resumen-txt">
-                    <h2>RESUMEN 2019</h2>
-                    <p>Nuestros objetivos cambian año a año pero como equipo son; obtener los mejores resultados en clasificaciones generales en competencias en donde se participe, alcanzar la mayor cantidad de Campeonatos posibles, Regionales, Nacionales e Internacionales, seguir trabajando con los corredores para que sean influencers tanto en ámbitos deportivos como sociales, respetar códigos de convivencia interna como miembro del Team, evaluar el cumplimiento del contrato firmado por cada corredor y respetar el JUEGO LIMPIO- NO DOPING.</p>
-                </div>
-                <div class="resumen-img">
-                    <img src="./img/Team Venzo/Resumen 2019/resumen-26.png" alt="" />
-                </div>
-            </div>
-            <div class="team-venzo__categorias">
-                <h2>CATEGORIAS</h2>
-                <div class="categorias-container">
-                    <div class="categorias">
-                        <div class="juveniles">
-                            <h3>CATEGORIA JUVENILES</h3>
-                            <div class="miembros">
-                                <div class="juveniles-izquierda">
-                                    <ul>
-                                        <li>RIVERO SILVIO</li>
-                                        <li>CONTRERAS BRUNO</li>
-                                        <li>CARRIZO MATIAS</li>
-                                        <li>PARADA EDGAR</li>
-                                        <li>MACAZAGA ISIDRO</li>
-                                        <li>CAUSICH MAXIMILIANO</li>
-                                        <li>GAY LUCIANO</li>
-                                        <li>SORZENON FRANCISCO</li>
-                                    </ul>
-                                </div>
-                                <div class="juveniles-derecha">
-                                    <ul>
-                                        <li>GONZALEZ SOFIA</li>
-                                        <li>PEREYRA SOLANGE</li>
-                                        <li>DIAZ FERNANDO</li>
-                                        <li>OZAN ROCIO</li>
-                                        <li>REYES FACUNDO</li>
-                                        <li>ARCE NICOLL</li>
-                                        <li>MONTERO VENUS</li>
-                                        <li>MOLINA GONZALO</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="elite">
-                            <h3>CATEGORIA ELITE</h3>
-                            <ul>
-                                <li>CONTRERAS FERNANDO</li>
-                                <li>CONTRERAS ANDRES</li>
-                                <li>SAINZ JULIETA</li>
-                                <li>CABALLERO LUCAS</li>
-                                <li>GARITANO ALAN</li>
-                                <li>FREDES ENZO</li>
-                                <li>AVILA FLORENCIA</li>
-                                <li>BRAVO MACARENA</li>
-                                <li>FLORES FEDERICO</li>
-                                <li>IBARRA FRANCO</li>
-                                <li>LIA GARCIA</li>
-                            </ul>
-                        </div>
-                        <div class="master">
-                            <h3>CATEGORIA MASTER</h3>
-                            <div class="miembros">
-                                <div class="master-izquierda">
-                                    <ul>
-                                        <li>SCHWALLIER JULIO</li>
-                                        <li>MEDINA CARLOS</li>
-                                        <li>BASUALDO EDUARDO</li>
-                                        <li>CORREA WALTER</li>
-                                        <li>MALDONADO PABLO</li>
-                                        <li>NAVARRO PEDRO</li>
-                                        <li>DIAZ RAMON</li>
-                                        <li>CAMPOS WALTER</li>
-                                        <li>LLOYD WILLY</li>
-                                        <li>CABALLERO PABLO</li>
-                                        <li>GONZALEZ ALEJANDRO</li>
-                                        <li>FRANCO IBARRA</li>
-                                        <li>SERGIO PEREZ</li>
-                                    </ul>
-                                </div>
-                                <div class="master-derecha">
-                                    <ul>
-                                        <li>SERGIO PEREZ</li>
-                                        <li>ALOS ADRIANA</li>
-                                        <li>DE BENARDI ALEJANDRA</li>
-                                        <li>MENINI ANGEL</li>
-                                        <li>ESCOBAR CARLOS</li>
-                                        <li>BRITOS DIEGO</li>
-                                        <li>REYNA DARIO</li>
-                                        <li>FRIAS EMILIO</li>
-                                        <li>ALVERONI FRANCO</li>
-                                        <li>FACCHIN GABRIEL</li>
-                                        <li>BRAVO GISELLA</li>
-                                        <li>DIAZ GLADYS</li>
-                                        <li>CARBONE GUSTAVO</li>
-                                        <li>SUFAN JORGE</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="#">¡Conocenos!</a>
-                </div>
-            </div>
-            <div class="team-venzo__feed">
-                <div class="elfsight-app-c673a309-f5f1-491e-9797-1b7706c1624b"></div>
-            </div>
-        </section>
-
-        <section class="cicloturistas">
-            <div class="cicloturistas-img">
-                <img src="./img/Banner Principal/Web GCK-03.png" alt="" />
-            </div>
-            <div class="cicloturistas-txt">
-                <h2>CICLOTURISTAS</h2>
-                <p>¡Nos motiva tu motivación! Desde nuestros comienzos apoyamos el cicloturismo del país y en este proceso hemos forjado fuertes vínculos con algunos referentes de esta actividad. Los admiramos, y te invitamos a conocer los caminos y aventuras de estos cicloturistas a través de sus redes sociales.</p>
-            </div>
-            <div class="cicloturistas-perfiles">
-                <div class="perfil-foto">
-                    <p class="perfil-nombre">@lavidadeviaje</p>
-                </div>
-                <div class="perfil-foto">
-                    <p class="perfil-nombre">@andar.liviano</p>
-                </div>
-                <div class="perfil-foto">
-                    <p class="perfil-nombre">@nacionsalvaje</p>
-                </div>
-
-                <div class="perfil-foto">
-                    <p class="perfil-nombre">@todoapedal</p>
-                </div>
-                <div class="perfil-foto">
-                    <p class="perfil-nombre">@unviajerofrecuente19</p>
-                </div>
-                <div class="perfil-foto">
-                    <p class="perfil-nombre">@natibainotti</p>
-                </div>
-            </div>
-
-            <div class="galeria">
-                <h2>GALERIA CON FOTOS</h2>
-                <div class="galeria-img"></div>
-            </div>
-        </section>
-
-        <section class="productos">
-            <div class="productos-txt">
-                <h2>productos</h2>
-                <p>A todas nuestras bicicleterías acercamos productos de una variedad de marcas que sólo en GCK podés encontrar. Lo que imagines en materia de: repuestos, bicicletas, equipos, accesorios, partes para ensamblar. Conocé algunas de las tantas que comercializamos.</p>
-            </div>
-            <div class="productos-container">
-                <div class="productos-menu">
-                    <div class="main">
-                        <h2>buscar por</h2>
-                    </div>
-
-                    <div class="brand">
-                        <h3>marcas</h3>
-                    </div>
-                    <div class="prod">
-                        <h3>productos</h3>
-                    </div>
-                    <div class="bgONE"></div>
-                    <div class="bgTWO"></div>
-                </div>
-                <div class="productos-img">
-                    <img src="./img/Logos de marcas/wilier-logo.png" alt="" class="brand-img" />
-                    <img src="./img/Logos de marcas/Buzzrack_car_racks_australia.jpg" alt="" class="brand-img" />
-                    <img src="./img/Logos de marcas/fox-logo.png" alt="" class="brand-img" />
-                    <img src="./img/Logos de marcas/Limar_logo.png" alt="" class="brand-img" />
-                    <img src="./img/Logos de marcas/logo Beto.png" alt="" class="brand-img" />
-                    <img src="./img/Logos de marcas/Logo Negro.png" alt="" class="brand-img" />
-                    <img src="./img/Logos de marcas/Logo Selle Italia Black.png" alt="" class="brand-img" />
-                    <img src="./img/Logos de marcas/logo_01.png" alt="" class="brand-img" />
-                    <img src="./img/Logos de marcas/maxxis_word_white-outline.png" alt="" class="brand-img" />
-                    <img src="./img/Logos de marcas/PR 2@3x.png" alt="" class="brand-img" />
-                    <img src="./img/Logos de marcas/rst.png" alt="" class="brand-img" />
-                    <img src="./img/Logos de marcas/Shimano_logo.svg.png" alt="" class="brand-img" />
-                </div>
-            </div>
-        </section>
-
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
         <script src="https://apps.elfsight.com/p/platform.js" defer></script>
     </body>
 </html>

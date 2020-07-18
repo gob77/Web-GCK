@@ -1,11 +1,10 @@
-@import "components/navbar";
-@import "./components/main-img";
-@import "./components/marcas";
-@import "./components/igFeed";
+@import "./components/navbar";
+@import "./components/index";
 @import "./components/empresa";
 @import "./components/teanVenzo";
-@import "./components/cicloturistas";
 @import "./components/productos";
+@import "./components/cicloturistas";
+@import "./components/contacto";
 
 * {
     margin: 0;
@@ -13,20 +12,22 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
 body {
     margin: 0;
     padding: 0;
-    background-color: #201d1b;
-    width: 100%;
-    height: 100%;
+    background-color: $primary;
+    min-width: 100%;
+    min-height: 100%;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
-
-    .test {
-        background-color: #fff;
-    }
 
     h1,
     h2,

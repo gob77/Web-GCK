@@ -1,2 +1,0 @@
-Amarillo: #FFDD12
-Gris: #201D1B

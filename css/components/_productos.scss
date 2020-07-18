@@ -30,6 +30,10 @@
     }
 
     .productos-container {
+        .hide {
+            display: none;
+        }
+
         width: 90%;
         height: 1000px;
 
@@ -40,7 +44,6 @@
         .productos-menu {
             width: 20%;
             height: 50%;
-            border: 3px solid black;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -52,7 +55,6 @@
                 font-size: 30px;
                 background-color: $secondary;
                 color: $primary;
-                border: 2px solid black;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -105,16 +107,46 @@
             }
         }
 
+        .marcas-img,
         .productos-img {
             width: 80%;
             height: 100%;
-            background-color: coral;
-            border: 3px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
 
-            .brand-img {
-                height: 100px;
-                width: 100px;
+            .marcas-container__top,
+            .marcas-container__mid,
+            .marcas-container__low,
+            .productos-container__top,
+            .productos-container__mid,
+            .productos-container__low {
+                display: flex;
+                justify-content: space-evenly;
             }
+        }
+
+        .hide {
+            display: none;
+        }
+
+        .marcas-container__logo,
+        .productos-container__logo {
+            width: 300px;
+            height: 300px;
+            background-color: #e0e0e0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 70%;
+                height: 25%;
+            }
+        }
+
+        .productos-container__logo img {
+            height: 70%;
         }
     }
 }

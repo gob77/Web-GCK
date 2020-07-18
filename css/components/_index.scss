@@ -1,0 +1,589 @@
+@import "../variables";
+
+#img-container {
+    width: 100%;
+    height: 1900px;
+
+    .banner-bicicleta {
+        width: 100%;
+        height: 835px;
+
+        img {
+            width: 100%;
+            height: 835px;
+        }
+    }
+
+    .fortalezas {
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: -3;
+
+        .top,
+        .low {
+            width: 100%;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            z-index: 12;
+
+            .alcance-container,
+            .variedad-container {
+                width: 40%;
+                height: 150px;
+                display: flex;
+                box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75);
+
+                .alcance-img,
+                .variedad-img {
+                    width: 30%;
+                    height: 100%;
+                    margin-right: 5px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        border-right: 2px solid $secondary;
+                    }
+                }
+
+                .alcance-txt,
+                .variedad-txt {
+                    width: 70%;
+                    height: 100%;
+                    color: white;
+                    font-family: $secondary-font;
+                    font-size: 16px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+
+                    h3 {
+                        margin-top: 15px;
+                        color: $secondary;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+
+        .top {
+            top: 0;
+            left: 0;
+        }
+
+        .low {
+            top: 80%;
+            left: 0;
+        }
+
+        .mid {
+            width: 100%;
+            height: 600px;
+            display: flex;
+            position: absolute;
+            z-index: 12;
+
+            .izquierda,
+            .derecha {
+                width: 40%;
+                height: 100%;
+            }
+
+            .centro {
+                width: 27%;
+                height: 100%;
+            }
+
+            .izquierda,
+            .derecha {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-evenly;
+            }
+
+            .izquierda .arriba,
+            .izquierda .central,
+            .izquierda .abajo,
+            .derecha .arriba,
+            .derecha .central,
+            .derecha .abajo {
+                width: 80%;
+                height: 135px;
+                box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75);
+                background-color: $primary;
+                display: flex;
+            }
+
+            .izquierda .arriba,
+            .izquierda .abajo {
+                align-self: flex-end;
+            }
+
+            .derecha .arriba,
+            .derecha .abajo {
+                align-self: flex-start;
+            }
+
+            .experiencia-img,
+            .conocimiento-img,
+            .distribucion-img,
+            .garantia-img,
+            .postventa-img,
+            .asesoramiento-img,
+            .variedad-img {
+                width: 30%;
+                height: 100%;
+                margin-right: 5px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border-right: 2px solid $secondary;
+                }
+            }
+
+            .experiencia-txt,
+            .conocimiento-txt,
+            .distribucion-txt,
+            .garantia-txt,
+            .postventa-txt,
+            .asesoramiento-txt,
+            .variedad-txt {
+                width: 70%;
+                height: 100%;
+                color: white;
+                font-family: $secondary-font;
+                font-size: 16px;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+
+                h3 {
+                    margin-top: 15px;
+                    color: $secondary;
+                    font-weight: 700;
+                }
+            }
+
+            .centro {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .info-container {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    width: 60%;
+                    z-index: 15;
+
+                    h3 {
+                        color: white;
+                        font-family: $secondary-font;
+                        font-weight: 700;
+                        font-size: 40px;
+                        text-align: center;
+                        font-family: $primary-font;
+                    }
+
+                    .info {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-decoration: none;
+                        width: 100%;
+                        height: 50px;
+                        background-color: #ffffff;
+                        border-radius: 28px;
+                        border: 1px solid $primary;
+                        color: $primary;
+                        font-family: $secondary-font;
+                        font-size: 25px;
+                        margin-top: 25px;
+
+                        &:active {
+                            position: relative;
+                            top: 1px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .circulo-exterior {
+            position: absolute;
+            z-index: -2;
+            background-color: $secondary;
+            width: 35%;
+            height: 65%;
+            border-radius: 50%;
+            box-shadow: $shadow;
+        }
+
+        .circulo-interior {
+            position: absolute;
+            z-index: -2;
+            background-color: $primary;
+            width: 23%;
+            height: 43%;
+            border-radius: 50%;
+            box-shadow: $shadow;
+        }
+    }
+}
+
+.principales-marcas {
+    width: 100%;
+    height: 500px;
+    background-color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    h2 {
+        text-align: center;
+        font-family: $secondary-font;
+        font-size: 50px;
+        font-weight: 700;
+        color: $primary;
+        background-color: $secondary;
+        width: 30%;
+        height: 60px;
+    }
+
+    .marcas-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 250px;
+        background-color: #fff;
+
+        .marcas {
+            width: 300px;
+            height: 170px;
+
+            &:nth-child(1) {
+                width: 300px;
+                height: 50px;
+            }
+
+            &:nth-child(2) {
+                width: 270px;
+                height: 250px;
+            }
+
+            &:nth-child(3) {
+                width: 150px;
+                height: 120px;
+            }
+
+            &:nth-child(4) {
+                width: 200px;
+                height: 70px;
+            }
+
+            &:nth-child(5) {
+                width: 200px;
+                height: 70px;
+            }
+
+            &:nth-child(6) {
+                width: 200px;
+                height: 70px;
+            }
+        }
+    }
+
+    .ver-mas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 18%;
+        height: 45px;
+        border-radius: 20px;
+        background-color: $primary;
+        border: none;
+        font-family: $secondary-font;
+        font-size: 23px;
+        color: white;
+        padding: 16px 31px;
+        text-decoration: none;
+
+        &:active {
+            position: relative;
+            top: 1px;
+        }
+    }
+}
+
+.ig-feed {
+    width: 100%;
+    height: 900px;
+    background-color: $secondary;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    h2 {
+        margin-top: 50px;
+        width: 250px;
+        letter-spacing: 2px;
+        font-size: 50px;
+        font-family: $primary-font;
+        background-color: $primary;
+        color: white;
+        text-align: center;
+        font-weight: lighter;
+    }
+
+    .feed-container {
+        width: 90%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .ig-title {
+            width: 20%;
+            background-color: $primary;
+            color: white;
+            font-family: $secondary-font;
+            font-weight: 400;
+            font-size: 25px;
+        }
+
+        .ig-gck,
+        .ig-venzo {
+            width: 100%;
+            height: 300px;
+            background-color: #fff;
+        }
+    }
+}
+
+@media (max-width: $S), (max-width: $M), (max-width: $L), (max-width: $XL) {
+    #img-container {
+        width: 100%;
+        height: 1900px;
+        z-index: 0;
+
+        position: static;
+
+        .banner-bicicleta {
+            width: 100%;
+            height: 150px;
+            background-color: #fff;
+            z-index: 0;
+            visibility: hidden;
+
+            img {
+                width: 100%;
+                height: 150px;
+            }
+        }
+
+        .fortalezas {
+            width: 100%;
+            height: 70%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            position: static;
+            background-color: cornflowerblue;
+            border: 2px solid $secondary;
+
+            .circulo-exterior,
+            .circulo-interior {
+                display: none;
+            }
+
+            .top,
+            .low {
+                width: 100%;
+                height: 20%;
+                margin: 20px 0;
+                position: static;
+                visibility: hidden;
+
+                .alcance-container,
+                .variedad-container {
+                    margin-top: 50px;
+                    width: 100%;
+                    height: 100%;
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+
+            .mid {
+                flex-direction: column;
+                justify-content: space-evenly;
+                background-color: #fff;
+                height: 100%;
+                position: static;
+
+                .izquierda,
+                .derecha {
+                    width: 100%;
+
+                    .arriba,
+                    .central,
+                    .abajo {
+                        width: 100%;
+                        margin: 20px 0;
+                    }
+                }
+                .centro {
+                    display: none;
+                }
+            }
+        }
+
+        .principales-marcas {
+            width: 100%;
+            height: 500px;
+            background-color: #e0e0e0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+
+            h2 {
+                text-align: center;
+                font-family: $secondary-font;
+                font-size: 50px;
+                font-weight: 700;
+                color: $primary;
+                background-color: $secondary;
+                width: 30%;
+                height: 60px;
+            }
+
+            .marcas-container {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                width: 100%;
+                height: 250px;
+                background-color: #fff;
+
+                .marcas {
+                    width: 300px;
+                    height: 170px;
+
+                    &:nth-child(1) {
+                        width: 300px;
+                        height: 50px;
+                    }
+
+                    &:nth-child(2) {
+                        width: 270px;
+                        height: 250px;
+                    }
+
+                    &:nth-child(3) {
+                        width: 150px;
+                        height: 120px;
+                    }
+
+                    &:nth-child(4) {
+                        width: 200px;
+                        height: 70px;
+                    }
+
+                    &:nth-child(5) {
+                        width: 200px;
+                        height: 70px;
+                    }
+
+                    &:nth-child(6) {
+                        width: 200px;
+                        height: 70px;
+                    }
+                }
+            }
+
+            .ver-mas {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 18%;
+                height: 45px;
+                border-radius: 20px;
+                background-color: $primary;
+                border: none;
+                font-family: $secondary-font;
+                font-size: 23px;
+                color: white;
+                padding: 16px 31px;
+                text-decoration: none;
+
+                &:active {
+                    position: relative;
+                    top: 1px;
+                }
+            }
+        }
+
+        .ig-feed {
+            width: 100%;
+            height: 900px;
+            background-color: $secondary;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+
+            h2 {
+                margin-top: 50px;
+                width: 250px;
+                letter-spacing: 2px;
+                font-size: 50px;
+                font-family: $primary-font;
+                background-color: $primary;
+                color: white;
+                text-align: center;
+                font-weight: lighter;
+            }
+
+            .feed-container {
+                width: 90%;
+                height: 500px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                .ig-title {
+                    width: 20%;
+                    background-color: $primary;
+                    color: white;
+                    font-family: $secondary-font;
+                    font-weight: 400;
+                    font-size: 25px;
+                }
+
+                .ig-gck,
+                .ig-venzo {
+                    width: 100%;
+                    height: 300px;
+                    background-color: #fff;
+                }
+            }
+        }
+    }
+}
