@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,26 +12,39 @@
         <title>Carlos Karabitian - Agente oficial Shimano.</title>
     </head>
     <body>
-        <header>
-            <div id="nav-container" class="nav-container">
-                <div class="logo">
-                    <a href="#"><img src="./img/logo2.png" alt="" /></a>
+        
+            <nav class="navbar navbar-dark navbar-expand-lg nav-container py-4">
+                <a class="navbar-brand brand-mobile" href="#" style="width: 25%;"><img src="./img/logo2.png"  class="img-fluid" alt="logo"/></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-5">
+                    <li class="nav-item nav-item-style active mx-1">
+                    <a class="nav-link" href="#">INICIO<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item nav-item-style mx-1">
+                    <a class="nav-link" href="./components/empresa/empresa.html">LA EMPRESA</a>
+                    </li>
+                    <li class="nav-item nav-item-style mx-1">
+                    <a class="nav-link" href="./components/teamVenzo/teamVenzo.html">
+                        TEAM VENZO
+                    </a>
+                    </li>
+                    <li class="nav-item nav-item-style mx-1">
+                    <a class="nav-link" href="./components/productos/productos.html">PRODUCTOS</a>
+                    </li>
+                    <li class="nav-item nav-item-style mx-1">
+                        <a class="nav-link" href="./components/cicloturistas/cicloturistas.html">CICLOTURISTAS</a>
+                    </li>
+                    <li class="nav-item nav-item-style mx-1">
+                        <a class="nav-link" href="./components/contacto/contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
                 </div>
-                <nav class="navbar" id="navbar">
-                    <a href="#" id="open" class="open fa fa-bars fa-lg"></a>
-                    <a href="#" id="close" class="close fa fa-times fa-lg"></a>
-
-                    <ul id="menu-links">
-                        <li><a href="/">INICIO</a></li>
-                        <li><a href="./components/empresa/empresa.html">LA EMPRESA</a></li>
-                        <li><a href="./components/teamVenzo/teamVenzo.html">TEAM VENZO</a></li>
-                        <li><a href="./components/productos/productos.html">PRODUCTOS</a></li>
-                        <li><a href="./components/cicloturistas/cicloturistas.html">CICLOTURISTAS</a></li>
-                        <li><a href="./components/contacto/contacto.html">CONTACTO</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+            </nav>
+        
 
         <section class="img-container" id="img-container">
             <div class="banner-bicicleta">
@@ -131,9 +144,9 @@
                 </div>
             </div>
 
-            <div class="principales-marcas">
-                <h2>PRINCIPALES MARCAS</h2>
-                <div class="marcas-container">
+            <div class="principales-marcas py-4">
+                <h2 class="my-4">PRINCIPALES MARCAS</h2>
+                <div class="marcas-container px-5 my-4">
                     <img src="./img/Marcas Exclusivas/weldtite-logo-1.png" alt="weldtite" class="marcas" />
                     <img src="./img/Marcas Exclusivas/wilier-triestina-vector-logo.png" alt="" class="marcas" />
                     <img src="./img/Marcas Exclusivas/venzo1.png" alt="" class="marcas" />
@@ -141,19 +154,19 @@
                     <img src="./img/Marcas Exclusivas/limar-logo-2018-1.png" alt="" class="marcas" />
                     <img src="./img/Marcas Exclusivas/rst-logo-4D0FCE8973-seeklogo.com.png" alt="" class="marcas" />
                 </div>
-                <a href="#" class="ver-mas">Ver más</a>
+                <a href="#" class="ver-mas my-4">Ver más</a>
             </div>
 
             <div class="ig-feed">
-                <h2>NOVEDADES</h2>
+                <h2 class="p-3">NOVEDADES</h2>
 
-                <div class="feed-container">
-                    <h3 class="ig-title">GRUPO CARLOS KARABITIAN</h3>
+                <div class="feed-container p-3">
+                    <h3 class="ig-title p-2">GRUPO CARLOS KARABITIAN</h3>
                     <div class="elfsight-app-c673a309-f5f1-491e-9797-1b7706c1624b ig-gck"></div>
                 </div>
 
-                <div class="feed-container">
-                    <h3 class="ig-title">VENZO ARGENTINA</h3>
+                <div class="feed-container p-3">
+                    <h3 class="ig-title p-2">VENZO ARGENTINA</h3>
                     <div class="elfsight-app-c673a309-f5f1-491e-9797-1b7706c1624b ig-venzo"></div>
                 </div>
             </div>

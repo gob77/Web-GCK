@@ -44,3 +44,10 @@ body {
         font-family: $secondary-font;
     }
 }
+
+@media (max-width: $S), (max-width: $M), (max-width: $L), (max-width: $XL) {
+
+    .brand-mobile {
+        width: 45% !important;
+    }
+}
