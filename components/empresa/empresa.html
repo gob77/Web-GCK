@@ -1,35 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous" />
         <link rel="stylesheet" href="../../css/style.css" />
+        <script src="script.js"></script>
         <title>Carlos Karabitian - Agente oficial Shimano.</title>
     </head>
     <body>
-        <header>
-            <div id="nav-container" class="nav-container">
-                <div class="logo">
-                    <a href="#"><img src="../../img/logo2.png" alt="" /></a>
+        
+            <nav class="navbar navbar-dark navbar-expand-lg nav-container py-4">
+                <a class="navbar-brand brand-mobile" href="#" style="width: 25%;"><img src="../../img/logo2.png"  class="img-fluid" alt="logo"/></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-5">
+                    <li class="nav-item nav-item-style mx-1">
+                    <a class="nav-link" href="../../index.html">INICIO<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item nav-item-style mx-1">
+                    <a class="nav-link active" href="#">LA EMPRESA</a>
+                    </li>
+                    <li class="nav-item nav-item-style mx-1">
+                    <a class="nav-link" href="../teamVenzo/teamVenzo.html">
+                        TEAM VENZO
+                    </a>
+                    </li>
+                    <li class="nav-item nav-item-style mx-1">
+                    <a class="nav-link" href="../productos/productos.html">PRODUCTOS</a>
+                    </li>
+                    <li class="nav-item nav-item-style mx-1">
+                        <a class="nav-link" href="../cicloturistas/cicloturistas.html">CICLOTURISTAS</a>
+                    </li>
+                    <li class="nav-item nav-item-style mx-1">
+                        <a class="nav-link" href="../contacto/contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
                 </div>
-                <nav class="navbar" id="navbar">
-                    <ul>
-                        <li><a href="../../index.html">INICIO</a></li>
-                        <li><a href="#">LA EMPRESA</a></li>
-                        <li><a href="../teamVenzo/teamVenzo.html">TEAM VENZO</a></li>
-                        <li><a href="../productos/productos.html">PRODUCTOS</a></li>
-                        <li><a href="../cicloturistas/cicloturistas.html">CICLOTURISTAS</a></li>
-                        <li><a href="../contacto/contacto.html">CONTACTO</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+            </nav>
+        
 
         <section class="empresa">
-            <div class="empresa-container">
-                <h2>LA EMPRESA</h2>
+            <div class="empresa-container pb-5">
+                <h2 class="p-3">LA EMPRESA</h2>
                 <div class="empresa-img">
                     <div class="empresa-txt">
                         <p>
@@ -41,20 +60,24 @@
                     </div>
                 </div>
             </div>
-            <div class="empresa-valores">
+            <div class="empresa-valores py-4">
                 <div class="valores-container">
-                    <h3>MISION</h3>
-                    <p>Proveer a todas las bicicleterías del país el equipamiento necesario para desempeñarse en su actividad.</p>
+                    <h3 class="p-3">MISION</h3>
+                    <p class="p-2">Proveer a todas las bicicleterías del país el equipamiento necesario para desempeñarse en su actividad.</p>
                 </div>
                 <div class="valores-container">
-                    <h3>VISION</h3>
-                    <p>Ser el referente número 1 en el rubro del ciclismo a nivel nacional.</p>
+                    <h3 class="p-3">VISION</h3>
+                    <p class="p-2">Ser el referente número 1 en el rubro del ciclismo a nivel nacional.</p>
                 </div>
                 <div class="valores-container">
-                    <h3>VALORES</h3>
-                    <p>Honradez, perseverancia, exigencia, calidad, honestidad, esfuerzo, experiencias, respeto, equipo, hábitos saludables, seriedad, humildad, sacrificio, pasión.</p>
+                    <h3 class="p-3">VALORES</h3>
+                    <p class="p-2">Honradez, perseverancia, exigencia, calidad, honestidad, esfuerzo, experiencias, respeto, equipo, hábitos saludables, seriedad, humildad, sacrificio, pasión.</p>
                 </div>
             </div>
         </section>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
     </body>
 </html>
