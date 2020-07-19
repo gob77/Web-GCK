@@ -1,58 +1,46 @@
 @import "../variables";
 
 .cicloturistas {
-    width: 100%;
-    height: 2300px;
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    .cicloturistas-img {
-        width: 100%;
-        height: 835px;
-
-        img {
-            width: 100%;
-            height: 100%;
-        }
-    }
+    
 
     .cicloturistas-txt {
-        width: 100%;
-        height: 300px;
+       
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        background-color: $primary;
+        
 
         h2 {
-            font-size: 60px;
+            font-size: 40px;
             background-color: $secondary;
             width: 20%;
             text-align: center;
         }
 
         p {
-            font-size: 30px;
-            width: 72%;
+            font-size: 22px;
             text-align: center;
             color: white;
         }
     }
 
     .cicloturistas-perfiles {
-        margin-top: 50px;
+       
         width: 95%;
-        height: 400px;
+        height: 50vh;
         background-color: #e0e0e0;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-items: center;
 
         .perfil-foto {
-            width: 16%;
-            height: 70%;
+            width: 13%;
+            height: 50%;
             background-color: #fff;
             border-radius: 50%;
             display: flex;
@@ -60,11 +48,9 @@
             align-items: flex-end;
 
             .perfil-nombre {
-                height: 43px;
+              
                 width: 100%;
-                bottom: -10px;
-                left: 20%;
-                font-size: 27px;
+                font-size: 15px;
                 border: 2px solid $secondary;
                 background-color: #fff;
                 text-align: center;
@@ -73,7 +59,7 @@
     }
 
     .galeria {
-        margin-top: 50px;
+        
         width: 90%;
         height: 500px;
         background-color: $primary;
@@ -82,13 +68,91 @@
             font-family: $secondary-font;
             font-weight: 300;
             color: white;
-            font-size: 60px;
+            font-size: 40px;
         }
 
         .galeria-img {
             background-color: #fff;
             width: 100%;
-            height: 100%;
+            height: 60vh;
+        }
+    }
+}
+
+@media (max-width: $S), (max-width: $M), (max-width: $L), (max-width: $XL) {
+    .cicloturistas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        
+    
+        .cicloturistas-txt {
+           
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            
+    
+            h2 {
+                font-size: 20px;
+                background-color: $secondary;
+                width: 80%;
+                text-align: center;
+            }
+    
+            p {
+                font-size: 15px;
+                text-align: center;
+                color: white;
+            }
+        }
+    
+        .cicloturistas-perfiles {
+           
+            flex-wrap: wrap;
+            height: 50vh;
+           
+    
+            .perfil-foto {
+                width: 30%;
+                height: 40%;
+                background-color: #fff;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+    
+                .perfil-nombre {
+                  
+                    width: 100%;
+                    font-size: 15px;
+                    border: 2px solid $secondary;
+                    background-color: #fff;
+                    text-align: center;
+                }
+            }
+        }
+    
+        .galeria {
+            
+            width: 90%;
+            height: 500px;
+            background-color: $primary;
+    
+            h2 {
+                font-family: $secondary-font;
+                font-weight: 300;
+                color: white;
+                font-size: 20px;
+            }
+    
+            .galeria-img {
+                background-color: #fff;
+                width: 100%;
+                height: 60vh;
+            }
         }
     }
 }

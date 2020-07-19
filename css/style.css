@@ -1,99 +1,53 @@
-header {
+footer {
   width: 100%;
-  height: 85px;
-}
-
-header .nav-container {
+  height: 30vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-  height: 85px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-header .nav-container .logo {
-  width: 35%;
-  height: 100%;
+footer .fas,
+footer .fab {
+  color: #ffdd12;
+  margin-right: 15px;
 }
 
-header .nav-container .logo a img {
-  width: 100%;
-  height: 100%;
-  background-color: #201d1b;
-}
-
-header .nav-container .navbar {
+footer .footer-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 65%;
-  height: 100%;
-}
-
-header .nav-container .navbar .open,
-header .nav-container .navbar .close {
-  display: none;
-}
-
-header .nav-container .navbar ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100%;
-  width: 100%;
 }
 
-header .nav-container .navbar ul li {
+footer .telefono,
+footer .mail,
+footer .localidad {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 15%;
-  height: 50%;
-}
-
-header .nav-container .navbar ul li a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-decoration: none;
-  font-size: 23px;
-  font-weight: 300;
+  color: white;
   font-family: "Roboto", sans-serif;
-  width: 100%;
-  height: 50%;
-  color: #ffffff;
+  font-size: 22px;
+  width: 20vw;
 }
 
-header .nav-container .navbar ul li a:hover {
-  -webkit-box-shadow: 10px 10px 5px 0px #ffdd12;
-          box-shadow: 10px 10px 5px 0px #ffdd12;
+footer .logo img {
+  width: 27vw;
+  height: 10vh;
 }
 
 @media (max-width: 320px), (max-width: 425px), (max-width: 768px), (max-width: 768px) {
@@ -205,7 +159,7 @@ header .nav-container .navbar ul li a:hover {
 
 #img-container {
   width: 100%;
-  height: 1900px;
+  height: auto;
 }
 
 #img-container .banner-bicicleta {
@@ -894,7 +848,7 @@ header .nav-container .navbar ul li a:hover {
 
 .empresa .empresa-container .empresa-txt {
   position: absolute;
-  bottom: -70%;
+  bottom: -85%;
   width: 95%;
   background-color: #fff;
   border: 3px solid #ffdd12;
@@ -1208,10 +1162,6 @@ header .nav-container .navbar ul li a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 90%;
 }
 
 .team-venzo .team-venzo__categorias .categorias-container .categorias .juveniles,
@@ -1244,9 +1194,8 @@ header .nav-container .navbar ul li a:hover {
   font-family: "Anton", sans-serif;
   letter-spacing: 2px;
   background-color: #ffdd12;
-  width: 100%;
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .team-venzo .team-venzo__categorias ul {
@@ -1256,7 +1205,7 @@ header .nav-container .navbar ul li a:hover {
 
 .team-venzo .team-venzo__categorias ul li {
   font-family: "Roboto", sans-serif;
-  font-size: 23px;
+  font-size: 20px;
 }
 
 .team-venzo .team-venzo__categorias a {
@@ -1273,10 +1222,48 @@ header .nav-container .navbar ul li a:hover {
   text-shadow: 0px 1px 0px #201d1b;
 }
 
-.team-venzo .team-venzo__feed {
-  margin-top: 50px;
-  width: 90%;
-  height: 450px;
+@media (max-width: 320px), (max-width: 425px), (max-width: 768px), (max-width: 768px) {
+  .team-venzo .team-venzo__resumen .resumen-txt h2 {
+    font-size: 30px;
+  }
+  .team-venzo .team-venzo__resumen .resumen-txt p {
+    font-size: 15px;
+  }
+  .team-venzo .team-venzo__categorias {
+    /* a:hover {
+                border: 1px solid $primary;
+                box-shadow: $shadow;
+            }
+            a:active {
+                position: relative;
+                top: 1px;
+            } */
+  }
+  .team-venzo .team-venzo__categorias .categorias-container .categorias {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .team-venzo .team-venzo__categorias ul {
+    list-style: none;
+    margin: 20px;
+  }
+  .team-venzo .team-venzo__categorias ul li {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+  }
+  .team-venzo .team-venzo__categorias a {
+    background-color: white;
+    border-radius: 28px;
+    border: 1px solid white;
+    display: inline-block;
+    cursor: pointer;
+    color: #201d1b;
+    font-family: Arial;
+    font-size: 23px;
+    padding: 10px 40px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #201d1b;
+  }
 }
 
 .productos {
@@ -1309,22 +1296,20 @@ header .nav-container .navbar ul li a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 73%;
-  height: 300px;
 }
 
 .productos .productos-txt h2 {
   color: #201d1b;
   background-color: #ffdd12;
   letter-spacing: 2px;
-  width: 17%;
+  width: 15%;
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   text-transform: uppercase;
 }
 
 .productos .productos-txt p {
-  font-size: 28px;
+  font-size: 22px;
   text-align: center;
   color: white;
 }
@@ -1495,17 +1480,185 @@ header .nav-container .navbar ul li a:hover {
 
 .productos .productos-container .marcas-container__logo img,
 .productos .productos-container .productos-container__logo img {
-  width: 70%;
-  height: 25%;
+  width: 50%;
+  height: 20%;
 }
 
 .productos .productos-container .productos-container__logo img {
   height: 70%;
 }
 
+@media (max-width: 320px), (max-width: 425px), (max-width: 768px), (max-width: 768px) {
+  .productos .productos-txt h2 {
+    width: 80%;
+    font-size: 20px;
+  }
+  .productos .productos-txt p {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+  }
+  .productos .productos-container {
+    width: 90%;
+    height: 1000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .productos .productos-container .hide {
+    display: none;
+  }
+  .productos .productos-container .productos-menu {
+    width: 20%;
+    height: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+  }
+  .productos .productos-container .productos-menu .main {
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    background-color: #ffdd12;
+    color: #201d1b;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .productos .productos-container .productos-menu .prod,
+  .productos .productos-container .productos-menu .brand {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    color: white;
+    background-color: #201d1b;
+    width: 50%;
+    height: 50px;
+    margin: 70px 0;
+    font-size: 28px;
+  }
+  .productos .productos-container .productos-menu .prod:hover,
+  .productos .productos-container .productos-menu .brand:hover {
+    border: 2px solid #ffdd12;
+    cursor: pointer;
+  }
+  .productos .productos-container .productos-menu .prod:active,
+  .productos .productos-container .productos-menu .brand:active {
+    border: 2px solid #ffdd12;
+  }
+  .productos .productos-container .productos-menu .bgONE,
+  .productos .productos-container .productos-menu .bgTWO {
+    position: absolute;
+    border-bottom: 4px solid #ffdd12;
+    border-left: 4px solid #ffdd12;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    z-index: -1;
+  }
+  .productos .productos-container .productos-menu .bgONE {
+    top: 0;
+    right: 0;
+    width: 70%;
+    height: 30%;
+  }
+  .productos .productos-container .productos-menu .bgTWO {
+    top: 30%;
+    right: 0;
+    width: 70%;
+    height: 38%;
+  }
+  .productos .productos-container .marcas-img,
+  .productos .productos-container .productos-img {
+    width: 80%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .productos .productos-container .marcas-img .marcas-container__top,
+  .productos .productos-container .marcas-img .marcas-container__mid,
+  .productos .productos-container .marcas-img .marcas-container__low,
+  .productos .productos-container .marcas-img .productos-container__top,
+  .productos .productos-container .marcas-img .productos-container__mid,
+  .productos .productos-container .marcas-img .productos-container__low,
+  .productos .productos-container .productos-img .marcas-container__top,
+  .productos .productos-container .productos-img .marcas-container__mid,
+  .productos .productos-container .productos-img .marcas-container__low,
+  .productos .productos-container .productos-img .productos-container__top,
+  .productos .productos-container .productos-img .productos-container__mid,
+  .productos .productos-container .productos-img .productos-container__low {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .productos .productos-container .hide {
+    display: none;
+  }
+  .productos .productos-container .marcas-container__logo,
+  .productos .productos-container .productos-container__logo {
+    width: 300px;
+    height: 300px;
+    background-color: #e0e0e0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .productos .productos-container .marcas-container__logo img,
+  .productos .productos-container .productos-container__logo img {
+    width: 50%;
+    height: 20%;
+  }
+  .productos .productos-container .productos-container__logo img {
+    height: 70%;
+  }
+}
+
 .cicloturistas {
-  width: 100%;
-  height: 2300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1518,19 +1671,7 @@ header .nav-container .navbar ul li a:hover {
           align-items: center;
 }
 
-.cicloturistas .cicloturistas-img {
-  width: 100%;
-  height: 835px;
-}
-
-.cicloturistas .cicloturistas-img img {
-  width: 100%;
-  height: 100%;
-}
-
 .cicloturistas .cicloturistas-txt {
-  width: 100%;
-  height: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1544,42 +1685,38 @@ header .nav-container .navbar ul li a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #201d1b;
 }
 
 .cicloturistas .cicloturistas-txt h2 {
-  font-size: 60px;
+  font-size: 40px;
   background-color: #ffdd12;
   width: 20%;
   text-align: center;
 }
 
 .cicloturistas .cicloturistas-txt p {
-  font-size: 30px;
-  width: 72%;
+  font-size: 22px;
   text-align: center;
   color: white;
 }
 
 .cicloturistas .cicloturistas-perfiles {
-  margin-top: 50px;
   width: 95%;
-  height: 400px;
+  height: 50vh;
   background-color: #e0e0e0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
 .cicloturistas .cicloturistas-perfiles .perfil-foto {
-  width: 16%;
-  height: 70%;
+  width: 13%;
+  height: 50%;
   background-color: #fff;
   border-radius: 50%;
   display: -webkit-box;
@@ -1594,18 +1731,14 @@ header .nav-container .navbar ul li a:hover {
 }
 
 .cicloturistas .cicloturistas-perfiles .perfil-foto .perfil-nombre {
-  height: 43px;
   width: 100%;
-  bottom: -10px;
-  left: 20%;
-  font-size: 27px;
+  font-size: 15px;
   border: 2px solid #ffdd12;
   background-color: #fff;
   text-align: center;
 }
 
 .cicloturistas .galeria {
-  margin-top: 50px;
   width: 90%;
   height: 500px;
   background-color: #201d1b;
@@ -1615,44 +1748,115 @@ header .nav-container .navbar ul li a:hover {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   color: white;
-  font-size: 60px;
+  font-size: 40px;
 }
 
 .cicloturistas .galeria .galeria-img {
   background-color: #fff;
   width: 100%;
-  height: 100%;
+  height: 60vh;
 }
 
-.contacto {
-  width: 90%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  margin-top: 50px;
+@media (max-width: 320px), (max-width: 425px), (max-width: 768px), (max-width: 768px) {
+  .cicloturistas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .cicloturistas .cicloturistas-txt {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .cicloturistas .cicloturistas-txt h2 {
+    font-size: 20px;
+    background-color: #ffdd12;
+    width: 80%;
+    text-align: center;
+  }
+  .cicloturistas .cicloturistas-txt p {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+  }
+  .cicloturistas .cicloturistas-perfiles {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: 50vh;
+  }
+  .cicloturistas .cicloturistas-perfiles .perfil-foto {
+    width: 30%;
+    height: 40%;
+    background-color: #fff;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .cicloturistas .cicloturistas-perfiles .perfil-foto .perfil-nombre {
+    width: 100%;
+    font-size: 15px;
+    border: 2px solid #ffdd12;
+    background-color: #fff;
+    text-align: center;
+  }
+  .cicloturistas .galeria {
+    width: 90%;
+    height: 500px;
+    background-color: #201d1b;
+  }
+  .cicloturistas .galeria h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 20px;
+  }
+  .cicloturistas .galeria .galeria-img {
+    background-color: #fff;
+    width: 100%;
+    height: 60vh;
+  }
 }
 
 .contacto h3 {
-  font-size: 50px;
   background-color: #ffdd12;
+  text-align: center;
+  border: 2px solid white;
+  width: 25%;
+  margin: auto;
 }
 
 .contacto p {
-  font-size: 28px;
+  font-size: 23px;
   color: #ffffff;
+  text-align: center;
 }
 
 .contacto .contacto-form {
-  height: 700px;
-  width: 100%;
-  margin-top: 50px;
+  margin-top: 5vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1666,8 +1870,7 @@ header .nav-container .navbar ul li a:hover {
 .contacto .contacto-form .contacto-form__img,
 .contacto .contacto-form .contacto-form__form {
   width: 50%;
-  height: 100%;
-  border: 2px solid #201d1b;
+  height: 60vh;
   margin: 10px;
 }
 
@@ -1679,8 +1882,7 @@ header .nav-container .navbar ul li a:hover {
   background-image: url(../../img/formIMG.jpg);
   background-position: center;
   background-size: cover;
-  width: 47%;
-  height: 97%;
+  height: 60vh;
 }
 
 .contacto .contacto-form .contacto-form__form {
@@ -1699,14 +1901,141 @@ header .nav-container .navbar ul li a:hover {
           align-items: center;
 }
 
-.contacto .contacto-form .contacto-form__form input {
+.contacto .contacto-form .contacto-form__form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 70%;
-  height: 35px;
-  margin: 10px;
 }
 
-.contacto .contacto-form .contacto-form__form textarea {
+.contacto .contacto-form .contacto-form__form form input {
+  width: 100%;
+  margin: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.contacto .contacto-form .contacto-form__form form textarea {
   resize: none;
+  width: 100%;
+  height: 15vh;
+}
+
+.contacto .contacto-form .contacto-form__form form .form-btn {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  font-family: "Anton", sans-serif;
+  width: 10vw;
+  font-size: 22px;
+  background-color: #ffdd12;
+}
+
+.contacto .contacto-form .contacto-form__form form .form-btn:hover {
+  border: 3px solid #201d1b;
+}
+
+.contacto #map {
+  height: 50vh;
+  background-color: #e0e0e0;
+  margin-top: 5vh;
+}
+
+@media (max-width: 320px), (max-width: 425px), (max-width: 768px), (max-width: 768px) {
+  .contacto h3 {
+    font-size: 20px;
+    width: auto;
+  }
+  .contacto p {
+    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
+  }
+  .contacto .contacto-form {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .contacto .contacto-form .contacto-form__img,
+  .contacto .contacto-form .contacto-form__form {
+    width: 100%;
+    height: 60vh;
+    margin: 10px;
+  }
+  .contacto .contacto-form .contacto-form__form {
+    background-color: #ffdd12;
+  }
+  .contacto .contacto-form .contacto-form__img {
+    background-image: url(../../img/formIMG.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 40vh;
+  }
+  .contacto .contacto-form .contacto-form__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contacto .contacto-form .contacto-form__form form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 90%;
+  }
+  .contacto .contacto-form .contacto-form__form form input {
+    width: 100%;
+    margin: 10px;
+    font-family: "Roboto", sans-serif;
+  }
+  .contacto .contacto-form .contacto-form__form form textarea {
+    resize: none;
+    width: 100%;
+    height: 15vh;
+  }
+  .contacto .contacto-form .contacto-form__form form .form-btn {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    font-family: "Anton", sans-serif;
+    width: 50%;
+    font-size: 22px;
+    background-color: #ffdd12;
+  }
+  .contacto .contacto-form .contacto-form__form form .form-btn:hover {
+    border: 3px solid #201d1b;
+  }
+  .contacto #map {
+    height: 50vh;
+    background-color: #e0e0e0;
+    margin-top: 5vh;
+  }
 }
 
 * {
@@ -1716,25 +2045,10 @@ header .nav-container .navbar ul li a:hover {
           box-sizing: border-box;
 }
 
-html,
-body {
-  width: 100%;
-  height: 100%;
-}
-
 body {
   margin: 0;
   padding: 0;
   background-color: #201d1b;
-  min-width: 100%;
-  min-height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  /* justify-content: center; */
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -1747,13 +2061,25 @@ body h3,
 body h4,
 body h5,
 body h6 {
+  font-size: 30px;
   font-family: "Anton", sans-serif;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
 
 body p {
+  font-size: 22px;
   font-family: "Roboto", sans-serif;
+}
+
+body .fa {
+  color: #ffdd12;
+}
+
+@media (max-width: 320px), (max-width: 425px), (max-width: 768px), (max-width: 768px) {
+  .brand-mobile {
+    width: 45% !important;
+  }
 }
 
 @media (max-width: 320px), (max-width: 425px), (max-width: 768px), (max-width: 768px) {

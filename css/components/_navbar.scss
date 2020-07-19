@@ -1,69 +1,39 @@
 @import "../variables";
 
-header {
+footer {
     width: 100%;
-    height: 85px;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
 
-    .nav-container {
+    .fas,
+    .fab {
+        color: $secondary;
+        margin-right: 15px;
+    }
+
+    .footer-container {
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: space-evenly;
         align-items: center;
-        width: 100%;
-        height: 85px;
+    }
 
-        .logo {
-            width: 35%;
-            height: 100%;
+    .telefono,
+    .mail,
+    .localidad {
+        display: flex;
+        align-items: center;
+        color: white;
+        font-family: $secondary-font;
+        font-size: 22px;
+        width: 20vw;
+    }
 
-            a img {
-                width: 100%;
-                height: 100%;
-                background-color: $primary;
-            }
-        }
-
-        .navbar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            width: 65%;
-            height: 100%;
-
-            .open,
-            .close {
-                display: none;
-            }
-
-            ul {
-                display: flex;
-                justify-content: space-evenly;
-                align-items: center;
-                height: 100%;
-                width: 100%;
-                li {
-                    display: flex;
-                    align-items: center;
-                    width: 15%;
-                    height: 50%;
-
-                    a {
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        text-decoration: none;
-                        font-size: 23px;
-                        font-weight: 300;
-                        font-family: $secondary-font;
-                        width: 100%;
-                        height: 50%;
-                        color: #ffffff;
-
-                        &:hover {
-                            box-shadow: 10px 10px 5px 0px rgba(255, 221, 18, 1);
-                        }
-                    }
-                }
-            }
+    .logo {
+        img {
+            width: 27vw;
+            height: 10vh;
         }
     }
 }

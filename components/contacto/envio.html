@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,7 +8,6 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous" />
         <link rel="stylesheet" href="../../css/style.css" />
-        <script src="script.js"></script>
         <title>Carlos Karabitian - Agente oficial Shimano.</title>
     </head>
     <body>
@@ -24,7 +23,7 @@
                         <a class="nav-link" href="../../index.html">INICIO<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item nav-item-style mx-1">
-                        <a class="nav-link active" href="#">LA EMPRESA</a>
+                        <a class="nav-link" href="../empresa/empresa.html">LA EMPRESA</a>
                     </li>
                     <li class="nav-item nav-item-style mx-1">
                         <a class="nav-link" href="../teamVenzo/teamVenzo.html">
@@ -38,40 +37,29 @@
                         <a class="nav-link" href="../cicloturistas/cicloturistas.html">CICLOTURISTAS</a>
                     </li>
                     <li class="nav-item nav-item-style ml-1 mr-3">
-                        <a class="nav-link" href="../contacto/contacto.html">CONTACTO</a>
+                        <a class="nav-link active" href="#">CONTACTO</a>
                     </li>
                 </ul>
             </div>
         </nav>
+        <section class="contacto">
+            <div class="contacto-titulo">
+                <h3 class="p-1 mb-3">¡CONTACTANOS!</h3>
+                <p>Te responderemos a la brevedad</p>
+            </div>
+            <div class="contacto-form">
+                <div class="contacto-form__img"></div>
+                <div class="contacto-form__form">
+                    <h2 class="h1-responsive font-weight-bold text-center my-5 blue-color">
+                        Su mensaje se ha enviado correctamente.
+                      </h2>
+                      <div class="text-center">
+                        <a href="contacto.html" class="btn btn-primary btn-md">Enviar nuevo mensaje</a>
+                      </div>
+                </div>
+            </div>
 
-        <section class="empresa">
-            <div class="empresa-container pb-5">
-                <h2 class="p-3">LA EMPRESA</h2>
-                <div class="empresa-img">
-                    <div class="empresa-txt">
-                        <p>
-                            GCK es una marca dedicada a la distribución y comercialización de bicicletas, repuestos y accesorios en todo el país. Nació en 1950 como negocio familiar y fue creciendo hasta alcanzar lo que es hoy. Lo que somos hoy. Un grupo de especialistas, listos para asesorarte y equipar las bicicleterías de Argentina con absolutamente todo lo que el ciclista puede necesitar. Somos vendedores exclusivos de una marca tan reconocida como Venzo y contamos con productos de todas las primeras marcas del rubro.
-                        </p>
-                        <p>
-                            Nuestro objetivo es fomentar el ciclismo, actividad que nos apasiona, aportando los insumos necesarios y asesorando a los aventureros que a esto se dedican.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="empresa-valores py-4">
-                <div class="valores-container">
-                    <h3 class="p-3">MISION</h3>
-                    <p class="p-2">Proveer a todas las bicicleterías del país el equipamiento necesario para desempeñarse en su actividad.</p>
-                </div>
-                <div class="valores-container">
-                    <h3 class="p-3">VISION</h3>
-                    <p class="p-2">Ser el referente número 1 en el rubro del ciclismo a nivel nacional.</p>
-                </div>
-                <div class="valores-container">
-                    <h3 class="p-3">VALORES</h3>
-                    <p class="p-2">Honradez, perseverancia, exigencia, calidad, honestidad, esfuerzo, experiencias, respeto, equipo, hábitos saludables, seriedad, humildad, sacrificio, pasión.</p>
-                </div>
-            </div>
+            <div id="map"></div>
         </section>
 
         <footer>
@@ -92,8 +80,15 @@
         </footer>
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
         <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+
+        <script src="../../script.js"></script>
+
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTL5Fd8LlyBDqLpW52H8cCDfeQ2VFnyOo&callback=initMap"></script>
     </body>
 </html>
