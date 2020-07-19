@@ -14,8 +14,8 @@
 
 html,
 body {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
 }
 
 body {
@@ -35,18 +35,23 @@ body {
     h4,
     h5,
     h6 {
+        font-size: 50px;
         font-family: $primary-font;
         letter-spacing: 2px;
         text-transform: uppercase;
     }
 
     p {
+        font-size: 22px;
         font-family: $secondary-font;
+    }
+
+    .fa {
+        color: $secondary;
     }
 }
 
 @media (max-width: $S), (max-width: $M), (max-width: $L), (max-width: $XL) {
-
     .brand-mobile {
         width: 45% !important;
     }
