@@ -63,6 +63,7 @@
                 width: 70%;
                 height: 100%;
                 margin-left: 5px;
+                margin-top: 5px;
 
                 h3 {
                     font-size: 25px;
@@ -70,7 +71,7 @@
                 }
 
                 p {
-                    font-size: 18px;
+                    font-size: 16px;
                     color: #ffffff;
                 }
             }
@@ -186,11 +187,12 @@
 
                 h3 {
                     font-size: 25px;
+                    margin-top: 5px;
                     color: $secondary;
                 }
 
                 p {
-                    font-size: 18px;
+                    font-size: 16px;
                     color: #ffffff;
                 }
             }

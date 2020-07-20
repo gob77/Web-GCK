@@ -1,17 +1,17 @@
+@import "./variables";
 @import "./components/navbar";
 @import "./components/index";
-@import "./components/empresa";
-@import "./components/teanVenzo";
-@import "./components/productos";
-@import "./components/cicloturistas";
-@import "./components/contacto";
+@import "../components/empresa/empresa";
+@import "../components/teamVenzo/teanVenzo";
+@import "../components/productos/productos";
+@import "../components/cicloturistas/cicloturistas";
+@import "../components/contacto/contacto";
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 
 html {
     width: 100%;
@@ -23,11 +23,7 @@ html {
 body {
     background-color: $primary;
 
-    
-    
- 
     flex-direction: column;
-
 
     h1,
     h2,
@@ -39,6 +35,7 @@ body {
         font-family: $primary-font;
         letter-spacing: 2px;
         text-transform: uppercase;
+        margin: 0 0;
     }
 
     p {
@@ -58,7 +55,6 @@ body {
 }
 
 @media (max-width: $S), (max-width: $M), (max-width: $L), (max-width: $XL) {
-
     .brand-mobile {
         width: 45% !important;
     }

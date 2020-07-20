@@ -201,7 +201,8 @@ footer {
       .main-container .fortalezas .low .variedad-container .variedad-txt {
         width: 70%;
         height: 100%;
-        margin-left: 5px; }
+        margin-left: 5px;
+        margin-top: 5px; }
         .main-container .fortalezas .top .alcance-container .alcance-txt h3,
         .main-container .fortalezas .top .variedad-container .variedad-txt h3,
         .main-container .fortalezas .low .alcance-container .alcance-txt h3,
@@ -212,7 +213,7 @@ footer {
         .main-container .fortalezas .top .variedad-container .variedad-txt p,
         .main-container .fortalezas .low .alcance-container .alcance-txt p,
         .main-container .fortalezas .low .variedad-container .variedad-txt p {
-          font-size: 18px;
+          font-size: 16px;
           color: #ffffff; }
     .main-container .fortalezas .mid {
       width: 97%;
@@ -349,6 +350,7 @@ footer {
         .main-container .fortalezas .mid .postventa-container .postventa-txt h3,
         .main-container .fortalezas .mid .asesoramiento-container .asesoramiento-txt h3 {
           font-size: 25px;
+          margin-top: 5px;
           color: #ffdd12; }
         .main-container .fortalezas .mid .experiencia-container .experiencia-txt p,
         .main-container .fortalezas .mid .conocimiento-container .conocimiento-txt p,
@@ -356,7 +358,7 @@ footer {
         .main-container .fortalezas .mid .garantia-container .garantia-txt p,
         .main-container .fortalezas .mid .postventa-container .postventa-txt p,
         .main-container .fortalezas .mid .asesoramiento-container .asesoramiento-txt p {
-          font-size: 18px;
+          font-size: 16px;
           color: #ffffff; }
     .main-container .fortalezas .circulo-exterior {
       position: absolute;
@@ -627,7 +629,7 @@ footer {
     .empresa .empresa-container .empresa-img {
       width: 100%;
       height: 100%;
-      background-image: url(https://../../Foto.jpg);
+      background-image: url(../../img/Empresa/Foto.jpg);
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -678,7 +680,7 @@ footer {
     background-position: bottom; }
     .empresa .empresa-valores .valores-container {
       width: 30%;
-      height: 60%;
+      height: 40%;
       background-color: #ffdd12;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -895,15 +897,7 @@ footer {
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
-  /* a:hover {
-      border: 1px solid $primary;
-      box-shadow: $shadow;
-  }
-  a:active {
-      position: relative;
-      top: 1px;
-  } */ }
+          align-items: center; }
   .team-venzo .team-venzo__categorias h2 {
     font-family: "Anton", sans-serif;
     color: white;
@@ -965,18 +959,6 @@ footer {
     .team-venzo .team-venzo__categorias ul li {
       font-family: "Roboto", sans-serif;
       font-size: 20px; }
-  .team-venzo .team-venzo__categorias a {
-    background-color: white;
-    border-radius: 28px;
-    border: 1px solid white;
-    display: inline-block;
-    cursor: pointer;
-    color: #201d1b;
-    font-family: Arial;
-    font-size: 23px;
-    padding: 10px 40px;
-    text-decoration: none;
-    text-shadow: 0px 1px 0px #201d1b; }
 
 @media (max-width: 320px), (max-width: 425px), (max-width: 768px), (max-width: 768px) {
   .team-venzo .team-venzo__resumen .resumen-txt h2 {
@@ -1066,7 +1048,7 @@ footer {
       color: white; }
   .productos .productos-container {
     width: 90%;
-    height: 1000px;
+    height: 110vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1077,8 +1059,6 @@ footer {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
-    .productos .productos-container .hide {
-      display: none; }
     .productos .productos-container .productos-menu {
       width: 20%;
       height: 50%;
@@ -1092,30 +1072,18 @@ footer {
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center;
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
       position: relative; }
       .productos .productos-container .productos-menu .main {
-        width: 100%;
-        height: 50px;
-        font-size: 30px;
         background-color: #ffdd12;
-        color: #201d1b;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center; }
+        color: #201d1b; }
       .productos .productos-container .productos-menu .prod,
       .productos .productos-container .productos-menu .brand {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
@@ -1124,16 +1092,18 @@ footer {
         color: white;
         background-color: #201d1b;
         width: 50%;
-        height: 50px;
-        margin: 70px 0;
         font-size: 28px; }
-        .productos .productos-container .productos-menu .prod:hover,
-        .productos .productos-container .productos-menu .brand:hover {
-          border: 2px solid #ffdd12;
-          cursor: pointer; }
-        .productos .productos-container .productos-menu .prod:active,
-        .productos .productos-container .productos-menu .brand:active {
-          border: 2px solid #ffdd12; }
+        .productos .productos-container .productos-menu .prod h3,
+        .productos .productos-container .productos-menu .brand h3 {
+          height: 100%; }
+          .productos .productos-container .productos-menu .prod h3:hover,
+          .productos .productos-container .productos-menu .brand h3:hover {
+            border: 1px solid #ffdd12;
+            cursor: pointer; }
+      .productos .productos-container .productos-menu .brand {
+        margin-top: 4.7vh; }
+      .productos .productos-container .productos-menu .prod {
+        margin-top: 12vh; }
       .productos .productos-container .productos-menu .bgONE,
       .productos .productos-container .productos-menu .bgTWO {
         position: absolute;
@@ -1144,14 +1114,14 @@ footer {
         z-index: -1; }
       .productos .productos-container .productos-menu .bgONE {
         top: 0;
-        right: 0;
-        width: 70%;
-        height: 30%; }
+        left: 5.5vw;
+        width: 15%;
+        height: 20%; }
       .productos .productos-container .productos-menu .bgTWO {
-        top: 30%;
-        right: 0;
-        width: 70%;
-        height: 38%; }
+        top: 20%;
+        left: 5.5vw;
+        width: 15%;
+        height: 28%; }
     .productos .productos-container .marcas-img,
     .productos .productos-container .productos-img {
       width: 80%;
@@ -1424,27 +1394,27 @@ footer {
               align-items: flex-end;
       border: 2px solid #ffdd12; }
       .cicloturistas .cicloturistas-perfiles .perfil-foto:nth-child(1) {
-        background-image: url(https://../../img/cicloturistas/lvdv.jpg);
+        background-image: url(../../img/cicloturistas/lvdv.jpg);
         background-position: center;
         background-size: cover; }
       .cicloturistas .cicloturistas-perfiles .perfil-foto:nth-child(2) {
-        background-image: url(https://../../img/cicloturistas/liviano.jpg);
+        background-image: url(../../img/cicloturistas/liviano.jpg);
         background-position: center;
         background-size: cover; }
       .cicloturistas .cicloturistas-perfiles .perfil-foto:nth-child(3) {
-        background-image: url(https://../../img/cicloturistas/salvaje.jpg);
+        background-image: url(../../img/cicloturistas/salvaje.jpg);
         background-position: center;
         background-size: cover; }
       .cicloturistas .cicloturistas-perfiles .perfil-foto:nth-child(4) {
-        background-image: url(https://../../img/cicloturistas/pedal.jpg);
+        background-image: url(../../img/cicloturistas/pedal.jpg);
         background-position: center;
         background-size: cover; }
       .cicloturistas .cicloturistas-perfiles .perfil-foto:nth-child(5) {
-        background-image: url(https://../../img/cicloturistas/frecuente.jpg);
+        background-image: url(../../img/cicloturistas/frecuente.jpg);
         background-position: center;
         background-size: cover; }
       .cicloturistas .cicloturistas-perfiles .perfil-foto:nth-child(6) {
-        background-image: url(https://gob77.github.io/img/cicloturistas/bainotti.jps);
+        background-image: url(../../img/cicloturistas/nati.jpg);
         background-position: center;
         background-size: cover; }
       .cicloturistas .cicloturistas-perfiles .perfil-foto .perfil-nombre {
@@ -1461,10 +1431,57 @@ footer {
       font-weight: 300;
       color: white;
       font-size: 40px; }
-    .cicloturistas .galeria .galeria-img {
+    .cicloturistas .galeria .container .gallery-container {
       background-color: #fff;
-      width: 100%;
-      height: 60vh; }
+      color: #35373a;
+      min-height: 100vh;
+      padding: 30px 50px; }
+      .cicloturistas .galeria .container .gallery-container .galeria-img {
+        background-color: #fff;
+        width: 100%;
+        /* Override bootstrap column paddings */ }
+        .cicloturistas .galeria .container .gallery-container .galeria-img .tz-gallery {
+          padding: 40px; }
+        .cicloturistas .galeria .container .gallery-container .galeria-img .tz-gallery .row > div {
+          padding: 2px; }
+        .cicloturistas .galeria .container .gallery-container .galeria-img .tz-gallery .lightbox img {
+          width: 100%;
+          border-radius: 0;
+          position: relative; }
+        .cicloturistas .galeria .container .gallery-container .galeria-img .tz-gallery .lightbox:before {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          margin-top: -13px;
+          margin-left: -13px;
+          opacity: 0;
+          color: #fff;
+          font-size: 26px;
+          font-family: "Glyphicons Halflings";
+          content: "\e003";
+          pointer-events: none;
+          z-index: 9000;
+          -webkit-transition: 0.4s;
+          transition: 0.4s; }
+        .cicloturistas .galeria .container .gallery-container .galeria-img .tz-gallery .lightbox:after {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          opacity: 0;
+          background-color: rgba(46, 132, 206, 0.7);
+          content: "";
+          -webkit-transition: 0.4s;
+          transition: 0.4s; }
+        .cicloturistas .galeria .container .gallery-container .galeria-img .tz-gallery .lightbox:hover:after,
+        .cicloturistas .galeria .container .gallery-container .galeria-img .tz-gallery .lightbox:hover:before {
+          opacity: 1; }
+        .cicloturistas .galeria .container .gallery-container .galeria-img .baguetteBox-button {
+          background-color: transparent !important; }
+        @media (max-width: 768px) {
+          .cicloturistas .galeria .container .gallery-container .galeria-img body {
+            padding: 0; } }
 
 @media (max-width: 320px), (max-width: 425px), (max-width: 768px), (max-width: 768px) {
   .cicloturistas {
@@ -1538,53 +1555,54 @@ footer {
         background-color: #fff;
         width: 100%;
         height: 60vh; } }
-.contacto h3 {
-  background-color: #ffdd12;
-  text-align: center;
-  border: 2px solid white;
-  width: 25%;
-  margin: auto; }
-.contacto p {
-  font-size: 23px;
-  color: #ffffff;
-  text-align: center; }
-.contacto .contacto-form {
-  margin-top: 5vh;
+.contacto {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75);
-          box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75); }
-  .contacto .contacto-form .contacto-form__img,
-  .contacto .contacto-form .contacto-form__form {
-    width: 50%;
-    height: 60vh;
-    margin: 10px; }
-  .contacto .contacto-form .contacto-form__form {
-    background-color: #ffdd12; }
-  .contacto .contacto-form .contacto-form__img {
-    background-image: url(../../img/formIMG.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 60vh; }
-  .contacto .contacto-form .contacto-form__form {
+  width: 100%; }
+  .contacto h3 {
+    background-color: #ffdd12;
+    text-align: center;
+    border: 2px solid white;
+    margin: auto; }
+  .contacto p {
+    font-size: 23px;
+    color: #ffffff;
+    text-align: center; }
+  .contacto .contacto-form {
+    width: 90%;
+    margin-top: 5vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center; }
-    .contacto .contacto-form .contacto-form__form form {
+            align-items: center;
+    -webkit-box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75);
+            box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75); }
+    .contacto .contacto-form .contacto-form__img,
+    .contacto .contacto-form .contacto-form__form {
+      width: 50%;
+      height: 60vh;
+      margin: 10px; }
+    .contacto .contacto-form .contacto-form__form {
+      background-color: #ffdd12; }
+    .contacto .contacto-form .contacto-form__img {
+      background-image: url(../../img/formIMG.jpg);
+      background-position: center;
+      background-size: cover;
+      height: 60vh; }
+    .contacto .contacto-form .contacto-form__form {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -1592,34 +1610,49 @@ footer {
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
               flex-direction: column;
-      -webkit-box-pack: space-evenly;
-          -ms-flex-pack: space-evenly;
-              justify-content: space-evenly;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
       -webkit-box-align: center;
           -ms-flex-align: center;
-              align-items: center;
-      width: 70%; }
-      .contacto .contacto-form .contacto-form__form form input {
-        width: 100%;
-        margin: 10px;
-        font-family: "Roboto", sans-serif; }
-      .contacto .contacto-form .contacto-form__form form textarea {
-        resize: none;
-        width: 100%;
-        height: 15vh; }
-      .contacto .contacto-form .contacto-form__form form .form-btn {
-        -ms-flex-item-align: end;
-            align-self: flex-end;
-        font-family: "Anton", sans-serif;
-        width: 10vw;
-        font-size: 22px;
-        background-color: #ffdd12; }
-        .contacto .contacto-form .contacto-form__form form .form-btn:hover {
-          border: 3px solid #201d1b; }
-.contacto #map {
-  height: 50vh;
-  background-color: #e0e0e0;
-  margin-top: 5vh; }
+              align-items: center; }
+      .contacto .contacto-form .contacto-form__form form {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        width: 70%; }
+        .contacto .contacto-form .contacto-form__form form input {
+          width: 100%;
+          margin: 10px;
+          font-family: "Roboto", sans-serif; }
+        .contacto .contacto-form .contacto-form__form form textarea {
+          resize: none;
+          width: 100%;
+          height: 15vh; }
+        .contacto .contacto-form .contacto-form__form form .form-btn {
+          -ms-flex-item-align: end;
+              align-self: flex-end;
+          font-family: "Anton", sans-serif;
+          width: 10vw;
+          font-size: 22px;
+          background-color: #ffdd12; }
+          .contacto .contacto-form .contacto-form__form form .form-btn:hover {
+            border: 3px solid #201d1b; }
+  .contacto #map {
+    width: 90%;
+    height: 50vh;
+    background-color: #e0e0e0;
+    margin-top: 5vh; }
 
 @media (max-width: 320px), (max-width: 425px), (max-width: 768px), (max-width: 768px) {
   .contacto h3 {
@@ -1722,7 +1755,8 @@ body {
     font-size: 30px;
     font-family: "Anton", sans-serif;
     letter-spacing: 2px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    margin: 0 0; }
   body p {
     font-size: 22px;
     font-family: "Roboto", sans-serif; }
