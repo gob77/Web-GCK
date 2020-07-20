@@ -25,7 +25,7 @@
         .empresa-img {
             width: 100%;
             height: 100%;
-            background-image: url(../../components/empresa/Foto.jpg);
+            background-image: url(../../Foto.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -36,7 +36,7 @@
 
         .empresa-txt {
             position: absolute;
-            bottom: -85%;
+            bottom: -25%;
             width: 95%;
             background-color: #fff;
             border: 3px solid $secondary;

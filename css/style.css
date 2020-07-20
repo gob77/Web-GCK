@@ -631,7 +631,7 @@ footer {
     .empresa .empresa-container .empresa-img {
       width: 100%;
       height: 100%;
-      background-image: url(../../components/empresa/Foto.jpg);
+      background-image: url(../../Foto.jpg);
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -644,7 +644,7 @@ footer {
       position: relative; }
     .empresa .empresa-container .empresa-txt {
       position: absolute;
-      bottom: -85%;
+      bottom: -25%;
       width: 95%;
       background-color: #fff;
       border: 3px solid #ffdd12;
