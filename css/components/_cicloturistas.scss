@@ -5,24 +5,21 @@
     flex-direction: column;
     align-items: center;
 
-
     .cicloturistas-img {
         width: 100%;
-        height: auto;
+        height: 90vh;
 
         img {
             width: 100%;
-            height: 90vh;
+            height: 100%;
         }
     }
 
     .cicloturistas-txt {
-       
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        
 
         h2 {
             font-size: 40px;
@@ -39,9 +36,8 @@
     }
 
     .cicloturistas-perfiles {
-       
         width: 95%;
-        height: 50vh;
+        height: 40vh;
         background-color: #e0e0e0;
         display: flex;
         justify-content: space-around;
@@ -49,28 +45,58 @@
 
         .perfil-foto {
             width: 13%;
-            height: 50%;
-            background-color: #fff;
+            height: 68%;
             border-radius: 50%;
             display: flex;
             justify-content: center;
             align-items: flex-end;
+            border: 2px solid $secondary;
+
+            &:nth-child(1) {
+                background-image: url(../../img/cicloturistas/lvdv.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            &:nth-child(2) {
+                background-image: url(../../img/cicloturistas/liviano.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            &:nth-child(3) {
+                background-image: url(../../img/cicloturistas/salvaje.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            &:nth-child(4) {
+                background-image: url(../../img/cicloturistas/pedal.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            &:nth-child(5) {
+                background-image: url(../../img/cicloturistas/frecuente.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            &:nth-child(6) {
+                background-image: url(../../img/cicloturistas/bainotti.jpg);
+                background-position: center;
+                background-size: cover;
+            }
 
             .perfil-nombre {
-              
                 width: 100%;
-                font-size: 15px;
                 border: 2px solid $secondary;
                 background-color: #fff;
                 text-align: center;
+                bottom: 0;
+                left: 0;
             }
         }
     }
 
     .galeria {
-        
         width: 90%;
-        height: 500px;
+        height: auto;
         background-color: $primary;
 
         h2 {
@@ -93,37 +119,31 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-    
-        
-    
+
         .cicloturistas-txt {
-           
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
             align-items: center;
-            
-    
+
             h2 {
                 font-size: 20px;
                 background-color: $secondary;
                 width: 80%;
                 text-align: center;
             }
-    
+
             p {
                 font-size: 15px;
                 text-align: center;
                 color: white;
             }
         }
-    
+
         .cicloturistas-perfiles {
-           
             flex-wrap: wrap;
             height: 50vh;
-           
-    
+
             .perfil-foto {
                 width: 30%;
                 height: 40%;
@@ -132,9 +152,8 @@
                 display: flex;
                 justify-content: center;
                 align-items: flex-end;
-    
+
                 .perfil-nombre {
-                  
                     width: 100%;
                     font-size: 15px;
                     border: 2px solid $secondary;
@@ -143,20 +162,19 @@
                 }
             }
         }
-    
+
         .galeria {
-            
             width: 90%;
             height: 500px;
             background-color: $primary;
-    
+
             h2 {
                 font-family: $secondary-font;
                 font-weight: 300;
                 color: white;
                 font-size: 20px;
             }
-    
+
             .galeria-img {
                 background-color: #fff;
                 width: 100%;
