@@ -157,10 +157,253 @@ footer .logo img {
           box-shadow: 0px 0px 35px 3px #ffdd12;
 }
 
-#img-container {
+.main-container {
   width: 100%;
   height: auto;
-}
+
+  z-index: -15; }
+  .main-container .banner-bicicleta {
+    width: 100%;
+    height: 90vh;
+    background-color: #fff; }
+    .main-container .banner-bicicleta img {
+      width: 100%;
+      height: 100%; }
+  .main-container .fortalezas {
+    width: 100%;
+    height: 110vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .main-container .fortalezas .top,
+    .main-container .fortalezas .low {
+      width: 100%;
+      height: 20%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .main-container .fortalezas .top .alcance-container,
+      .main-container .fortalezas .top .variedad-container,
+      .main-container .fortalezas .low .alcance-container,
+      .main-container .fortalezas .low .variedad-container {
+        width: 40%;
+        height: 16vh;
+        -webkit-box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75);
+                box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75);
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        background-color: #201d1b; }
+      .main-container .fortalezas .top .alcance-container .alcance-img,
+      .main-container .fortalezas .top .variedad-container .variedad-img,
+      .main-container .fortalezas .low .alcance-container .alcance-img,
+      .main-container .fortalezas .low .variedad-container .variedad-img {
+        width: 30%;
+        height: 100%;
+        border-right: 2px solid #ffdd12; }
+        .main-container .fortalezas .top .alcance-container .alcance-img img,
+        .main-container .fortalezas .top .variedad-container .variedad-img img,
+        .main-container .fortalezas .low .alcance-container .alcance-img img,
+        .main-container .fortalezas .low .variedad-container .variedad-img img {
+          width: 100%;
+          height: 100%; }
+      .main-container .fortalezas .top .alcance-container .alcance-txt,
+      .main-container .fortalezas .top .variedad-container .variedad-txt,
+      .main-container .fortalezas .low .alcance-container .alcance-txt,
+      .main-container .fortalezas .low .variedad-container .variedad-txt {
+        width: 70%;
+        height: 100%;
+        margin-left: 5px; }
+        .main-container .fortalezas .top .alcance-container .alcance-txt h3,
+        .main-container .fortalezas .top .variedad-container .variedad-txt h3,
+        .main-container .fortalezas .low .alcance-container .alcance-txt h3,
+        .main-container .fortalezas .low .variedad-container .variedad-txt h3 {
+          font-size: 25px;
+          color: #ffdd12; }
+        .main-container .fortalezas .top .alcance-container .alcance-txt p,
+        .main-container .fortalezas .top .variedad-container .variedad-txt p,
+        .main-container .fortalezas .low .alcance-container .alcance-txt p,
+        .main-container .fortalezas .low .variedad-container .variedad-txt p {
+          font-size: 18px;
+          color: #ffffff; }
+    .main-container .fortalezas .mid {
+      width: 97%;
+      height: 60%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: space-evenly;
+          -ms-flex-pack: space-evenly;
+              justify-content: space-evenly; }
+      .main-container .fortalezas .mid .izquierda,
+      .main-container .fortalezas .mid .derecha {
+        width: 40%;
+        height: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; }
+      .main-container .fortalezas .mid .izquierda .arriba,
+      .main-container .fortalezas .mid .izquierda .central,
+      .main-container .fortalezas .mid .izquierda .abajo,
+      .main-container .fortalezas .mid .derecha .arriba,
+      .main-container .fortalezas .mid .derecha .central,
+      .main-container .fortalezas .mid .derecha .abajo {
+        width: 90%;
+        height: 16vh;
+        -webkit-box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75);
+                box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75);
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        background-color: #201d1b; }
+      .main-container .fortalezas .mid .izquierda .arriba,
+      .main-container .fortalezas .mid .izquierda .abajo {
+        -ms-flex-item-align: end;
+            align-self: flex-end; }
+      .main-container .fortalezas .mid .derecha .central {
+        -ms-flex-item-align: end;
+            align-self: flex-end; }
+      .main-container .fortalezas .mid .centro {
+        width: 30%;
+        height: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
+        .main-container .fortalezas .mid .centro .info-container {
+          width: 50%;
+          height: 50%;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center; }
+          .main-container .fortalezas .mid .centro .info-container h3 {
+            text-align: center;
+            color: #ffffff; }
+          .main-container .fortalezas .mid .centro .info-container a {
+            background-color: #ffffff;
+            width: 100%;
+            text-align: center;
+            height: 15%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            font-size: 22px;
+            border-radius: 20px;
+            cursor: pointer;
+            z-index: 15;
+            color: #201d1b; }
+            .main-container .fortalezas .mid .centro .info-container a:hover {
+              text-decoration: none; }
+      .main-container .fortalezas .mid .experiencia-container .experiencia-img,
+      .main-container .fortalezas .mid .conocimiento-container .conocimiento-img,
+      .main-container .fortalezas .mid .distribucion-container .distribucion-img,
+      .main-container .fortalezas .mid .garantia-container .garantia-img,
+      .main-container .fortalezas .mid .postventa-container .postventa-img,
+      .main-container .fortalezas .mid .asesoramiento-container .asesoramiento-img {
+        width: 30%;
+        height: 100%;
+        border-right: 2px solid #ffdd12; }
+        .main-container .fortalezas .mid .experiencia-container .experiencia-img img,
+        .main-container .fortalezas .mid .conocimiento-container .conocimiento-img img,
+        .main-container .fortalezas .mid .distribucion-container .distribucion-img img,
+        .main-container .fortalezas .mid .garantia-container .garantia-img img,
+        .main-container .fortalezas .mid .postventa-container .postventa-img img,
+        .main-container .fortalezas .mid .asesoramiento-container .asesoramiento-img img {
+          width: 100%;
+          height: 100%; }
+      .main-container .fortalezas .mid .experiencia-container .experiencia-txt,
+      .main-container .fortalezas .mid .conocimiento-container .conocimiento-txt,
+      .main-container .fortalezas .mid .distribucion-container .distribucion-txt,
+      .main-container .fortalezas .mid .garantia-container .garantia-txt,
+      .main-container .fortalezas .mid .postventa-container .postventa-txt,
+      .main-container .fortalezas .mid .asesoramiento-container .asesoramiento-txt {
+        width: 70%;
+        height: 100%;
+        margin-left: 5px; }
+        .main-container .fortalezas .mid .experiencia-container .experiencia-txt h3,
+        .main-container .fortalezas .mid .conocimiento-container .conocimiento-txt h3,
+        .main-container .fortalezas .mid .distribucion-container .distribucion-txt h3,
+        .main-container .fortalezas .mid .garantia-container .garantia-txt h3,
+        .main-container .fortalezas .mid .postventa-container .postventa-txt h3,
+        .main-container .fortalezas .mid .asesoramiento-container .asesoramiento-txt h3 {
+          font-size: 25px;
+          color: #ffdd12; }
+        .main-container .fortalezas .mid .experiencia-container .experiencia-txt p,
+        .main-container .fortalezas .mid .conocimiento-container .conocimiento-txt p,
+        .main-container .fortalezas .mid .distribucion-container .distribucion-txt p,
+        .main-container .fortalezas .mid .garantia-container .garantia-txt p,
+        .main-container .fortalezas .mid .postventa-container .postventa-txt p,
+        .main-container .fortalezas .mid .asesoramiento-container .asesoramiento-txt p {
+          font-size: 18px;
+          color: #ffffff; }
+    .main-container .fortalezas .circulo-exterior {
+      position: absolute;
+      z-index: -2;
+      background-color: #ffdd12;
+      width: 35vw;
+      height: 70vh;
+      border-radius: 50%;
+      -webkit-box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75);
+              box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75); }
+    .main-container .fortalezas .circulo-interior {
+      position: absolute;
+      z-index: -2;
+      background-color: #201d1b;
+      width: 23%;
+      height: 43%;
+      border-radius: 50%;
+      -webkit-box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75);
+              box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75); }
 
 #img-container .banner-bicicleta {
   width: 100%;
@@ -330,8 +573,55 @@ footer .logo img {
           align-items: center;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
+
+          justify-content: space-evenly; }
+  .principales-marcas h2 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: #201d1b;
+    background-color: #ffdd12;
+    width: 30%; }
+  .principales-marcas .marcas-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 25vh;
+    background-color: #fff; }
+    .principales-marcas .marcas-container .item {
+      width: 10vw;
+      height: 5vh;
+      margin: 1vw; }
+      .principales-marcas .marcas-container .item img {
+        width: 100%;
+        height: 100%; }
+  .principales-marcas .ver-mas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 18%;
+    border-radius: 20px;
+    background-color: #201d1b;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 23px;
+    color: white;
+    padding: 16px 31px;
+    text-decoration: none; }
+    .principales-marcas .ver-mas:active {
+      position: relative;
+      top: 1px; }
 
 #img-container .fortalezas .mid .izquierda .arriba,
 #img-container .fortalezas .mid .izquierda .central,
@@ -1914,6 +2204,7 @@ footer .logo img {
           justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
+
           align-items: center;
   width: 70%;
 }
@@ -1965,6 +2256,7 @@ footer .logo img {
   }
   .contacto .contacto-form .contacto-form__img,
   .contacto .contacto-form .contacto-form__form {
+
     width: 100%;
     height: 60vh;
     margin: 10px;
@@ -2042,39 +2334,32 @@ footer .logo img {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
+
+          box-sizing: border-box; }
+
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0; }
 
 body {
-  margin: 0;
-  padding: 0;
-  background-color: #201d1b;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-body h1,
-body h2,
-body h3,
-body h4,
-body h5,
-body h6 {
-  font-size: 30px;
-  font-family: "Anton", sans-serif;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
-body p {
-  font-size: 22px;
-  font-family: "Roboto", sans-serif;
-}
-
-body .fa {
-  color: #ffdd12;
-}
+  background-color: #201d1b; }
+  body h1,
+  body h2,
+  body h3,
+  body h4,
+  body h5,
+  body h6 {
+    font-size: 50px;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
+  body p {
+    font-size: 22px;
+    font-family: "Roboto", sans-serif; }
+  body .fa {
+    color: #ffdd12; }
 
 @media (max-width: 320px), (max-width: 425px), (max-width: 768px), (max-width: 768px) {
   .brand-mobile {
