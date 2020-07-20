@@ -1433,16 +1433,14 @@ footer {
         background-position: center;
         background-size: cover; }
       .cicloturistas .cicloturistas-perfiles .perfil-foto:nth-child(6) {
-        background-image: url(https://../../img/cicloturistas/bainotti.jpg);
+        background-image: url(https://github.com/gob77/Web-GCK/blob/master/img/cicloturistas/bainotti.jpg);
         background-position: center;
         background-size: cover; }
       .cicloturistas .cicloturistas-perfiles .perfil-foto .perfil-nombre {
         width: 100%;
         border: 2px solid #ffdd12;
         background-color: #fff;
-        text-align: center;
-        bottom: 0;
-        left: 0; }
+        text-align: center; }
   .cicloturistas .galeria {
     width: 90%;
     height: auto;
