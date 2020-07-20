@@ -984,6 +984,8 @@ footer {
   .team-venzo .team-venzo__resumen .resumen-txt p {
     font-size: 15px; }
   .team-venzo .team-venzo__categorias {
+    /* h2 {
+    } */
     /* a:hover {
         border: 1px solid $primary;
         box-shadow: $shadow;
@@ -994,7 +996,16 @@ footer {
     } */ }
     .team-venzo .team-venzo__categorias .categorias-container .categorias {
       -ms-flex-wrap: wrap;
-          flex-wrap: wrap; }
+          flex-wrap: wrap;
+                    /* .juveniles,
+                    .elite,
+                    .master {
+                        .miembros {
+                        }
+
+                        h3 {
+                        }
+                    } */ }
     .team-venzo .team-venzo__categorias ul {
       list-style: none;
       margin: 20px; }
@@ -1433,7 +1444,7 @@ footer {
         background-position: center;
         background-size: cover; }
       .cicloturistas .cicloturistas-perfiles .perfil-foto:nth-child(6) {
-        background-image: url(https://github.com/gob77/Web-GCK/blob/master/img/cicloturistas/bainotti.jpg);
+        background-image: url(https://gob77.github.io/img/cicloturistas/bainotti.jps);
         background-position: center;
         background-size: cover; }
       .cicloturistas .cicloturistas-perfiles .perfil-foto .perfil-nombre {
