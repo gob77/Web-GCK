@@ -17,13 +17,13 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-5">
                     <li class="nav-item nav-item-style mx-1">
                         <a class="nav-link" href="../../index.html">INICIO<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item nav-item-style mx-1">
-                        <a class="nav-link active" href="../empresa/empresa.html">LA EMPRESA</a>
+                        <a class="nav-link" href="../empresa/empresa.html">LA EMPRESA</a>
                     </li>
                     <li class="nav-item nav-item-style mx-1">
                         <a class="nav-link" href="../teamVenzo/teamVenzo.html">
@@ -36,27 +36,27 @@
                     <li class="nav-item nav-item-style mx-1">
                         <a class="nav-link" href="../cicloturistas/cicloturistas.html">CICLOTURISTAS</a>
                     </li>
-                    <li class="nav-item nav-item-style mx-1">
-                        <a class="nav-link" href="#">CONTACTO</a>
+                    <li class="nav-item nav-item-style ml-1 mr-3">
+                        <a class="nav-link active" href="#">CONTACTO</a>
                     </li>
                 </ul>
             </div>
         </nav>
         <section class="contacto">
             <div class="contacto-titulo">
-                <h3>¡CONTACTANOS!</h3>
+                <h3 class="p-1 mb-3">¡CONTACTANOS!</h3>
                 <p>Te responderemos a la brevedad</p>
             </div>
             <div class="contacto-form">
                 <div class="contacto-form__img"></div>
                 <div class="contacto-form__form">
-                    <form>
-                        <input type="text" name="" id="" placeholder="Nombre y apellido" />
-                        <input type="email" name="" id="" placeholder="Mail" />
-                        <input type="text" name="" id="" placeholder="Telefono" />
-                        <input type="text" name="" id="" placeholder="Localidad" />
-                        <textarea name="" id="" placeholder="Mensaje"></textarea>
-                        <button class="form-btn">Enviar</button>
+                    <form action="./enviar.php" method="POST" class="my-5">
+                        <input class="py-1" type="text" name="nombre" id="name" required placeholder="Nombre y apellido" />
+                        <input class="py-1" type="email" name="email" required id="email" placeholder="Mail" />
+                        <input class="py-1" type="text" name="phone" required id="phone" placeholder="Telefono" />
+                        <input class="py-1" type="text" name="asunto" required id="subject" placeholder="Localidad" />
+                        <textarea name="mensaje" required id="message" placeholder="Mensaje"></textarea>
+                        <input type="submit" value="Enviar" class="form-btn py-1 my-2"></input>
                     </form>
                 </div>
             </div>
