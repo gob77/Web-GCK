@@ -631,7 +631,7 @@ footer {
     .empresa .empresa-container .empresa-img {
       width: 100%;
       height: 100%;
-      background-image: url(../../img/Empresa/Foto.jpg);
+      background-image: url(/img/Empresa/Foto.jpg);
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
