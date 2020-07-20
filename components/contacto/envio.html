@@ -8,7 +8,6 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous" />
         <link rel="stylesheet" href="../../css/style.css" />
-        <script src="script.js"></script>
         <title>Carlos Karabitian - Agente oficial Shimano.</title>
     </head>
     <body>
@@ -35,49 +34,32 @@
                         <a class="nav-link" href="../productos/productos.html">PRODUCTOS</a>
                     </li>
                     <li class="nav-item nav-item-style mx-1">
-                        <a class="nav-link active" href="#">CICLOTURISTAS</a>
+                        <a class="nav-link" href="../cicloturistas/cicloturistas.html">CICLOTURISTAS</a>
                     </li>
                     <li class="nav-item nav-item-style ml-1 mr-3">
-                        <a class="nav-link" href="../contacto/contacto.html">CONTACTO</a>
+                        <a class="nav-link active" href="#">CONTACTO</a>
                     </li>
                 </ul>
             </div>
         </nav>
-
-        <section class="cicloturistas">
-            <div class="cicloturistas-img mb-3">
-                <img src="../../img/Banner Principal/Web GCK-03.png" class="img-fluid w-100" alt="" />
+        <section class="contacto">
+            <div class="contacto-titulo">
+                <h3 class="p-1 mb-3">¡CONTACTANOS!</h3>
+                <p>Te responderemos a la brevedad</p>
             </div>
-            <div class="cicloturistas-txt my-3">
-                <h2 class="p-2">CICLOTURISTAS</h2>
-                <p>¡Nos motiva tu motivación! Desde nuestros comienzos apoyamos el cicloturismo del país y en este proceso hemos forjado fuertes vínculos con algunos referentes de esta actividad. Los admiramos, y te invitamos a conocer los caminos y aventuras de estos cicloturistas a través de sus redes sociales.</p>
-            </div>
-            <div class="cicloturistas-perfiles my-3">
-                <div class="perfil-foto">
-                    <p class="perfil-nombre">@lavidadeviaje</p>
-                </div>
-                <div class="perfil-foto">
-                    <p class="perfil-nombre">@andar.liviano</p>
-                </div>
-                <div class="perfil-foto">
-                    <p class="perfil-nombre">@nacionsalvaje</p>
-                </div>
-
-                <div class="perfil-foto">
-                    <p class="perfil-nombre">@todoapedal</p>
-                </div>
-                <div class="perfil-foto">
-                    <p class="perfil-nombre">@unviajerofrecuente19</p>
-                </div>
-                <div class="perfil-foto">
-                    <p class="perfil-nombre">@natibainotti</p>
+            <div class="contacto-form">
+                <div class="contacto-form__img"></div>
+                <div class="contacto-form__form">
+                    <h2 class="h1-responsive font-weight-bold text-center my-5 blue-color">
+                        Su mensaje se ha enviado correctamente.
+                      </h2>
+                      <div class="text-center">
+                        <a href="contacto.html" class="btn btn-primary btn-md">Enviar nuevo mensaje</a>
+                      </div>
                 </div>
             </div>
 
-            <div class="galeria my-4">
-                <h2>GALERIA CON FOTOS</h2>
-                <div class="galeria-img"></div>
-            </div>
+            <div id="map"></div>
         </section>
 
         <footer>
@@ -98,8 +80,15 @@
         </footer>
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
         <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+
+        <script src="../../script.js"></script>
+
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTL5Fd8LlyBDqLpW52H8cCDfeQ2VFnyOo&callback=initMap"></script>
     </body>
 </html>

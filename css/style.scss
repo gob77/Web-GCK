@@ -12,6 +12,7 @@
     box-sizing: border-box;
 }
 
+
 html {
     width: 100%;
     height: 100%;
@@ -22,13 +23,19 @@ html {
 body {
     background-color: $primary;
 
+    
+    
+ 
+    flex-direction: column;
+
+
     h1,
     h2,
     h3,
     h4,
     h5,
     h6 {
-        font-size: 50px;
+        font-size: 30px;
         font-family: $primary-font;
         letter-spacing: 2px;
         text-transform: uppercase;
@@ -45,6 +52,13 @@ body {
 }
 
 @media (max-width: $S), (max-width: $M), (max-width: $L), (max-width: $XL) {
+    .brand-mobile {
+        width: 45% !important;
+    }
+}
+
+@media (max-width: $S), (max-width: $M), (max-width: $L), (max-width: $XL) {
+
     .brand-mobile {
         width: 45% !important;
     }

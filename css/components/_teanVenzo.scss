@@ -1,8 +1,6 @@
-.team-venzo {
-    
-    
+@import "../variables";
 
-    
+.team-venzo {
 
     .team-venzo__resumen {
         display: flex;
@@ -59,8 +57,8 @@
             .categorias {
                 display: flex;
                 justify-content: center;
-                align-items: center;
-                width: 90%;
+                
+               
 
                 .juveniles,
                 .elite,
@@ -79,9 +77,8 @@
                         font-family: $primary-font;
                         letter-spacing: 2px;
                         background-color: $secondary;
-                        width: 100%;
                         text-align: center;
-                        font-size: 30px;
+                        font-size: 25px;
                     }
                 }
 
@@ -95,7 +92,7 @@
 
             li {
                 font-family: $secondary-font;
-                font-size: 23px;
+                font-size: 20px;
             }
         }
 
@@ -122,9 +119,97 @@
         } */
     }
 
-    .team-venzo__feed {
-        margin-top: 50px;
-        width: 90%;
-        height: 450px;
+}
+
+@media (max-width: $S), (max-width: $M), (max-width: $L), (max-width: $XL) {
+    .team-venzo {
+
+        .team-venzo__resumen {
+           
+    
+            .resumen-txt {
+               
+    
+                h2 {
+                  
+                    font-size: 30px;
+                }
+    
+                p {
+                    font-size: 15px;
+                }
+            }
+    
+           
+        }
+    
+        .team-venzo__categorias {
+           
+           
+    
+            h2 {
+                
+            }
+    
+            .categorias-container {
+               
+                
+    
+                .categorias {
+                    
+                    flex-wrap: wrap;
+                    .juveniles,
+                    .elite,
+                    .master {
+                       
+                        
+    
+                        .miembros {
+                            
+                        }
+    
+                        h3 {
+                            
+                        }
+                    }
+    
+                    
+                }
+            }
+    
+            ul {
+                list-style: none;
+                margin: 20px;
+    
+                li {
+                    font-family: $secondary-font;
+                    font-size: 15px;
+                }
+            }
+    
+            a {
+                background-color: white;
+                border-radius: 28px;
+                border: 1px solid white;
+                display: inline-block;
+                cursor: pointer;
+                color: $primary;
+                font-family: Arial;
+                font-size: 23px;
+                padding: 10px 40px;
+                text-decoration: none;
+                text-shadow: 0px 1px 0px $primary;
+            }
+            /* a:hover {
+                border: 1px solid $primary;
+                box-shadow: $shadow;
+            }
+            a:active {
+                position: relative;
+                top: 1px;
+            } */
+        }
+    
+       
     }
 }
