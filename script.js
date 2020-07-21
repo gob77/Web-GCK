@@ -1,8 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     let body = document.getElementsByTagName("body")[0];
-    body.addEventListener("click", (event) => {
-        console.log(event.target.tagName);
-    });
+
+    console.log(screen.width);
 
     $(function () {
         $(".multiple-items").slick({
