@@ -488,108 +488,139 @@ footer {
       font-weight: 400;
       font-size: 2.4em; }
 
-@media (max-width: 320px), (max-width: 425px), (max-width: 768px), (max-width: 1024px) {
-  .brand-mobile {
-    width: 45%; }
+/* @media (max-width: $S), (max-width: $M), (max-width: $L), (max-width: $XL) {
+    .brand-mobile {
+        width: 45%;
+    }
 
-  #img-container {
-    width: 100%;
-    height: 1900px;
-    z-index: 0;
-    position: static; }
-    #img-container .fortalezas {
-      width: 100%;
-      height: 70%;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
-      position: static;
-      background-color: cornflowerblue;
-      border: 2px solid #ffdd12; }
-      #img-container .fortalezas .circulo-exterior,
-      #img-container .fortalezas .circulo-interior {
-        display: none; }
-      #img-container .fortalezas .top,
-      #img-container .fortalezas .low {
+    #img-container {
         width: 100%;
-        height: 20%;
-        margin: 20px 0;
+        height: 1900px;
+        z-index: 0;
+
         position: static;
-        visibility: hidden; }
-        #img-container .fortalezas .top .alcance-container,
-        #img-container .fortalezas .top .variedad-container,
-        #img-container .fortalezas .low .alcance-container,
-        #img-container .fortalezas .low .variedad-container {
-          margin-top: 50px;
-          width: 100%;
-          height: 100%;
-          -webkit-box-orient: vertical;
-          -webkit-box-direction: normal;
-              -ms-flex-direction: column;
-                  flex-direction: column;
-          -webkit-box-align: center;
-              -ms-flex-align: center;
-                  align-items: center; }
-      #img-container .fortalezas .mid {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -webkit-box-pack: space-evenly;
-            -ms-flex-pack: space-evenly;
-                justify-content: space-evenly;
-        background-color: #fff;
-        height: 100%;
-        position: static; }
-        #img-container .fortalezas .mid .izquierda,
-        #img-container .fortalezas .mid .derecha {
-          width: 100%; }
-          #img-container .fortalezas .mid .izquierda .arriba,
-          #img-container .fortalezas .mid .izquierda .central,
-          #img-container .fortalezas .mid .izquierda .abajo,
-          #img-container .fortalezas .mid .derecha .arriba,
-          #img-container .fortalezas .mid .derecha .central,
-          #img-container .fortalezas .mid .derecha .abajo {
+
+        .fortalezas {
             width: 100%;
-            margin: 20px 0; }
-        #img-container .fortalezas .mid .centro {
-          display: none; }
-    #img-container .principales-marcas h2 {
-      font-size: 3em;
-      width: 80%; }
-    #img-container .principales-marcas .marcas-container {
-      overflow: auto;
-      height: 15vh; }
-      #img-container .principales-marcas .marcas-container .marcas:nth-child(1) {
-        width: 20%; }
-      #img-container .principales-marcas .marcas-container .marcas:nth-child(2) {
-        width: 20%; }
-      #img-container .principales-marcas .marcas-container .marcas:nth-child(3) {
-        width: 20%; }
-      #img-container .principales-marcas .marcas-container .marcas:nth-child(4) {
-        width: 20%; }
-      #img-container .principales-marcas .marcas-container .marcas:nth-child(5) {
-        width: 20%; }
-      #img-container .principales-marcas .marcas-container .marcas:nth-child(6) {
-        width: 20%; }
-    #img-container .principales-marcas .ver-mas {
-      font-size: 1.5em;
-      width: 80%; }
-      #img-container .principales-marcas .ver-mas:active {
-        position: relative;
-        top: 1px; }
-    #img-container .ig-feed h2 {
-      font-size: 3em; }
-    #img-container .ig-feed .feed-container .ig-title {
-      width: 60%;
-      font-size: 1.5em; } }
+            height: 70%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            position: static;
+            background-color: cornflowerblue;
+            border: 2px solid $secondary;
+
+            .circulo-exterior,
+            .circulo-interior {
+                display: none;
+            }
+
+            .top,
+            .low {
+                width: 100%;
+                height: 20%;
+                margin: 20px 0;
+                position: static;
+                visibility: hidden;
+
+                .alcance-container,
+                .variedad-container {
+                    margin-top: 50px;
+                    width: 100%;
+                    height: 100%;
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+
+            .mid {
+                flex-direction: column;
+                justify-content: space-evenly;
+                background-color: #fff;
+                height: 100%;
+                position: static;
+
+                .izquierda,
+                .derecha {
+                    width: 100%;
+
+                    .arriba,
+                    .central,
+                    .abajo {
+                        width: 100%;
+                        margin: 20px 0;
+                    }
+                }
+                .centro {
+                    display: none;
+                }
+            }
+        }
+
+        .principales-marcas {
+            h2 {
+                font-size: 3em;
+                width: 80%;
+            }
+
+            .marcas-container {
+                overflow: auto;
+                height: 15vh;
+                .marcas {
+                    &:nth-child(1) {
+                        width: 20%;
+                    }
+
+                    &:nth-child(2) {
+                        width: 20%;
+                    }
+
+                    &:nth-child(3) {
+                        width: 20%;
+                    }
+
+                    &:nth-child(4) {
+                        width: 20%;
+                    }
+
+                    &:nth-child(5) {
+                        width: 20%;
+                    }
+
+                    &:nth-child(6) {
+                        width: 20%;
+                    }
+                }
+            }
+
+            .ver-mas {
+                font-size: 1.5em;
+                width: 80%;
+
+                &:active {
+                    position: relative;
+                    top: 1px;
+                }
+            }
+        }
+
+        .ig-feed {
+            h2 {
+                font-size: 3em;
+            }
+
+            .feed-container {
+                .ig-title {
+                    width: 60%;
+                    font-size: 1.5em;
+                }
+            }
+        }
+    }
+} */
+@media (max-width: 1366px) {
+  .alcance-txt p {
+    font-size: 0.5em; } }
 .empresa {
   margin-top: 70px;
   display: -webkit-box;

@@ -313,7 +313,7 @@
     }
 }
 
-@media (max-width: $S), (max-width: $M), (max-width: $L), (max-width: $XL) {
+/* @media (max-width: $S), (max-width: $M), (max-width: $L), (max-width: $XL) {
     .brand-mobile {
         width: 45%;
     }
@@ -441,5 +441,11 @@
                 }
             }
         }
+    }
+} */
+
+@media (max-width: 1366px) {
+    .alcance-txt p {
+        font-size: 0.5em;
     }
 }
