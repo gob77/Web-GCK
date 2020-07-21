@@ -1773,7 +1773,7 @@ body {
 @media (max-width: 320px), (max-width: 425px), (max-width: 768px), (max-width: 1024px) {
   .brand-mobile {
     width: 45% !important; } }
-@media (max-width: 1024px) {
+@media (max-width: 1366px) {
   h1,
   h2,
   h3,
