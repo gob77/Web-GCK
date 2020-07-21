@@ -358,7 +358,7 @@ footer {
         .main-container .fortalezas .mid .garantia-container .garantia-txt p,
         .main-container .fortalezas .mid .postventa-container .postventa-txt p,
         .main-container .fortalezas .mid .asesoramiento-container .asesoramiento-txt p {
-          font-size: 16px;
+          font-size: 1px;
           color: #ffffff; }
     .main-container .fortalezas .circulo-exterior {
       position: absolute;
