@@ -445,6 +445,9 @@
 } */
 
 @media (max-width: 1366px) {
+    .alcance-container {
+        background-color: $secondary;
+    }
     .alcance-txt p {
         font-size: 0.5em;
     }

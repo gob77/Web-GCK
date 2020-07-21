@@ -619,6 +619,9 @@ footer {
     }
 } */
 @media (max-width: 1366px) {
+  .alcance-container {
+    background-color: #ffdd12; }
+
   .alcance-txt p {
     font-size: 0.5em; } }
 .empresa {
