@@ -444,7 +444,7 @@
     }
 } */
 
-@media (max-width: 1366px) {
+@media only screen and (max-width: 1366px) {
     .alcance-container {
         background-color: $secondary;
     }

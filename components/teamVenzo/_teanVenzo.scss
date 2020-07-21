@@ -119,56 +119,28 @@
             }
         }
 
-        .team-venzo__categorias {
-            /* h2 {
-            } */
+        ul {
+            list-style: none;
+            margin: 20px;
 
-            .categorias-container {
-                .categorias {
-                    flex-wrap: wrap;
-                    /* .juveniles,
-                    .elite,
-                    .master {
-                        .miembros {
-                        }
-
-                        h3 {
-                        }
-                    } */
-                }
+            li {
+                font-family: $secondary-font;
+                font-size: 15px;
             }
+        }
 
-            ul {
-                list-style: none;
-                margin: 20px;
-
-                li {
-                    font-family: $secondary-font;
-                    font-size: 15px;
-                }
-            }
-
-            a {
-                background-color: white;
-                border-radius: 28px;
-                border: 1px solid white;
-                display: inline-block;
-                cursor: pointer;
-                color: $primary;
-                font-family: Arial;
-                font-size: 23px;
-                padding: 10px 40px;
-                text-decoration: none;
-                text-shadow: 0px 1px 0px $primary;
-            }
-            /* a:hover {
-                border: 1px solid $primary;
-                box-shadow: $shadow;
-            }
-            a:active {
-                position: relative;
-                top: 1px;
-            } */
+        a {
+            background-color: white;
+            border-radius: 28px;
+            border: 1px solid white;
+            display: inline-block;
+            cursor: pointer;
+            color: $primary;
+            font-family: Arial;
+            font-size: 23px;
+            padding: 10px 40px;
+            text-decoration: none;
+            text-shadow: 0px 1px 0px $primary;
         }
     }
 }

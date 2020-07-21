@@ -618,7 +618,7 @@ footer {
         }
     }
 } */
-@media (max-width: 1366px) {
+@media only screen and (max-width: 1366px) {
   .alcance-container {
     background-color: #ffdd12; }
 
@@ -1000,47 +1000,24 @@ footer {
     font-size: 30px; }
   .team-venzo .team-venzo__resumen .resumen-txt p {
     font-size: 15px; }
-  .team-venzo .team-venzo__categorias {
-    /* h2 {
-    } */
-    /* a:hover {
-        border: 1px solid $primary;
-        box-shadow: $shadow;
-    }
-    a:active {
-        position: relative;
-        top: 1px;
-    } */ }
-    .team-venzo .team-venzo__categorias .categorias-container .categorias {
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-                    /* .juveniles,
-                    .elite,
-                    .master {
-                        .miembros {
-                        }
-
-                        h3 {
-                        }
-                    } */ }
-    .team-venzo .team-venzo__categorias ul {
-      list-style: none;
-      margin: 20px; }
-      .team-venzo .team-venzo__categorias ul li {
-        font-family: "Roboto", sans-serif;
-        font-size: 15px; }
-    .team-venzo .team-venzo__categorias a {
-      background-color: white;
-      border-radius: 28px;
-      border: 1px solid white;
-      display: inline-block;
-      cursor: pointer;
-      color: #201d1b;
-      font-family: Arial;
-      font-size: 23px;
-      padding: 10px 40px;
-      text-decoration: none;
-      text-shadow: 0px 1px 0px #201d1b; } }
+  .team-venzo ul {
+    list-style: none;
+    margin: 20px; }
+    .team-venzo ul li {
+      font-family: "Roboto", sans-serif;
+      font-size: 15px; }
+  .team-venzo a {
+    background-color: white;
+    border-radius: 28px;
+    border: 1px solid white;
+    display: inline-block;
+    cursor: pointer;
+    color: #201d1b;
+    font-family: Arial;
+    font-size: 23px;
+    padding: 10px 40px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #201d1b; } }
 .productos {
   display: -webkit-box;
   display: -ms-flexbox;
