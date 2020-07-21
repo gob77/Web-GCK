@@ -66,7 +66,7 @@
                 margin-top: 5px;
 
                 h3 {
-                    font-size: 1.8em;
+                    font-size: 2.8em;
                     color: $secondary;
                 }
 
@@ -186,13 +186,12 @@
                 margin-left: 5px;
 
                 h3 {
-                    font-size: 1.8em;
-                    margin-top: 5px;
+                    font-size: 2.8em;
                     color: $secondary;
                 }
 
                 p {
-                    font-size: 1.4;
+                    font-size: 1.5em;
                     color: #ffffff;
                 }
             }
@@ -443,12 +442,3 @@
         }
     }
 } */
-
-@media only screen and (max-width: 1366px) {
-    .alcance-container {
-        background-color: $secondary;
-    }
-    .alcance-txt p {
-        font-size: 0.5em;
-    }
-}

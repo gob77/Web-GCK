@@ -1,7 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
     let body = document.getElementsByTagName("body")[0];
 
-    console.log(screen.width);
+    console.log(window.innerWidth);
+
+    window.addEventListener("resize", () => {
+        console.log(window.innerWidth);
+    });
 
     $(function () {
         $(".multiple-items").slick({

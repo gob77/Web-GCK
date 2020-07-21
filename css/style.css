@@ -207,7 +207,7 @@ footer {
         .main-container .fortalezas .top .variedad-container .variedad-txt h3,
         .main-container .fortalezas .low .alcance-container .alcance-txt h3,
         .main-container .fortalezas .low .variedad-container .variedad-txt h3 {
-          font-size: 1.8em;
+          font-size: 2.8em;
           color: #ffdd12; }
         .main-container .fortalezas .top .alcance-container .alcance-txt p,
         .main-container .fortalezas .top .variedad-container .variedad-txt p,
@@ -349,8 +349,7 @@ footer {
         .main-container .fortalezas .mid .garantia-container .garantia-txt h3,
         .main-container .fortalezas .mid .postventa-container .postventa-txt h3,
         .main-container .fortalezas .mid .asesoramiento-container .asesoramiento-txt h3 {
-          font-size: 1.8em;
-          margin-top: 5px;
+          font-size: 2.8em;
           color: #ffdd12; }
         .main-container .fortalezas .mid .experiencia-container .experiencia-txt p,
         .main-container .fortalezas .mid .conocimiento-container .conocimiento-txt p,
@@ -358,7 +357,7 @@ footer {
         .main-container .fortalezas .mid .garantia-container .garantia-txt p,
         .main-container .fortalezas .mid .postventa-container .postventa-txt p,
         .main-container .fortalezas .mid .asesoramiento-container .asesoramiento-txt p {
-          font-size: 1.4;
+          font-size: 1.5em;
           color: #ffffff; }
     .main-container .fortalezas .circulo-exterior {
       position: absolute;
@@ -618,12 +617,6 @@ footer {
         }
     }
 } */
-@media only screen and (max-width: 1366px) {
-  .alcance-container {
-    background-color: #ffdd12; }
-
-  .alcance-txt p {
-    font-size: 0.5em; } }
 .empresa {
   margin-top: 70px;
   display: -webkit-box;
@@ -657,7 +650,6 @@ footer {
             align-items: center; }
     .empresa .empresa-container h2 {
       font-family: "Anton", sans-serif;
-      font-size: 40px;
       background-color: #ffdd12;
       margin-bottom: 20px; }
     .empresa .empresa-container .empresa-img {
@@ -682,7 +674,6 @@ footer {
       background-color: #fff;
       border: 3px solid #ffdd12;
       font-family: "Roboto", sans-serif;
-      font-size: 20px;
       text-align: justify;
       padding: 0 30px;
       text-align: center;
@@ -743,138 +734,138 @@ footer {
         background-color: #201d1b;
         color: white;
         font-family: "Anton", sans-serif;
-        font-size: 40px;
         margin: 20px auto;
         letter-spacing: 3px; }
       .empresa .empresa-valores .valores-container p {
-        font-family: "Roboto", sans-serif;
-        font-size: 20px; }
+        font-size: 2.2em;
+        font-family: "Roboto", sans-serif; }
 
-@media (max-width: 320px), (max-width: 425px), (max-width: 768px), (max-width: 1024px) {
-  .empresa {
-    margin-top: 70px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
+/* @media (max-width: $S), (max-width: $M), (max-width: $L), (max-width: $XL) {
+    .empresa {
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .empresa-container {
+            width: 80%;
+            height: 60vh;
+            display: flex;
             flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
             justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
-    .empresa .empresa-container {
-      width: 80%;
-      height: 60vh;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center; }
-      .empresa .empresa-container h2 {
-        font-family: "Anton", sans-serif;
-        font-size: 40px;
-        background-color: #ffdd12;
-        margin-bottom: 20px; }
-      .empresa .empresa-container .empresa-img {
-        width: 100%;
-        height: 100%;
-        background-image: url(../../img/Empresa/Foto.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
+            align-items: center;
+
+            h2 {
+                font-family: $primary-font;
+                background-color: $secondary;
+                margin-bottom: 20px;
+            }
+
+            .empresa-img {
+                width: 100%;
+                height: 100%;
+                background-image: url(../../img/Empresa/Foto.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                display: flex;
                 justify-content: center;
-        position: relative; }
-      .empresa .empresa-container .empresa-txt {
-        position: absolute;
-        bottom: -70%;
-        width: 95%;
-        background-color: #fff;
-        border: 3px solid #ffdd12;
-        font-family: "Roboto", sans-serif;
-        font-size: 20px;
-        text-align: justify;
-        padding: 0 30px;
-        text-align: center;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
+                position: relative;
+            }
+
+            .empresa-txt {
+                position: absolute;
+                bottom: -70%;
+                width: 95%;
+                background-color: #fff;
+                border: 3px solid $secondary;
+                font-family: $secondary-font;
+                text-align: justify;
+                padding: 0 30px;
+                text-align: center;
+                display: flex;
                 flex-direction: column;
-        -ms-flex-pack: distribute;
-            justify-content: space-around; }
-    .empresa .empresa-valores {
-      width: 100%;
-      height: 80vh;
-      background-color: #201d1b;
-      margin-top: 80px;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: space-evenly;
-          -ms-flex-pack: space-evenly;
-              justify-content: space-evenly;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      background-image: url(../../img/Empresa/bici_fondo.png);
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: bottom; }
-      .empresa .empresa-valores .valores-container {
-        width: 30%;
-        height: 60%;
-        background-color: #ffdd12;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
+                justify-content: space-around;
+            }
+        }
+
+        .empresa-valores {
+            width: 100%;
+            height: 80vh;
+            background-color: $primary;
+            margin-top: 80px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            background-image: url(../../img/Empresa/bici_fondo.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: bottom;
+
+            .valores-container {
+                width: 30%;
+                height: 60%;
+                background-color: $secondary;
+                display: flex;
                 flex-direction: column;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
                 align-items: center;
-        text-align: center;
-        -webkit-box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75);
-                box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75); }
-        .empresa .empresa-valores .valores-container h3 {
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-pack: center;
-              -ms-flex-pack: center;
-                  justify-content: center;
-          -webkit-box-align: center;
-              -ms-flex-align: center;
-                  align-items: center;
-          background-color: #201d1b;
-          color: white;
-          font-family: "Anton", sans-serif;
-          font-size: 40px;
-          margin: 20px auto;
-          letter-spacing: 3px; }
-        .empresa .empresa-valores .valores-container p {
-          font-family: "Roboto", sans-serif;
-          font-size: 20px; } }
+                text-align: center;
+                box-shadow: $shadow;
+
+                h3 {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: $primary;
+                    color: white;
+                    font-family: $primary-font;
+
+                    margin: 20px auto;
+                    letter-spacing: 3px;
+                }
+
+                p {
+                    font-size: 2.2em;
+                    font-family: $secondary-font;
+                }
+            }
+        }
+    }
+}
+ */
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 2.6em;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0; }
+
+  p {
+    font-size: 1.1em;
+    font-family: "Roboto", sans-serif; } }
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 2.2em;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0; }
+
+  p {
+    font-size: 0.7em;
+    font-family: Arial, Helvetica, sans-serif; } }
 .team-venzo .team-venzo__img {
   width: 100%;
   height: 90vh; }
@@ -993,7 +984,7 @@ footer {
     margin: 20px; }
     .team-venzo .team-venzo__categorias ul li {
       font-family: "Roboto", sans-serif;
-      font-size: 20px; }
+      font-size: 1.5em; }
 
 @media (max-width: 320px), (max-width: 425px), (max-width: 768px), (max-width: 1024px) {
   .team-venzo .team-venzo__resumen .resumen-txt h2 {
@@ -1052,10 +1043,9 @@ footer {
       letter-spacing: 2px;
       width: 15%;
       text-align: center;
-      font-size: 40px;
       text-transform: uppercase; }
     .productos .productos-txt p {
-      font-size: 22px;
+      font-size: 2.2em;
       text-align: center;
       color: white; }
   .productos .productos-container {
@@ -1103,11 +1093,11 @@ footer {
             align-self: flex-end;
         color: white;
         background-color: #201d1b;
-        width: 50%;
-        font-size: 28px; }
+        width: 50%; }
         .productos .productos-container .productos-menu .prod h3,
         .productos .productos-container .productos-menu .brand h3 {
-          height: 100%; }
+          height: 100%;
+          font-size: 3em; }
           .productos .productos-container .productos-menu .prod h3:hover,
           .productos .productos-container .productos-menu .brand h3:hover {
             border: 1px solid #ffdd12;
@@ -1585,7 +1575,6 @@ footer {
   .contacto h3 {
     background-color: #ffdd12;
     text-align: center;
-    border: 2px solid white;
     margin: auto; }
   .contacto p {
     font-size: 23px;
@@ -1645,18 +1634,45 @@ footer {
         width: 70%; }
         .contacto .contacto-form .contacto-form__form form input {
           width: 100%;
+          height: 30px;
           margin: 10px;
-          font-family: "Roboto", sans-serif; }
+          font-family: "Roboto", sans-serif;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex; }
+          .contacto .contacto-form .contacto-form__form form input::-webkit-input-placeholder {
+            font-size: 2em; }
+          .contacto .contacto-form .contacto-form__form form input:-ms-input-placeholder {
+            font-size: 2em; }
+          .contacto .contacto-form .contacto-form__form form input::-ms-input-placeholder {
+            font-size: 2em; }
+          .contacto .contacto-form .contacto-form__form form input::placeholder {
+            font-size: 2em; }
         .contacto .contacto-form .contacto-form__form form textarea {
           resize: none;
           width: 100%;
           height: 15vh; }
+          .contacto .contacto-form .contacto-form__form form textarea::-webkit-input-placeholder {
+            font-size: 2em; }
+          .contacto .contacto-form .contacto-form__form form textarea:-ms-input-placeholder {
+            font-size: 2em; }
+          .contacto .contacto-form .contacto-form__form form textarea::-ms-input-placeholder {
+            font-size: 2em; }
+          .contacto .contacto-form .contacto-form__form form textarea::placeholder {
+            font-size: 2em; }
         .contacto .contacto-form .contacto-form__form form .form-btn {
           -ms-flex-item-align: end;
               align-self: flex-end;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
           font-family: "Anton", sans-serif;
-          width: 10vw;
-          font-size: 22px;
+          width: 7vw;
+          height: 7vh;
+          font-size: 3em;
           background-color: #ffdd12; }
           .contacto .contacto-form .contacto-form__form form .form-btn:hover {
             border: 3px solid #201d1b; }
@@ -1761,22 +1777,25 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column; }
-  body h1,
-  body h2,
-  body h3,
-  body h4,
-  body h5,
-  body h6 {
-    font-size: 3em;
-    font-family: "Anton", sans-serif;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin: 0; }
-  body p {
-    font-size: 1.5em;
-    font-family: "Roboto", sans-serif; }
-  body .fa {
-    color: #ffdd12; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 3em;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0; }
+
+p {
+  font-size: 2.2em;
+  font-family: "Roboto", sans-serif; }
+
+.fa {
+  color: #ffdd12; }
 
 @media (max-width: 320px), (max-width: 425px), (max-width: 768px), (max-width: 1024px) {
   .brand-mobile {
@@ -1784,7 +1803,7 @@ body {
 @media (max-width: 320px), (max-width: 425px), (max-width: 768px), (max-width: 1024px) {
   .brand-mobile {
     width: 45% !important; } }
-@media (max-width: 1366px) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
   h1,
   h2,
   h3,
@@ -1800,3 +1819,19 @@ body {
   p {
     font-size: 1.1em;
     font-family: "Roboto", sans-serif; } }
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 2.2em;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0; }
+
+  p {
+    font-size: 0.7em;
+    font-family: Arial, Helvetica, sans-serif; } }

@@ -26,28 +26,28 @@ html {
 body {
     background-color: $primary;
     flex-direction: column;
+}
 
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        font-size: 3em;
-        font-family: $primary-font;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-        margin: 0;
-    }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 3em;
+    font-family: $primary-font;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0;
+}
 
-    p {
-        font-size: 1.5em;
-        font-family: $secondary-font;
-    }
+p {
+    font-size: 2.2em;
+    font-family: $secondary-font;
+}
 
-    .fa {
-        color: $secondary;
-    }
+.fa {
+    color: $secondary;
 }
 
 @media (max-width: $S), (max-width: $M), (max-width: $L), (max-width: $XL) {
@@ -62,7 +62,7 @@ body {
     }
 }
 
-@media (max-width: 1366px) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
     h1,
     h2,
     h3,
@@ -79,5 +79,25 @@ body {
     p {
         font-size: 1.1em;
         font-family: $secondary-font;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: 2.2em;
+        font-family: $primary-font;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+    p {
+        font-size: 0.7em;
+        font-family: Arial, Helvetica, sans-serif;
     }
 }

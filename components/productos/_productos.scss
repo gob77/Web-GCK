@@ -18,12 +18,11 @@
             letter-spacing: 2px;
             width: 15%;
             text-align: center;
-            font-size: 40px;
             text-transform: uppercase;
         }
 
         p {
-            font-size: 22px;
+            font-size: 2.2em;
             text-align: center;
             color: white;
         }
@@ -59,10 +58,10 @@
                 color: white;
                 background-color: $primary;
                 width: 50%;
-                font-size: 28px;
 
                 h3 {
                     height: 100%;
+                    font-size: 3em;
 
                     &:hover {
                         border: 1px solid $secondary;
