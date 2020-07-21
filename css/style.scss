@@ -11,6 +11,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 1em;
+    font-family: inherit;
 }
 
 html {
@@ -18,11 +20,11 @@ html {
     height: 100%;
     margin: 0;
     padding: 0;
+    font-size: 62.5%;
 }
 
 body {
     background-color: $primary;
-
     flex-direction: column;
 
     h1,
@@ -31,15 +33,15 @@ body {
     h4,
     h5,
     h6 {
-        font-size: 30px;
+        font-size: 3em;
         font-family: $primary-font;
         letter-spacing: 2px;
         text-transform: uppercase;
-        margin: 0 0;
+        margin: 0;
     }
 
     p {
-        font-size: 22px;
+        font-size: 1.5em;
         font-family: $secondary-font;
     }
 
