@@ -207,13 +207,13 @@ footer {
         .main-container .fortalezas .top .variedad-container .variedad-txt h3,
         .main-container .fortalezas .low .alcance-container .alcance-txt h3,
         .main-container .fortalezas .low .variedad-container .variedad-txt h3 {
-          font-size: 25px;
+          font-size: 18px;
           color: #ffdd12; }
         .main-container .fortalezas .top .alcance-container .alcance-txt p,
         .main-container .fortalezas .top .variedad-container .variedad-txt p,
         .main-container .fortalezas .low .alcance-container .alcance-txt p,
         .main-container .fortalezas .low .variedad-container .variedad-txt p {
-          font-size: 16px;
+          font-size: 14px;
           color: #ffffff; }
     .main-container .fortalezas .mid {
       width: 97%;
@@ -349,7 +349,7 @@ footer {
         .main-container .fortalezas .mid .garantia-container .garantia-txt h3,
         .main-container .fortalezas .mid .postventa-container .postventa-txt h3,
         .main-container .fortalezas .mid .asesoramiento-container .asesoramiento-txt h3 {
-          font-size: 25px;
+          font-size: 18px;
           margin-top: 5px;
           color: #ffdd12; }
         .main-container .fortalezas .mid .experiencia-container .experiencia-txt p,
@@ -358,7 +358,7 @@ footer {
         .main-container .fortalezas .mid .garantia-container .garantia-txt p,
         .main-container .fortalezas .mid .postventa-container .postventa-txt p,
         .main-container .fortalezas .mid .asesoramiento-container .asesoramiento-txt p {
-          font-size: 1px;
+          font-size: 14px;
           color: #ffffff; }
     .main-container .fortalezas .circulo-exterior {
       position: absolute;
