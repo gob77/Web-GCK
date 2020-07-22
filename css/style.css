@@ -1264,6 +1264,195 @@ footer {
       font-family: "Roboto", sans-serif;
       font-weight: 400;
       font-size: 2.4em; } }
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  .main-container .fortalezas .top,
+  .main-container .fortalezas .low {
+    width: 100%;
+    height: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .main-container .fortalezas .top .alcance-container,
+    .main-container .fortalezas .top .variedad-container,
+    .main-container .fortalezas .low .alcance-container,
+    .main-container .fortalezas .low .variedad-container {
+      width: 60%;
+      height: 13vh;
+      -webkit-box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75);
+              box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75);
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      background-color: #201d1b; }
+    .main-container .fortalezas .top .alcance-container .alcance-img,
+    .main-container .fortalezas .top .variedad-container .variedad-img,
+    .main-container .fortalezas .low .alcance-container .alcance-img,
+    .main-container .fortalezas .low .variedad-container .variedad-img {
+      width: 30%;
+      height: 100%;
+      border-right: 2px solid #ffdd12; }
+      .main-container .fortalezas .top .alcance-container .alcance-img img,
+      .main-container .fortalezas .top .variedad-container .variedad-img img,
+      .main-container .fortalezas .low .alcance-container .alcance-img img,
+      .main-container .fortalezas .low .variedad-container .variedad-img img {
+        width: 100%;
+        height: 100%; }
+    .main-container .fortalezas .top .alcance-container .alcance-txt,
+    .main-container .fortalezas .top .variedad-container .variedad-txt,
+    .main-container .fortalezas .low .alcance-container .alcance-txt,
+    .main-container .fortalezas .low .variedad-container .variedad-txt {
+      width: 70%;
+      height: 100%;
+      margin-left: 5px;
+      margin-top: 5px; }
+      .main-container .fortalezas .top .alcance-container .alcance-txt h3,
+      .main-container .fortalezas .top .variedad-container .variedad-txt h3,
+      .main-container .fortalezas .low .alcance-container .alcance-txt h3,
+      .main-container .fortalezas .low .variedad-container .variedad-txt h3 {
+        font-size: 2em;
+        color: #ffdd12; }
+      .main-container .fortalezas .top .alcance-container .alcance-txt p,
+      .main-container .fortalezas .top .variedad-container .variedad-txt p,
+      .main-container .fortalezas .low .alcance-container .alcance-txt p,
+      .main-container .fortalezas .low .variedad-container .variedad-txt p {
+        font-size: 1.5em;
+        color: #ffffff; }
+  .main-container .fortalezas .mid {
+    width: 97%;
+    height: 60%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly; }
+    .main-container .fortalezas .mid .izquierda .arriba,
+    .main-container .fortalezas .mid .izquierda .central,
+    .main-container .fortalezas .mid .izquierda .abajo,
+    .main-container .fortalezas .mid .derecha .arriba,
+    .main-container .fortalezas .mid .derecha .central,
+    .main-container .fortalezas .mid .derecha .abajo {
+      width: 95%;
+      height: 13vh; }
+    .main-container .fortalezas .mid .centro {
+      width: 30%;
+      height: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .main-container .fortalezas .mid .centro .info-container {
+        width: 50%;
+        height: 50%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        .main-container .fortalezas .mid .centro .info-container h3 {
+          text-align: center;
+          color: #ffffff; }
+        .main-container .fortalezas .mid .centro .info-container a {
+          background-color: #ffffff;
+          width: 100%;
+          height: 15%;
+          border-radius: 20px;
+          font-size: 2.2em;
+          z-index: 15;
+          text-align: center;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          cursor: pointer;
+          color: #201d1b; }
+          .main-container .fortalezas .mid .centro .info-container a:hover {
+            text-decoration: none; }
+    .main-container .fortalezas .mid .experiencia-container .experiencia-img,
+    .main-container .fortalezas .mid .conocimiento-container .conocimiento-img,
+    .main-container .fortalezas .mid .distribucion-container .distribucion-img,
+    .main-container .fortalezas .mid .garantia-container .garantia-img,
+    .main-container .fortalezas .mid .postventa-container .postventa-img,
+    .main-container .fortalezas .mid .asesoramiento-container .asesoramiento-img {
+      width: 30%;
+      height: 100%;
+      border-right: 2px solid #ffdd12; }
+      .main-container .fortalezas .mid .experiencia-container .experiencia-img img,
+      .main-container .fortalezas .mid .conocimiento-container .conocimiento-img img,
+      .main-container .fortalezas .mid .distribucion-container .distribucion-img img,
+      .main-container .fortalezas .mid .garantia-container .garantia-img img,
+      .main-container .fortalezas .mid .postventa-container .postventa-img img,
+      .main-container .fortalezas .mid .asesoramiento-container .asesoramiento-img img {
+        width: 100%;
+        height: 100%; }
+    .main-container .fortalezas .mid .experiencia-container .experiencia-txt,
+    .main-container .fortalezas .mid .conocimiento-container .conocimiento-txt,
+    .main-container .fortalezas .mid .distribucion-container .distribucion-txt,
+    .main-container .fortalezas .mid .garantia-container .garantia-txt,
+    .main-container .fortalezas .mid .postventa-container .postventa-txt,
+    .main-container .fortalezas .mid .asesoramiento-container .asesoramiento-txt {
+      width: 70%;
+      height: 100%;
+      margin-left: 5px; }
+      .main-container .fortalezas .mid .experiencia-container .experiencia-txt h3,
+      .main-container .fortalezas .mid .conocimiento-container .conocimiento-txt h3,
+      .main-container .fortalezas .mid .distribucion-container .distribucion-txt h3,
+      .main-container .fortalezas .mid .garantia-container .garantia-txt h3,
+      .main-container .fortalezas .mid .postventa-container .postventa-txt h3,
+      .main-container .fortalezas .mid .asesoramiento-container .asesoramiento-txt h3 {
+        font-size: 2em;
+        color: #ffdd12; }
+      .main-container .fortalezas .mid .experiencia-container .experiencia-txt p,
+      .main-container .fortalezas .mid .conocimiento-container .conocimiento-txt p,
+      .main-container .fortalezas .mid .distribucion-container .distribucion-txt p,
+      .main-container .fortalezas .mid .garantia-container .garantia-txt p,
+      .main-container .fortalezas .mid .postventa-container .postventa-txt p,
+      .main-container .fortalezas .mid .asesoramiento-container .asesoramiento-txt p {
+        font-size: 1.3em;
+        color: #ffffff; }
+  .main-container .fortalezas .circulo-exterior {
+    width: 40vw;
+    height: 65vh; }
+  .main-container .fortalezas .circulo-interior {
+    position: absolute;
+    z-index: -2;
+    background-color: #201d1b;
+    width: 28vw;
+    height: 45.5vh;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75);
+            box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75); }
+  .main-container .ig-feed .feed-container .ig-title {
+    width: 35%;
+    background-color: #201d1b;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 2.4em; } }
 .empresa {
   margin-top: 70px;
   display: -webkit-box;
