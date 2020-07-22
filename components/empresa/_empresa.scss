@@ -93,7 +93,7 @@
     }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 325px) and (max-width: 425px) {
     .empresa {
         flex-direction: column;
         height: auto;
@@ -131,6 +131,97 @@
                 margin: 25px;
                 width: 76%;
                 height: 40%;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+    .empresa {
+        flex-direction: column;
+        height: auto;
+
+        h2 {
+            font-family: $primary-font;
+            background-color: $secondary;
+            margin-bottom: 20px;
+        }
+
+        .empresa-container {
+            width: 100%;
+            height: auto;
+            flex-direction: column;
+
+            .empresa-img {
+                width: 100%;
+                position: static;
+                height: 40vh;
+                background-image: url(../../img/Empresa/Foto.jpg);
+            }
+
+            .empresa-txt {
+                width: 90%;
+                height: 20vh;
+                font-size: 0.7em;
+                top: 450px;
+            }
+        }
+
+        .empresa-valores {
+            flex-direction: column;
+            height: auto;
+            margin-top: 50px;
+
+            .valores-container {
+                margin: 25px;
+                width: 76%;
+                height: 40%;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .empresa {
+        .empresa-container {
+            width: 90%;
+            height: auto;
+            flex-direction: column;
+
+            .empresa-img {
+                width: 100%;
+                height: 40vh;
+                background-image: url(../../img/Empresa/Foto.jpg);
+            }
+
+            .empresa-txt {
+                width: 90%;
+                height: 20vh;
+                font-size: 0.7em;
+                top: 200px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    .empresa {
+        .empresa-container {
+            width: 90%;
+            height: auto;
+            flex-direction: column;
+
+            .empresa-img {
+                width: 100%;
+                height: 40vh;
+                background-image: url(../../img/Empresa/Foto.jpg);
+
+                .empresa-txt {
+                    width: 90%;
+                    height: 30vh;
+                    font-size: 0.8em;
+                    top: 200px;
+                }
             }
         }
     }

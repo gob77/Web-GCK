@@ -28,7 +28,7 @@
         }
     }
 
-    .productos-container {
+    .productos-container__main {
         width: 90%;
         height: 110vh;
 
@@ -110,64 +110,112 @@
             flex-direction: column;
             justify-content: space-evenly;
 
-            .marcas-container__top,
-            .marcas-container__mid,
-            .marcas-container__low,
-            .productos-container__top,
-            .productos-container__mid,
-            .productos-container__low {
+            .marcas-container,
+            .productos-container {
                 display: flex;
                 justify-content: space-evenly;
+
+                .articulos-container__logo {
+                    width: 275px;
+                    height: 275px;
+                    background-color: #e0e0e0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
             }
         }
-
-        .hide {
-            display: none;
-        }
-
-        .marcas-container__logo,
-        .productos-container__logo {
-            width: 300px;
-            height: 300px;
-            background-color: #e0e0e0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            img {
-                width: 50%;
-                height: 20%;
+        .marcas-container {
+            .articulos-container__logo {
+                &:nth-child(1) {
+                    img {
+                        width: 90%;
+                        height: 20%;
+                    }
+                }
+                &:nth-child(2) {
+                    img {
+                        width: 90%;
+                        height: 40%;
+                    }
+                }
+                &:nth-child(3) {
+                    img {
+                        width: 90%;
+                        height: 20%;
+                    }
+                }
+                &:nth-child(4) {
+                    img {
+                        width: 90%;
+                        height: 20%;
+                    }
+                }
             }
         }
-
-        .productos-container__logo img {
-            height: 70%;
+        .productos-container {
+            .articulos-container__logo {
+                &:nth-child(1) {
+                    img {
+                        width: 90%;
+                        height: 70%;
+                    }
+                }
+                &:nth-child(2) {
+                    img {
+                        width: 90%;
+                        height: 40%;
+                    }
+                }
+                &:nth-child(3) {
+                    img {
+                        width: 90%;
+                        height: 70%;
+                    }
+                }
+                &:nth-child(4) {
+                    img {
+                        width: 90%;
+                        height: 70%;
+                    }
+                }
+            }
         }
     }
 }
 
-/* @media (max-width: $S), (max-width: $M), (max-width: $L), (max-width: $XL) {
+@media only screen and (min-width: 325px) and (max-width: 425px) {
     .productos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
         .productos-txt {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+
             h2 {
-                width: 80%;
-                font-size: 20px;
+                color: $primary;
+                background-color: $secondary;
+                letter-spacing: 2px;
+                width: 15%;
+                text-align: center;
+                text-transform: uppercase;
             }
 
             p {
-                font-size: 15px;
+                font-size: 2.2em;
                 text-align: center;
                 color: white;
             }
         }
 
-        .productos-container {
-            .hide {
-                display: none;
-            }
-
+        .productos-container__main {
             width: 90%;
-            height: 1000px;
+            height: 110vh;
 
             display: flex;
             flex-direction: row;
@@ -179,40 +227,40 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+                justify-content: flex-start;
                 position: relative;
 
                 .main {
-                    width: 100%;
-                    height: 50px;
-                    font-size: 30px;
                     background-color: $secondary;
                     color: $primary;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
                 }
 
                 .prod,
                 .brand {
                     display: flex;
-                    justify-content: center;
                     align-items: center;
                     align-self: flex-end;
                     color: white;
                     background-color: $primary;
                     width: 50%;
-                    height: 50px;
-                    margin: 70px 0;
-                    font-size: 28px;
 
-                    &:hover {
-                        border: 2px solid $secondary;
-                        cursor: pointer;
-                    }
+                    h3 {
+                        height: 100%;
+                        font-size: 3em;
 
-                    &:active {
-                        border: 2px solid $secondary;
+                        &:hover {
+                            border: 1px solid $secondary;
+                            cursor: pointer;
+                        }
                     }
+                }
+
+                .brand {
+                    margin-top: 4.7vh;
+                }
+
+                .prod {
+                    margin-top: 12vh;
                 }
 
                 .bgONE,
@@ -226,16 +274,16 @@
 
                 .bgONE {
                     top: 0;
-                    right: 0;
-                    width: 70%;
-                    height: 30%;
+                    left: 5.5vw;
+                    width: 15%;
+                    height: 20%;
                 }
 
                 .bgTWO {
-                    top: 30%;
-                    right: 0;
-                    width: 70%;
-                    height: 38%;
+                    top: 20%;
+                    left: 5.5vw;
+                    width: 15%;
+                    height: 28%;
                 }
             }
 
@@ -247,39 +295,86 @@
                 flex-direction: column;
                 justify-content: space-evenly;
 
-                .marcas-container__top,
-                .marcas-container__mid,
-                .marcas-container__low,
-                .productos-container__top,
-                .productos-container__mid,
-                .productos-container__low {
+                .marcas-container,
+                .productos-container {
                     display: flex;
                     justify-content: space-evenly;
+
+                    .articulos-container__logo {
+                        width: 275px;
+                        height: 275px;
+                        background-color: #e0e0e0;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
                 }
             }
-
-            .hide {
-                display: none;
-            }
-
-            .marcas-container__logo,
-            .productos-container__logo {
-                width: 300px;
-                height: 300px;
-                background-color: #e0e0e0;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-
-                img {
-                    width: 50%;
-                    height: 20%;
+            .marcas-container {
+                .articulos-container__logo {
+                    &:nth-child(1) {
+                        img {
+                            width: 90%;
+                            height: 20%;
+                        }
+                    }
+                    &:nth-child(2) {
+                        img {
+                            width: 90%;
+                            height: 40%;
+                        }
+                    }
+                    &:nth-child(3) {
+                        img {
+                            width: 90%;
+                            height: 20%;
+                        }
+                    }
+                    &:nth-child(4) {
+                        img {
+                            width: 90%;
+                            height: 20%;
+                        }
+                    }
                 }
             }
-
-            .productos-container__logo img {
-                height: 70%;
+            .productos-container {
+                .articulos-container__logo {
+                    &:nth-child(1) {
+                        img {
+                            width: 90%;
+                            height: 70%;
+                        }
+                    }
+                    &:nth-child(2) {
+                        img {
+                            width: 90%;
+                            height: 40%;
+                        }
+                    }
+                    &:nth-child(3) {
+                        img {
+                            width: 90%;
+                            height: 70%;
+                        }
+                    }
+                    &:nth-child(4) {
+                        img {
+                            width: 90%;
+                            height: 70%;
+                        }
+                    }
+                }
             }
         }
     }
-} */
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+}
