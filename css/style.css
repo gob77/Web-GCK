@@ -1283,7 +1283,7 @@ footer {
     .main-container .fortalezas .low .alcance-container,
     .main-container .fortalezas .low .variedad-container {
       width: 45%;
-      height: 13vh;
+      height: 16vh;
       -webkit-box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75);
               box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75);
       display: -webkit-box;
@@ -1339,7 +1339,7 @@ footer {
     .main-container .fortalezas .mid .derecha .central,
     .main-container .fortalezas .mid .derecha .abajo {
       width: 95%;
-      height: 13vh; }
+      height: 16vh; }
     .main-container .fortalezas .mid .centro {
       width: 30%;
       height: 100%;
