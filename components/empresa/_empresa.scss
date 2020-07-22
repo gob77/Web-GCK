@@ -7,6 +7,12 @@
     justify-content: center;
     align-items: center;
 
+    h2 {
+        font-family: $primary-font;
+        background-color: $secondary;
+        margin-bottom: 20px;
+    }
+
     .empresa-container {
         width: 80%;
         height: 60vh;
@@ -14,12 +20,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
-        h2 {
-            font-family: $primary-font;
-            background-color: $secondary;
-            margin-bottom: 20px;
-        }
 
         .empresa-img {
             width: 100%;
@@ -93,136 +93,45 @@
     }
 }
 
-/* @media (max-width: $S), (max-width: $M), (max-width: $L), (max-width: $XL) {
+@media only screen and (max-width: 425px) {
     .empresa {
-        margin-top: 70px;
-        display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        height: auto;
+
+        h2 {
+            font-family: $primary-font;
+            background-color: $secondary;
+            margin-bottom: 20px;
+        }
 
         .empresa-container {
             width: 80%;
-            height: 60vh;
-            display: flex;
+            height: auto;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
-
-            h2 {
-                font-family: $primary-font;
-                background-color: $secondary;
-                margin-bottom: 20px;
-            }
 
             .empresa-img {
-                width: 100%;
-                height: 100%;
-                background-image: url(../../img/Empresa/Foto.jpg);
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;
-                display: flex;
-                justify-content: center;
-                position: relative;
+                position: static;
+                background-image: none;
+                height: 90vh;
             }
 
             .empresa-txt {
-                position: absolute;
-                bottom: -70%;
-                width: 95%;
-                background-color: #fff;
-                border: 3px solid $secondary;
-                font-family: $secondary-font;
-                text-align: justify;
-                padding: 0 30px;
-                text-align: center;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-around;
+                position: static;
+                width: 100%;
+                height: 100%;
             }
         }
 
         .empresa-valores {
-            width: 100%;
-            height: 80vh;
-            background-color: $primary;
-            margin-top: 80px;
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-            background-image: url(../../img/Empresa/bici_fondo.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: bottom;
+            flex-direction: column;
+            height: auto;
+            margin-top: 50px;
 
             .valores-container {
-                width: 30%;
-                height: 60%;
-                background-color: $secondary;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                text-align: center;
-                box-shadow: $shadow;
-
-                h3 {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    background-color: $primary;
-                    color: white;
-                    font-family: $primary-font;
-
-                    margin: 20px auto;
-                    letter-spacing: 3px;
-                }
-
-                p {
-                    font-size: 2.2em;
-                    font-family: $secondary-font;
-                }
+                margin: 25px;
+                width: 76%;
+                height: 40%;
             }
         }
-    }
-}
- */
-@media only screen and (min-width: 1024px) and (max-width: 1366px) {
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        font-size: 2.6em;
-        font-family: $primary-font;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-        margin: 0;
-    }
-
-    p {
-        font-size: 1.1em;
-        font-family: $secondary-font;
-    }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        font-size: 2.2em;
-        font-family: $primary-font;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-        margin: 0;
-    }
-
-    p {
-        font-size: 0.7em;
-        font-family: Arial, Helvetica, sans-serif;
     }
 }
