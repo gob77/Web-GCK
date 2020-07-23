@@ -3621,61 +3621,49 @@ footer {
     height: auto;
     background-color: #201d1b; }
     .cicloturistas .galeria h2 {
-      font-family: "Roboto", sans-serif;
-      font-weight: 300;
       color: white;
       font-size: 40px; }
-    .cicloturistas .galeria .container .gallery-container {
+    .cicloturistas .galeria .container.gallery-container {
       background-color: #fff;
       color: #35373a;
       min-height: 100vh;
-      padding: 30px 50px; }
-      .cicloturistas .galeria .container .gallery-container .galeria-img {
-        background-color: #fff;
-        width: 100%;
-        /* Override bootstrap column paddings */ }
-        .cicloturistas .galeria .container .gallery-container .galeria-img .tz-gallery {
-          padding: 40px; }
-        .cicloturistas .galeria .container .gallery-container .galeria-img .tz-gallery .row > div {
-          padding: 2px; }
-        .cicloturistas .galeria .container .gallery-container .galeria-img .tz-gallery .lightbox img {
-          width: 100%;
-          border-radius: 0;
-          position: relative; }
-        .cicloturistas .galeria .container .gallery-container .galeria-img .tz-gallery .lightbox:before {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          margin-top: -13px;
-          margin-left: -13px;
-          opacity: 0;
-          color: #fff;
-          font-size: 26px;
-          font-family: "Glyphicons Halflings";
-          content: "\e003";
-          pointer-events: none;
-          z-index: 9000;
-          -webkit-transition: 0.4s;
-          transition: 0.4s; }
-        .cicloturistas .galeria .container .gallery-container .galeria-img .tz-gallery .lightbox:after {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          opacity: 0;
-          background-color: rgba(46, 132, 206, 0.7);
-          content: "";
-          -webkit-transition: 0.4s;
-          transition: 0.4s; }
-        .cicloturistas .galeria .container .gallery-container .galeria-img .tz-gallery .lightbox:hover:after,
-        .cicloturistas .galeria .container .gallery-container .galeria-img .tz-gallery .lightbox:hover:before {
-          opacity: 1; }
-        .cicloturistas .galeria .container .gallery-container .galeria-img .baguetteBox-button {
-          background-color: transparent !important; }
-        @media (max-width: 768px) {
-          .cicloturistas .galeria .container .gallery-container .galeria-img body {
-            padding: 0; } }
+      border-radius: 20px;
+      -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+              box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06); }
+    .cicloturistas .galeria .gallery-container h1 {
+      text-align: center;
+      margin-top: 70px;
+      font-family: "Droid Sans", sans-serif;
+      font-weight: bold; }
+    .cicloturistas .galeria .gallery-container p.page-description {
+      text-align: center;
+      max-width: 800px;
+      margin: 25px auto;
+      color: #888;
+      font-size: 18px; }
+    .cicloturistas .galeria .tz-gallery {
+      padding: 40px; }
+    .cicloturistas .galeria .tz-gallery .lightbox img {
+      width: 100%;
+      margin-bottom: 30px;
+      -webkit-transition: 0.2s ease-in-out;
+      transition: 0.2s ease-in-out;
+      -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+              box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); }
+    .cicloturistas .galeria .tz-gallery .lightbox img:hover {
+      -webkit-transform: scale(1.05);
+              transform: scale(1.05);
+      -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+              box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); }
+    .cicloturistas .galeria .tz-gallery img {
+      border-radius: 4px; }
+    .cicloturistas .galeria .baguetteBox-button {
+      background-color: transparent !important; }
+    @media (max-width: 768px) {
+      .cicloturistas .galeria body {
+        padding: 0; }
+      .cicloturistas .galeria .container.gallery-container {
+        border-radius: 0; } }
 
 /* @media (max-width: $S), (max-width: $M), (max-width: $L), (max-width: $XL) {
     .cicloturistas {
