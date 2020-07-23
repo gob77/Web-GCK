@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
     let body = document.getElementsByTagName("body")[0];
 
+    console.log(navigator.userAgent);
+
     $(".responsive").slick({
         dots: false,
         arrows: false,

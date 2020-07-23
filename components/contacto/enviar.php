@@ -7,7 +7,7 @@ $phone = $_POST['phone'];
 $asunto = $_POST['asunto'];
 $mensaje = $_POST['mensaje'];
 
-$destinatario = "bigilisandro@gmail.com";
+$destinatario = "info@karabitian.com.ar";
 $donde = "Contacto desde nuestra web";
 
 $carta = "De: $nombre \n";
