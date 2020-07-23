@@ -182,6 +182,7 @@
                 }
             }
         }
+
         .hide {
             display: none;
         }
@@ -260,6 +261,10 @@
                         border: 2px solid black;
                     }
                 }
+            }
+
+            .hide {
+                display: none;
             }
         }
     }

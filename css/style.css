@@ -3196,7 +3196,9 @@ footer {
         width: 150px;
         height: 150px;
         background-color: #e0e0e0;
-        border: 2px solid black; } }
+        border: 2px solid black; }
+    .productos .productos-container__main .hide {
+      display: none; } }
 .cicloturistas {
   display: -webkit-box;
   display: -ms-flexbox;
