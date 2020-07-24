@@ -20,6 +20,7 @@
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
+        width: 90%;
 
         h2 {
             font-size: 40px;
@@ -40,17 +41,14 @@
         height: 40vh;
         background-color: #e0e0e0;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
 
-        .perfil-foto {
-            width: 13%;
-            height: 68%;
+        a {
+            width: 16%;
+            height: 85%;
             border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: flex-end;
-            border: 2px solid $secondary;
+            text-decoration: none;
 
             &:nth-child(1) {
                 background-image: url(../../img/cicloturistas/lvdv.jpg);
@@ -83,11 +81,21 @@
                 background-size: cover;
             }
 
+            .perfil-foto {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+            }
+
             .perfil-nombre {
                 width: 100%;
                 border: 2px solid $secondary;
                 background-color: #fff;
                 text-align: center;
+                color: $primary;
+                margin-bottom: 0;
             }
         }
     }
@@ -100,6 +108,7 @@
         h2 {
             color: white;
             font-size: 40px;
+            padding-left: 12px;
         }
 
         .container.gallery-container {
@@ -123,10 +132,6 @@
             margin: 25px auto;
             color: #888;
             font-size: 18px;
-        }
-
-        .tz-gallery {
-            padding: 40px;
         }
 
         .tz-gallery .lightbox img {
@@ -161,11 +166,269 @@
     }
 }
 
-/* @media (max-width: $S), (max-width: $M), (max-width: $L), (max-width: $XL) {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    .cicloturistas {
+        width: 100%;
+
+        .cicloturistas-img {
+            width: 100%;
+            height: 25vh;
+            border: 2px solid white;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .cicloturistas-txt {
+            border: 2px solid white;
+            width: 90%;
+            h2 {
+                font-size: 3em;
+                width: auto;
+            }
+
+            p {
+                margin-top: 10px;
+                font-size: 1.8em;
+                text-align: center;
+            }
+        }
+
+        .cicloturistas-perfiles {
+            width: 100%;
+            height: 100vh;
+            background-color: #e0e0e0;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+
+            a {
+                width: 50%;
+                height: 30%;
+                border-radius: 50%;
+                text-decoration: none;
+
+                &:nth-child(1) {
+                    background-image: url(../../img/cicloturistas/lvdv.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+                &:nth-child(2) {
+                    background-image: url(../../img/cicloturistas/liviano.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+                &:nth-child(3) {
+                    background-image: url(../../img/cicloturistas/salvaje.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+                &:nth-child(4) {
+                    background-image: url(../../img/cicloturistas/pedal.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+                &:nth-child(5) {
+                    background-image: url(../../img/cicloturistas/frecuente.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+                &:nth-child(6) {
+                    background-image: url(../../img/cicloturistas/nati.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+
+                .perfil-foto {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-end;
+                }
+
+                .perfil-nombre {
+                    width: 100%;
+                    border: 2px solid $secondary;
+                    background-color: #fff;
+                    text-align: center;
+                    color: $primary;
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        .galeria {
+            width: 100%;
+            height: auto;
+            background-color: $primary;
+
+            h2 {
+                color: white;
+                font-size: 40px;
+                padding-left: 12px;
+            }
+
+            .container.gallery-container {
+                background-color: #fff;
+                color: #35373a;
+                min-height: 100vh;
+                border-radius: 20px;
+                box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+            }
+
+            .gallery-container h1 {
+                text-align: center;
+                margin-top: 70px;
+                font-family: "Droid Sans", sans-serif;
+                font-weight: bold;
+            }
+
+            .gallery-container p.page-description {
+                text-align: center;
+                max-width: 800px;
+                margin: 25px auto;
+                color: #888;
+                font-size: 18px;
+            }
+
+            .tz-gallery .lightbox img {
+                width: 100%;
+                margin-bottom: 30px;
+                transition: 0.2s ease-in-out;
+                box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+            }
+
+            .tz-gallery .lightbox img:hover {
+                transform: scale(1.05);
+                box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+            }
+
+            .tz-gallery img {
+                border-radius: 4px;
+            }
+
+            .baguetteBox-button {
+                background-color: transparent !important;
+            }
+
+            @media (max-width: 768px) {
+                body {
+                    padding: 0;
+                }
+
+                .container.gallery-container {
+                    border-radius: 0;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+    .cicloturistas {
+        width: 100%;
+
+        .cicloturistas-perfiles {
+            height: 150vh;
+        }
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .cicloturistas {
+        .cicloturistas-img {
+            width: 100%;
+            height: 65vh;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .cicloturistas-txt {
+            h2 {
+                width: auto;
+            }
+        }
+        .cicloturistas-perfiles {
+            a {
+                width: 16%;
+                height: 65%;
+                border-radius: 50%;
+                text-decoration: none;
+
+                &:nth-child(1) {
+                    background-image: url(../../img/cicloturistas/lvdv.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+                &:nth-child(2) {
+                    background-image: url(../../img/cicloturistas/liviano.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+                &:nth-child(3) {
+                    background-image: url(../../img/cicloturistas/salvaje.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+                &:nth-child(4) {
+                    background-image: url(../../img/cicloturistas/pedal.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+                &:nth-child(5) {
+                    background-image: url(../../img/cicloturistas/frecuente.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+                &:nth-child(6) {
+                    background-image: url(../../img/cicloturistas/nati.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+
+                .perfil-foto {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-end;
+                }
+
+                .perfil-nombre {
+                    width: 100%;
+                    border: 2px solid $secondary;
+                    background-color: #fff;
+                    text-align: center;
+                    color: $primary;
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
     .cicloturistas {
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        .cicloturistas-img {
+            width: 100%;
+            height: 95vh;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
 
         .cicloturistas-txt {
             display: flex;
@@ -174,60 +437,146 @@
             align-items: center;
 
             h2 {
-                font-size: 20px;
+                font-size: 40px;
                 background-color: $secondary;
-                width: 80%;
+                width: 20%;
                 text-align: center;
             }
 
             p {
-                font-size: 15px;
+                font-size: 22px;
                 text-align: center;
                 color: white;
             }
         }
 
         .cicloturistas-perfiles {
-            flex-wrap: wrap;
-            height: 50vh;
+            width: 99%;
+            height: 40vh;
+            background-color: #e0e0e0;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
 
-            .perfil-foto {
-                width: 30%;
-                height: 40%;
-                background-color: #fff;
+            a {
+                width: 16%;
+                height: 85%;
                 border-radius: 50%;
-                display: flex;
-                justify-content: center;
-                align-items: flex-end;
+                text-decoration: none;
+
+                &:nth-child(1) {
+                    background-image: url(../../img/cicloturistas/lvdv.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+                &:nth-child(2) {
+                    background-image: url(../../img/cicloturistas/liviano.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+                &:nth-child(3) {
+                    background-image: url(../../img/cicloturistas/salvaje.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+                &:nth-child(4) {
+                    background-image: url(../../img/cicloturistas/pedal.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+                &:nth-child(5) {
+                    background-image: url(../../img/cicloturistas/frecuente.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+                &:nth-child(6) {
+                    background-image: url(../../img/cicloturistas/nati.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+
+                .perfil-foto {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-end;
+                }
 
                 .perfil-nombre {
                     width: 100%;
-                    font-size: 15px;
                     border: 2px solid $secondary;
                     background-color: #fff;
                     text-align: center;
+                    color: $primary;
+                    margin-bottom: 0;
                 }
             }
         }
 
         .galeria {
             width: 90%;
-            height: 500px;
+            height: auto;
             background-color: $primary;
 
             h2 {
-                font-family: $secondary-font;
-                font-weight: 300;
                 color: white;
-                font-size: 20px;
+                font-size: 40px;
+                padding-left: 12px;
             }
 
-            .galeria-img {
+            .container.gallery-container {
                 background-color: #fff;
+                color: #35373a;
+                min-height: 100vh;
+                border-radius: 20px;
+                box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+            }
+
+            .gallery-container h1 {
+                text-align: center;
+                margin-top: 70px;
+                font-family: "Droid Sans", sans-serif;
+                font-weight: bold;
+            }
+
+            .gallery-container p.page-description {
+                text-align: center;
+                max-width: 800px;
+                margin: 25px auto;
+                color: #888;
+                font-size: 18px;
+            }
+
+            .tz-gallery .lightbox img {
                 width: 100%;
-                height: 60vh;
+                margin-bottom: 30px;
+                transition: 0.2s ease-in-out;
+                box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+            }
+
+            .tz-gallery .lightbox img:hover {
+                transform: scale(1.05);
+                box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+            }
+
+            .tz-gallery img {
+                border-radius: 4px;
+            }
+
+            .baguetteBox-button {
+                background-color: transparent !important;
+            }
+
+            @media (max-width: 768px) {
+                body {
+                    padding: 0;
+                }
+
+                .container.gallery-container {
+                    border-radius: 0;
+                }
             }
         }
     }
 }
- */
