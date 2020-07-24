@@ -1,7 +1,15 @@
 document.addEventListener("DOMContentLoaded", () => {
     let body = document.getElementsByTagName("body")[0];
 
-    console.log(navigator.userAgent);
+    /* new Splide(".splide", {
+        type: loop,
+        fixedWidth: 100,
+        rewind: true,
+        gap: 10,
+        pagination: false,
+        perPage: 5,
+        perMove: 5,
+    }).mount(); */
 
     $(".responsive").slick({
         dots: false,
@@ -35,9 +43,6 @@ document.addEventListener("DOMContentLoaded", () => {
                     slidesToScroll: 1,
                 },
             },
-            // You can unslick at a given breakpoint now by adding:
-            // settings: "unslick"
-            // instead of a settings object
         ],
     });
 });
