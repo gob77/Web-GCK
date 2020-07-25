@@ -58,7 +58,7 @@ h6 {
 }
 
 p {
-    font-size: 2.2em;
+    font-size: 1.8em;
     font-family: $secondary-font;
 }
 
@@ -77,43 +77,3 @@ p {
         width: 45% !important;
     }
 }
-
-/* @media only screen and (min-width: 1024px) and (max-width: 1366px) {
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        font-size: 2.6em;
-        font-family: $primary-font;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-        margin: 0;
-    }
-
-    p {
-        font-size: 1.1em;
-        font-family: $secondary-font;
-    }
-} */
-
-/* @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        font-size: 2.2em;
-        font-family: $primary-font;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-        margin: 0;
-    }
-
-    p {
-        font-size: 0.7em;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-} */

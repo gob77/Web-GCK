@@ -119,15 +119,28 @@
                 align-items: center;
 
                 .articulos-container__logo {
-                    width: 175px;
-                    height: 175px;
+                    width: 190px;
+                    height: 190px;
                     background-color: #e0e0e0;
                     display: flex;
                     justify-content: center;
                     align-items: center;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
                 }
             }
 
+            .productos-container {
+                .articulos-container__logo {
+                    &:nth-child(11),
+                    &:nth-child(12) {
+                        visibility: hidden;
+                    }
+                }
+            }
             .marcas-container {
                 .articulos-container__logo {
                     &:nth-child(1) {
@@ -152,35 +165,6 @@
                         img {
                             width: 90%;
                             height: 20%;
-                        }
-                    }
-                }
-            }
-
-            .productos-container {
-                .articulos-container__logo {
-                    &:nth-child(1) {
-                        img {
-                            width: 90%;
-                            height: 70%;
-                        }
-                    }
-                    &:nth-child(2) {
-                        img {
-                            width: 90%;
-                            height: 40%;
-                        }
-                    }
-                    &:nth-child(3) {
-                        img {
-                            width: 90%;
-                            height: 70%;
-                        }
-                    }
-                    &:nth-child(4) {
-                        img {
-                            width: 90%;
-                            height: 70%;
                         }
                     }
                 }
@@ -254,7 +238,8 @@
                 height: 100%;
                 display: flex;
                 flex-direction: column;
-                justify-content: space-evenly;
+                justify-content: center;
+                align-items: center;
 
                 .marcas-container,
                 .productos-container {
