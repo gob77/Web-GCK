@@ -2313,19 +2313,23 @@ footer {
             flex-direction: column; }
     .productos .productos-container__main .productos-menu {
       margin-top: 20px;
-      width: 99%;
+      width: 95%;
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
               flex-direction: row;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
       position: static; }
       .productos .productos-container__main .productos-menu .main {
-        width: 50%;
+        width: 30%;
         -ms-flex-item-align: center;
             align-self: center; }
         .productos .productos-container__main .productos-menu .main h2 {
           text-align: center;
-          width: auto; }
+          width: auto;
+          font-size: 2.5em; }
       .productos .productos-container__main .productos-menu .prod,
       .productos .productos-container__main .productos-menu .brand {
         display: -webkit-box;
@@ -2342,7 +2346,7 @@ footer {
           display: -ms-flexbox;
           display: flex;
           height: 100%;
-          font-size: 3em; }
+          font-size: 2.5em; }
           .productos .productos-container__main .productos-menu .prod h3:hover,
           .productos .productos-container__main .productos-menu .brand h3:hover {
             border: 1px solid #ffdd12;
