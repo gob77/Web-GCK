@@ -1,12 +1,17 @@
 $primary: #201d1b;
 $secondary: #ffdd12;
-$primary-font: "Anton", sans-serif;
+$primary-font: "impact", sans-serif, "Anton", sans-serif;
 $secondary-font: "Roboto", sans-serif;
 $shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75);
 $S: 320px;
 $M: 425px;
 $L: 768px;
 $XL: 1024px;
+
+@font-face {
+    font-family: impact;
+    src: url(./IMPACT.TTF);
+}
 
 @mixin responsive($breakpoint) {
     @if $breakpoint == phone {
