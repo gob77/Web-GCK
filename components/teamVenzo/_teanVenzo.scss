@@ -115,12 +115,21 @@
         }
     }
 
-    .team-venzo__feed {
-        margin-top: 50px;
+    .ig-feed {
         width: 95%;
+        background-color: $primary;
+        .feed-container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
 
-        h2 {
-            color: #ffffff;
+            .ig-title {
+                width: 30%;
+                background-color: $secondary;
+                color: $primary;
+                font-family: $secondary-font;
+            }
         }
     }
 }

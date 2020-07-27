@@ -1885,11 +1885,26 @@ footer {
         text-transform: uppercase; }
         .team-venzo .team-venzo__categorias ul li::before {
           content: "- "; }
-  .team-venzo .team-venzo__feed {
-    margin-top: 50px;
-    width: 95%; }
-    .team-venzo .team-venzo__feed h2 {
-      color: #ffffff; }
+  .team-venzo .ig-feed {
+    width: 95%;
+    background-color: #201d1b; }
+    .team-venzo .ig-feed .feed-container {
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .team-venzo .ig-feed .feed-container .ig-title {
+        width: 30%;
+        background-color: #ffdd12;
+        color: #201d1b;
+        font-family: "Roboto", sans-serif; }
 
 @media only screen and (min-width: 325px) and (max-width: 425px) {
   .team-venzo .team-venzo__img {
