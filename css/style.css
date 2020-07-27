@@ -1665,12 +1665,16 @@ footer {
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
               flex-direction: column;
-      height: auto;
-      margin-top: 120px; }
+      height: 100vh;
+      margin-top: 120px;
+      border: 2px solid white; }
       .empresa .empresa-valores .valores-container {
         margin: 25px;
         width: 76%;
-        height: 40%; } }
+        height: 33%;
+        background-color: #fff;
+        padding: 2px;
+        font-size: 1em; } }
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   .empresa {
     -webkit-box-orient: vertical;
@@ -1744,52 +1748,7 @@ footer {
         height: 30vh;
         font-size: 0.8em;
         top: 200px; } }
-.team-venzo .team-venzo__img {
-  width: 100%;
-  height: 90vh; }
-  .team-venzo .team-venzo__img img {
-    width: 100%;
-    height: 100%; }
-.team-venzo .team-venzo__resumen {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column; }
-  .team-venzo .team-venzo__resumen .resumen-txt {
-    width: 80%;
-    margin: 50px auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-align: center; }
-    .team-venzo .team-venzo__resumen .resumen-txt h2 {
-      color: white;
-      font-family: "Anton", sans-serif;
-      font-size: 40px;
-      letter-spacing: 3px; }
-    .team-venzo .team-venzo__resumen .resumen-txt p {
-      color: white;
-      font-family: "Roboto", sans-serif;
-      font-size: 22px; }
-  .team-venzo .team-venzo__resumen .resumen-img {
-    width: 100%;
-    background-color: #e0e0e0; }
-    .team-venzo .team-venzo__resumen .resumen-img img {
-      width: 100%; }
-.team-venzo .team-venzo__categorias {
+.team-venzo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1797,19 +1756,58 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
-  .team-venzo .team-venzo__categorias h2 {
-    font-family: "Anton", sans-serif;
-    color: white;
-    font-size: 30px;
-    letter-spacing: 2px; }
-  .team-venzo .team-venzo__categorias .categorias-container {
-    background-color: #e0e0e0;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .team-venzo .team-venzo__img {
+    width: 100%;
+    height: 90vh; }
+    .team-venzo .team-venzo__img img {
+      width: 100%;
+      height: 100%; }
+  .team-venzo .team-venzo__resumen {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .team-venzo .team-venzo__resumen .resumen-txt {
+      width: 80%;
+      margin: 50px auto;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      text-align: center; }
+      .team-venzo .team-venzo__resumen .resumen-txt h2 {
+        color: white;
+        font-family: "Anton", sans-serif;
+        font-size: 40px;
+        letter-spacing: 3px; }
+      .team-venzo .team-venzo__resumen .resumen-txt p {
+        color: white;
+        font-family: "Roboto", sans-serif;
+        font-size: 22px; }
+    .team-venzo .team-venzo__resumen .resumen-img {
+      width: 100%;
+      background-color: #e0e0e0; }
+      .team-venzo .team-venzo__resumen .resumen-img img {
+        width: 100%; }
+  .team-venzo .team-venzo__categorias {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1823,50 +1821,75 @@ footer {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
-    .team-venzo .team-venzo__categorias .categorias-container .categorias {
+    .team-venzo .team-venzo__categorias h2 {
+      font-family: "Anton", sans-serif;
+      color: white;
+      font-size: 30px;
+      letter-spacing: 2px; }
+    .team-venzo .team-venzo__categorias .categorias-container {
+      background-color: #e0e0e0;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
       -webkit-box-pack: center;
           -ms-flex-pack: center;
-              justify-content: center; }
-      .team-venzo .team-venzo__categorias .categorias-container .categorias .juveniles,
-      .team-venzo .team-venzo__categorias .categorias-container .categorias .elite,
-      .team-venzo .team-venzo__categorias .categorias-container .categorias .master {
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .team-venzo .team-venzo__categorias .categorias-container .categorias {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        margin: 50px; }
-        .team-venzo .team-venzo__categorias .categorias-container .categorias .juveniles .miembros,
-        .team-venzo .team-venzo__categorias .categorias-container .categorias .elite .miembros,
-        .team-venzo .team-venzo__categorias .categorias-container .categorias .master .miembros {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
+        .team-venzo .team-venzo__categorias .categorias-container .categorias .juveniles,
+        .team-venzo .team-venzo__categorias .categorias-container .categorias .elite,
+        .team-venzo .team-venzo__categorias .categorias-container .categorias .master {
           display: -webkit-box;
           display: -ms-flexbox;
-          display: flex; }
-        .team-venzo .team-venzo__categorias .categorias-container .categorias .juveniles h3,
-        .team-venzo .team-venzo__categorias .categorias-container .categorias .elite h3,
-        .team-venzo .team-venzo__categorias .categorias-container .categorias .master h3 {
-          font-family: "Anton", sans-serif;
-          letter-spacing: 2px;
-          background-color: #ffdd12;
-          text-align: center;
-          font-size: 25px; }
-  .team-venzo .team-venzo__categorias ul {
-    list-style: none;
-    margin: 20px; }
-    .team-venzo .team-venzo__categorias ul li {
-      font-family: "Roboto", sans-serif;
-      font-size: 1.5em;
-      text-transform: uppercase; }
-      .team-venzo .team-venzo__categorias ul li::before {
-        content: "- "; }
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          margin: 50px; }
+          .team-venzo .team-venzo__categorias .categorias-container .categorias .juveniles .miembros,
+          .team-venzo .team-venzo__categorias .categorias-container .categorias .elite .miembros,
+          .team-venzo .team-venzo__categorias .categorias-container .categorias .master .miembros {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex; }
+          .team-venzo .team-venzo__categorias .categorias-container .categorias .juveniles h3,
+          .team-venzo .team-venzo__categorias .categorias-container .categorias .elite h3,
+          .team-venzo .team-venzo__categorias .categorias-container .categorias .master h3 {
+            font-family: "Anton", sans-serif;
+            letter-spacing: 2px;
+            background-color: #ffdd12;
+            text-align: center;
+            font-size: 25px; }
+    .team-venzo .team-venzo__categorias ul {
+      list-style: none;
+      margin: 20px; }
+      .team-venzo .team-venzo__categorias ul li {
+        font-family: "Roboto", sans-serif;
+        font-size: 1.5em;
+        text-transform: uppercase; }
+        .team-venzo .team-venzo__categorias ul li::before {
+          content: "- "; }
+  .team-venzo .team-venzo__feed {
+    margin-top: 50px;
+    width: 95%; }
+    .team-venzo .team-venzo__feed h2 {
+      color: #ffffff; }
 
 @media only screen and (min-width: 325px) and (max-width: 425px) {
   .team-venzo .team-venzo__img {

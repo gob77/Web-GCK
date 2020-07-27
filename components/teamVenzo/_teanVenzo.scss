@@ -1,6 +1,11 @@
 @import "../../css/variables";
 
 .team-venzo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
     .team-venzo__img {
         width: 100%;
         height: 90vh;
@@ -107,6 +112,15 @@
                     content: "- ";
                 }
             }
+        }
+    }
+
+    .team-venzo__feed {
+        margin-top: 50px;
+        width: 95%;
+
+        h2 {
+            color: #ffffff;
         }
     }
 }

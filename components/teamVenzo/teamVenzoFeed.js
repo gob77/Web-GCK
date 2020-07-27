@@ -9,7 +9,7 @@
         styling: true,
         items: 5,
         items_per_row: 5,
-        margin: 1,
+        margin: 0.1,
         lazy_load: true,
         on_error: console.error,
     });
