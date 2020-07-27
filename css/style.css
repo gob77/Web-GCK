@@ -1817,11 +1817,8 @@ footer {
         color: white;
         font-family: "Roboto", sans-serif;
         font-size: 22px; }
-    .team-venzo .team-venzo__resumen .resumen-img {
-      width: 100%;
-      background-color: #e0e0e0; }
-      .team-venzo .team-venzo__resumen .resumen-img img {
-        width: 100%; }
+    .team-venzo .team-venzo__resumen .resumen-img img {
+      width: 100%; }
   .team-venzo .team-venzo__categorias {
     display: -webkit-box;
     display: -ms-flexbox;
