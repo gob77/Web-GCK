@@ -1975,7 +1975,8 @@ footer {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin: 0; }
+    margin: 0;
+    width: 90%; }
     .team-venzo .team-venzo__categorias h2 {
       font-family: "impact", sans-serif, "Anton", sans-serif;
       color: white;
@@ -1993,7 +1994,7 @@ footer {
           -ms-flex-align: center;
               align-items: center;
       height: auto;
-      width: 90%;
+      width: 100%;
       margin: 20px auto; }
       .team-venzo .team-venzo__categorias .categorias-container .categorias {
         -webkit-box-orient: vertical;
@@ -2051,7 +2052,24 @@ footer {
       color: #201d1b;
       width: 100%;
       text-align: center;
-      margin-bottom: 5px; } }
+      margin-bottom: 5px; }
+  .team-venzo .ig-feed {
+    width: 100%; }
+    .team-venzo .ig-feed .feed-container {
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .team-venzo .ig-feed .feed-container .ig-title {
+        width: 100%;
+        text-align: center; } }
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   .team-venzo .team-venzo__img {
     width: 100%;
