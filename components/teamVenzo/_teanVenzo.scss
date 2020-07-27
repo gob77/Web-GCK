@@ -227,6 +227,20 @@
                 }
             }
         }
+        .team-venzo__feed {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h2 {
+                background-color: $secondary;
+                color: $primary;
+                width: 100%;
+                text-align: center;
+                margin-bottom: 5px;
+            }
+        }
     }
 }
 
