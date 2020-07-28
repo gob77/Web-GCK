@@ -777,8 +777,11 @@ footer {
           -ms-flex-pack: center;
               justify-content: center; }
       .main-container .ig-feed .feed-container .ig-title {
-        width: 60%;
-        text-align: left; } }
+        text-align: left; }
+      .main-container .ig-feed .feed-container .gck-title {
+        width: 50%; }
+      .main-container .ig-feed .feed-container .venzo-title {
+        width: 35%; } }
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   .carousel {
     width: 100%;
@@ -1037,8 +1040,11 @@ footer {
           -ms-flex-pack: center;
               justify-content: center; }
       .main-container .ig-feed .feed-container .ig-title {
-        width: 33%;
-        text-align: left; } }
+        text-align: left; }
+      .main-container .ig-feed .feed-container .gck-title {
+        width: 31%; }
+      .main-container .ig-feed .feed-container .venzo-title {
+        width: 20%; } }
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .carousel {
     width: 100%;
