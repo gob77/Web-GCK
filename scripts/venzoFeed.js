@@ -1,4 +1,4 @@
-/* (function () {
+(function () {
     new InstagramFeed({
         username: "venzoarg",
         container: document.getElementById("venzo__feed"),
@@ -12,4 +12,3 @@
         margin: 0.1,
     });
 })();
- */

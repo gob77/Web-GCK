@@ -443,13 +443,7 @@ footer {
             justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center;
-    /* .kench {
-        border: 1px solid black;
-        height: 15%;
-    } */ }
-    .principales-marcas .owl-carousel .owl-stage-outer:nth-child(5) {
-      border: 1px solid black; }
+            align-items: center; }
     .principales-marcas .owl-carousel .owl-stage-outer .owl-stage {
       display: -webkit-box;
       display: -ms-flexbox;

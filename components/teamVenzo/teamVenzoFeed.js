@@ -1,4 +1,4 @@
-/* (function () {
+(function () {
     new InstagramFeed({
         username: "teamvenzo.arg",
         container: document.getElementById("team-venzo__feed"),
@@ -14,4 +14,3 @@
         on_error: console.error,
     });
 })();
- */
