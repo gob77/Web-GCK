@@ -333,18 +333,24 @@
                     }
                 }
 
-                /* .marcas-container__arriba {
+                .marcas-container__arriba {
                     .articulos-container__logo {
                         &:nth-child(2) {
                             img {
                                 width: 90%;
-                                height: 15%;
+                                height: 100%;
                             }
                         }
                         &:nth-child(3) {
                             img {
                                 width: 90%;
-                                height: 1%;
+                                height: 100%;
+                            }
+                        }
+                        &:nth-child(4) {
+                            img {
+                                width: 90%;
+                                height: 70%;
                             }
                         }
                     }
@@ -355,7 +361,7 @@
                         &:nth-child(2) {
                             img {
                                 width: 90%;
-                                height: 35%;
+                                height: 100%;
                             }
                         }
                         &:nth-child(3) {
@@ -372,13 +378,13 @@
                         &:nth-child(2) {
                             img {
                                 width: 90%;
-                                height: 25%;
+                                height: 60%;
                             }
                         }
                         &:nth-child(3) {
                             img {
                                 width: 90%;
-                                height: 20%;
+                                height: 70%;
                             }
                         }
                         &:nth-child(4) {
@@ -388,7 +394,7 @@
                             }
                         }
                     }
-                } */
+                }
 
                 .productos-container__abajo {
                     :nth-child(3) {
