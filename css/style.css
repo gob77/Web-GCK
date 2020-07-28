@@ -3516,15 +3516,9 @@ footer {
           width: 30%;
           height: 7vh;
           font-size: 3em;
-          background-color: #ffdd12;
-          margin: 0; }
+          background-color: #ffdd12; }
           .contacto .contacto-form .contacto-form__form form .form-btn:hover {
             border: 3px solid #201d1b; }
-  .contacto #map {
-    width: 90%;
-    height: 50vh;
-    background-color: #e0e0e0;
-    margin-top: 5vh; }
 
 @media only screen and (min-width: 320px) and (max-width: 425px) {
   .contacto .contacto-form {
