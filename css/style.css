@@ -513,7 +513,7 @@ footer {
       background-color: #201d1b;
       color: white;
       font-family: "impact", sans-serif, "Anton", sans-serif;
-      display: inline-block; }
+      display: inline; }
     .ig-feed .feed-container .gck-title {
       width: 24%;
       background-color: #201d1b; }
