@@ -2569,7 +2569,7 @@ footer {
       .productos .productos-container__main .marcas-img .productos-container__abajo :nth-child(3) .otros,
       .productos .productos-container__main .productos-img .productos-container__abajo :nth-child(3) .otros {
         border-radius: 15px;
-        font-size: 1.5em; }
+        font-size: 1.2em; }
       .productos .productos-container__main .marcas-img .productos-container__abajo .articulos-container__logo:nth-child(4),
       .productos .productos-container__main .productos-img .productos-container__abajo .articulos-container__logo:nth-child(4) {
         visibility: hidden; }
