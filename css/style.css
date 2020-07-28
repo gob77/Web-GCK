@@ -2374,19 +2374,19 @@ footer {
       .productos .productos-container__main .marcas-img .marcas-container__arriba .articulos-container__logo:nth-child(3) img,
       .productos .productos-container__main .productos-img .marcas-container__arriba .articulos-container__logo:nth-child(3) img {
         width: 90%;
-        height: 20%; }
+        height: 100%; }
       .productos .productos-container__main .marcas-img .marcas-container__arriba .articulos-container__logo:nth-child(4) img,
       .productos .productos-container__main .productos-img .marcas-container__arriba .articulos-container__logo:nth-child(4) img {
         width: 90%;
-        height: 10%; }
+        height: 100%; }
       .productos .productos-container__main .marcas-img .marcas-container__medio .articulos-container__logo:nth-child(1) img,
       .productos .productos-container__main .productos-img .marcas-container__medio .articulos-container__logo:nth-child(1) img {
         width: 90%;
-        height: 50%; }
+        height: 80%; }
       .productos .productos-container__main .marcas-img .marcas-container__medio .articulos-container__logo:nth-child(2) img,
       .productos .productos-container__main .productos-img .marcas-container__medio .articulos-container__logo:nth-child(2) img {
         width: 90%;
-        height: 40%; }
+        height: 100%; }
       .productos .productos-container__main .marcas-img .marcas-container__medio .articulos-container__logo:nth-child(3) img,
       .productos .productos-container__main .productos-img .marcas-container__medio .articulos-container__logo:nth-child(3) img {
         width: 90%;
@@ -2394,11 +2394,11 @@ footer {
       .productos .productos-container__main .marcas-img .marcas-container__medio .articulos-container__logo:nth-child(4) img,
       .productos .productos-container__main .productos-img .marcas-container__medio .articulos-container__logo:nth-child(4) img {
         width: 90%;
-        height: 10%; }
+        height: 100%; }
       .productos .productos-container__main .marcas-img .marcas-container__abajo .articulos-container__logo:nth-child(1) img,
       .productos .productos-container__main .productos-img .marcas-container__abajo .articulos-container__logo:nth-child(1) img {
         width: 90%;
-        height: 50%; }
+        height: 80%; }
       .productos .productos-container__main .marcas-img .marcas-container__abajo .articulos-container__logo:nth-child(2) img,
       .productos .productos-container__main .productos-img .marcas-container__abajo .articulos-container__logo:nth-child(2) img {
         width: 90%;
