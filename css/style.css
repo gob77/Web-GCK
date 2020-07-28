@@ -781,9 +781,9 @@ footer {
         text-align: left;
         font-size: 1.4em; }
       .main-container .ig-feed .feed-container .gck-title {
-        width: 50%; }
+        width: 45%; }
       .main-container .ig-feed .feed-container .venzo-title {
-        width: 35%; } }
+        width: 30%; } }
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   .carousel {
     width: 100%;
