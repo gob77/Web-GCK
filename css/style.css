@@ -3478,7 +3478,7 @@ footer {
         .contacto .contacto-form .contacto-form__form form input {
           width: 100%;
           height: 30px;
-          margin: 10px;
+          margin: 10px 0;
           font-family: "Roboto", sans-serif;
           display: -webkit-box;
           display: -ms-flexbox;
@@ -3548,10 +3548,11 @@ footer {
       .contacto .contacto-form .contacto-form__form form {
         width: 90%; }
         .contacto .contacto-form .contacto-form__form form .form-btn {
-          width: 50%;
+          width: 100%;
           height: 7vh;
           -ms-flex-item-align: center;
-              align-self: center; }
+              align-self: center;
+          font-size: 2.4em; }
           .contacto .contacto-form .contacto-form__form form .form-btn:hover {
             border: 3px solid #201d1b; } }
 @media only screen and (min-width: 426px) and (max-width: 768px) {
