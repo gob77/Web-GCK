@@ -512,8 +512,7 @@ footer {
     .ig-feed .feed-container .ig-title {
       background-color: #201d1b;
       color: white;
-      font-family: "impact", sans-serif, "Anton", sans-serif;
-      display: inline; }
+      font-family: "impact", sans-serif, "Anton", sans-serif; }
     .ig-feed .feed-container .gck-title {
       width: 24%;
       background-color: #201d1b; }
@@ -777,17 +776,14 @@ footer {
               flex-direction: column;
       -webkit-box-pack: center;
           -ms-flex-pack: center;
-              justify-content: center;
-                /* .gck-title {
-                    width: 50%;
-                }
-
-                .venzo-title {
-                    width: 35%;
-                } */ }
+              justify-content: center; }
       .main-container .ig-feed .feed-container .ig-title {
         text-align: left;
-        font-size: 1.4em; } }
+        font-size: 1.4em; }
+      .main-container .ig-feed .feed-container .gck-title {
+        width: 50%; }
+      .main-container .ig-feed .feed-container .venzo-title {
+        width: 35%; } }
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   .carousel {
     width: 100%;
@@ -1044,17 +1040,14 @@ footer {
               flex-direction: column;
       -webkit-box-pack: center;
           -ms-flex-pack: center;
-              justify-content: center;
-                /* .gck-title {
-                    width: 31%;
-                }
-
-                .venzo-title {
-                    width: 20%;
-                } */ }
+              justify-content: center; }
       .main-container .ig-feed .feed-container .ig-title {
         display: inline;
-        text-align: left; } }
+        text-align: left; }
+      .main-container .ig-feed .feed-container .gck-title {
+        width: 31%; }
+      .main-container .ig-feed .feed-container .venzo-title {
+        width: 20%; } }
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .carousel {
     width: 100%;

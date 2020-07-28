@@ -299,7 +299,6 @@
             background-color: $primary;
             color: white;
             font-family: $primary-font;
-            display: inline;
         }
 
         .gck-title {
@@ -545,13 +544,13 @@
                     font-size: 1.4em;
                 }
 
-                /* .gck-title {
+                .gck-title {
                     width: 50%;
                 }
 
                 .venzo-title {
                     width: 35%;
-                } */
+                }
             }
         }
     }
@@ -789,13 +788,13 @@
                     text-align: left;
                 }
 
-                /* .gck-title {
+                .gck-title {
                     width: 31%;
                 }
 
                 .venzo-title {
                     width: 20%;
-                } */
+                }
             }
         }
     }
