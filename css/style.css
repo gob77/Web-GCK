@@ -3550,6 +3550,7 @@ footer {
           -ms-flex-align: center;
               align-items: center; }
       .contacto .contacto-form .contacto-form__form form .form-btn {
+        margin-top: 10px;
         width: 100%;
         height: 7vh;
         -ms-flex-item-align: center;
