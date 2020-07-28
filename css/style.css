@@ -512,7 +512,8 @@ footer {
     .ig-feed .feed-container .ig-title {
       background-color: #201d1b;
       color: white;
-      font-family: "impact", sans-serif, "Anton", sans-serif; }
+      font-family: "impact", sans-serif, "Anton", sans-serif;
+      display: inline-block; }
     .ig-feed .feed-container .gck-title {
       width: 24%;
       background-color: #201d1b; }
@@ -776,14 +777,17 @@ footer {
               flex-direction: column;
       -webkit-box-pack: center;
           -ms-flex-pack: center;
-              justify-content: center; }
+              justify-content: center;
+                /* .gck-title {
+                    width: 50%;
+                }
+
+                .venzo-title {
+                    width: 35%;
+                } */ }
       .main-container .ig-feed .feed-container .ig-title {
         text-align: left;
-        font-size: 1.4em; }
-      .main-container .ig-feed .feed-container .gck-title {
-        width: 50%; }
-      .main-container .ig-feed .feed-container .venzo-title {
-        width: 35%; } }
+        font-size: 1.4em; } }
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   .carousel {
     width: 100%;
@@ -1040,13 +1044,16 @@ footer {
               flex-direction: column;
       -webkit-box-pack: center;
           -ms-flex-pack: center;
-              justify-content: center; }
+              justify-content: center;
+                /* .gck-title {
+                    width: 31%;
+                }
+
+                .venzo-title {
+                    width: 20%;
+                } */ }
       .main-container .ig-feed .feed-container .ig-title {
-        text-align: left; }
-      .main-container .ig-feed .feed-container .gck-title {
-        width: 31%; }
-      .main-container .ig-feed .feed-container .venzo-title {
-        width: 20%; } }
+        text-align: left; } }
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .carousel {
     width: 100%;
@@ -2015,7 +2022,8 @@ footer {
               justify-content: center; }
       .team-venzo .ig-feed .feed-container .ig-title {
         width: 33%;
-        text-align: left; } }
+        text-align: left;
+        display: inline-block; } }
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   .team-venzo .team-venzo__img {
     width: 100%;
