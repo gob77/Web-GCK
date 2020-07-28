@@ -335,6 +335,12 @@
 
                 .marcas-container__arriba {
                     .articulos-container__logo {
+                        &:nth-child(1) {
+                            img {
+                                width: 90%;
+                                height: 70%;
+                            }
+                        }
                         &:nth-child(2) {
                             img {
                                 width: 90%;
@@ -358,10 +364,16 @@
 
                 .marcas-container__medio {
                     .articulos-container__logo {
+                        &:nth-child(1) {
+                            img {
+                                width: 90%;
+                                height: 70%;
+                            }
+                        }
                         &:nth-child(2) {
                             img {
                                 width: 90%;
-                                height: 100%;
+                                height: 70%;
                             }
                         }
                         &:nth-child(3) {

@@ -2538,6 +2538,10 @@ footer {
         .productos .productos-container__main .productos-img .productos-container .articulos-container__logo img {
           height: 100%;
           width: 100%; }
+      .productos .productos-container__main .marcas-img .marcas-container__arriba .articulos-container__logo:nth-child(1) img,
+      .productos .productos-container__main .productos-img .marcas-container__arriba .articulos-container__logo:nth-child(1) img {
+        width: 90%;
+        height: 70%; }
       .productos .productos-container__main .marcas-img .marcas-container__arriba .articulos-container__logo:nth-child(2) img,
       .productos .productos-container__main .productos-img .marcas-container__arriba .articulos-container__logo:nth-child(2) img {
         width: 90%;
@@ -2550,10 +2554,14 @@ footer {
       .productos .productos-container__main .productos-img .marcas-container__arriba .articulos-container__logo:nth-child(4) img {
         width: 90%;
         height: 70%; }
+      .productos .productos-container__main .marcas-img .marcas-container__medio .articulos-container__logo:nth-child(1) img,
+      .productos .productos-container__main .productos-img .marcas-container__medio .articulos-container__logo:nth-child(1) img {
+        width: 90%;
+        height: 70%; }
       .productos .productos-container__main .marcas-img .marcas-container__medio .articulos-container__logo:nth-child(2) img,
       .productos .productos-container__main .productos-img .marcas-container__medio .articulos-container__logo:nth-child(2) img {
         width: 90%;
-        height: 100%; }
+        height: 70%; }
       .productos .productos-container__main .marcas-img .marcas-container__medio .articulos-container__logo:nth-child(3) img,
       .productos .productos-container__main .productos-img .marcas-container__medio .articulos-container__logo:nth-child(3) img {
         width: 95%;
