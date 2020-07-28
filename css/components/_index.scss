@@ -237,23 +237,16 @@
         font-size: 4em;
     }
 
-    .marcas-container {
+    .owl-carousel {
+        background: #ffffff;
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
-        width: 100%;
-        height: 40vh;
-        background-color: #fff;
 
-        .item {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 25%;
-
-            img {
-                height: 100%;
-                width: 100%;
+        .owl-stage-outer {
+            .owl-stage {
+                display: flex;
+                align-items: center;
             }
         }
     }
@@ -288,7 +281,7 @@
     justify-content: space-evenly;
 
     h2 {
-        margin-top: 50px;
+        margin-top: 20px;
         letter-spacing: 2px;
         font-size: 4em;
         background-color: $primary;
@@ -303,31 +296,12 @@
         justify-content: center;
 
         .ig-title {
-            width: 30%;
+            width: 22%;
             background-color: $primary;
             color: white;
             font-family: $primary-font;
             font-weight: 400;
             font-size: 2.4em;
-        }
-    }
-}
-
-.slick-track {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-
-    .item {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        height: 10% !important;
-
-        img {
-            height: 20% !important;
         }
     }
 }
@@ -562,8 +536,8 @@
                 justify-content: center;
 
                 .ig-title {
-                    width: auto;
-                    text-align: center;
+                    width: 58%;
+                    text-align: left;
                 }
             }
         }
@@ -800,8 +774,8 @@
                 justify-content: center;
 
                 .ig-title {
-                    width: auto;
-                    text-align: center;
+                    width: 37%;
+                    text-align: left;
                 }
             }
         }
@@ -1027,9 +1001,6 @@
                     width: 35%;
                     background-color: $primary;
                     color: white;
-                    font-family: $secondary-font;
-                    font-weight: 400;
-                    font-size: 2.4em;
                 }
             }
         }
@@ -1201,12 +1172,9 @@
         .ig-feed {
             .feed-container {
                 .ig-title {
-                    width: 35%;
+                    width: 27%;
                     background-color: $primary;
                     color: white;
-                    font-family: $secondary-font;
-                    font-weight: 400;
-                    font-size: 2.4em;
                 }
             }
         }

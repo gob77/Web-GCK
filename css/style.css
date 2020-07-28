@@ -433,32 +433,24 @@ footer {
     color: #201d1b;
     background-color: #ffdd12;
     font-size: 4em; }
-  .principales-marcas .marcas-container {
+  .principales-marcas .owl-carousel {
+    background: #ffffff;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center;
-    width: 100%;
-    height: 40vh;
-    background-color: #fff; }
-    .principales-marcas .marcas-container .item {
+            align-items: center; }
+    .principales-marcas .owl-carousel .owl-stage-outer .owl-stage {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
       -webkit-box-align: center;
           -ms-flex-align: center;
-              align-items: center;
-      width: 25%; }
-      .principales-marcas .marcas-container .item img {
-        height: 100%;
-        width: 100%; }
+              align-items: center; }
   .principales-marcas .ver-mas {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -499,7 +491,7 @@ footer {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly; }
   .ig-feed h2 {
-    margin-top: 50px;
+    margin-top: 20px;
     letter-spacing: 2px;
     font-size: 4em;
     background-color: #201d1b;
@@ -518,37 +510,12 @@ footer {
         -ms-flex-pack: center;
             justify-content: center; }
     .ig-feed .feed-container .ig-title {
-      width: 30%;
+      width: 22%;
       background-color: #201d1b;
       color: white;
       font-family: "impact", sans-serif, "Anton", sans-serif;
       font-weight: 400;
       font-size: 2.4em; }
-
-.slick-track {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 100%; }
-  .slick-track .item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    height: 10% !important; }
-    .slick-track .item img {
-      height: 20% !important; }
 
 @media only screen and (min-width: 325px) and (max-width: 425px) {
   .carousel {
@@ -810,8 +777,8 @@ footer {
           -ms-flex-pack: center;
               justify-content: center; }
       .main-container .ig-feed .feed-container .ig-title {
-        width: auto;
-        text-align: center; } }
+        width: 58%;
+        text-align: left; } }
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   .carousel {
     width: 100%;
@@ -1072,8 +1039,8 @@ footer {
           -ms-flex-pack: center;
               justify-content: center; }
       .main-container .ig-feed .feed-container .ig-title {
-        width: auto;
-        text-align: center; } }
+        width: 37%;
+        text-align: left; } }
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .carousel {
     width: 100%;
@@ -1323,10 +1290,7 @@ footer {
     .main-container .ig-feed .feed-container .ig-title {
       width: 35%;
       background-color: #201d1b;
-      color: white;
-      font-family: "Roboto", sans-serif;
-      font-weight: 400;
-      font-size: 2.4em; } }
+      color: white; } }
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
   .main-container .fortalezas .top,
   .main-container .fortalezas .low {
@@ -1510,12 +1474,9 @@ footer {
     -webkit-box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75);
             box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.75); }
   .main-container .ig-feed .feed-container .ig-title {
-    width: 35%;
+    width: 27%;
     background-color: #201d1b;
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 2.4em; } }
+    color: white; } }
 @font-face {
   font-family: impact;
   src: url(./IMPACT.TTF); }
@@ -1678,13 +1639,12 @@ footer {
           -ms-flex-direction: column;
               flex-direction: column;
       height: 100vh;
-      margin-top: 120px;
-      border: 2px solid white; }
+      margin-top: 120px; }
       .empresa .empresa-valores .valores-container {
         margin: 25px;
         width: 76%;
         height: 33%;
-        background-color: #fff;
+        background-color: #ffdd12;
         padding: 2px;
         font-size: 1em; } }
 @media only screen and (min-width: 426px) and (max-width: 768px) {
@@ -1714,7 +1674,7 @@ footer {
         width: 90%;
         height: 20vh;
         font-size: 0.7em;
-        top: 450px; }
+        top: 400px; }
     .empresa .empresa-valores {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
@@ -1724,8 +1684,8 @@ footer {
       margin-top: 50px; }
       .empresa .empresa-valores .valores-container {
         margin: 25px;
-        width: 76%;
-        height: 40%; } }
+        width: 50%;
+        height: 60%; } }
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .empresa .empresa-container {
     width: 90%;
@@ -2033,26 +1993,6 @@ footer {
       .team-venzo .team-venzo__categorias ul li {
         font-family: "Roboto", sans-serif;
         font-size: 2.2em; }
-  .team-venzo .team-venzo__feed {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
-    .team-venzo .team-venzo__feed h2 {
-      background-color: #ffdd12;
-      color: #201d1b;
-      width: 100%;
-      text-align: center;
-      margin-bottom: 5px; }
   .team-venzo .ig-feed {
     width: 100%; }
     .team-venzo .ig-feed .feed-container {
@@ -2068,8 +2008,7 @@ footer {
           -ms-flex-pack: center;
               justify-content: center; }
       .team-venzo .ig-feed .feed-container .ig-title {
-        width: 100%;
-        text-align: center; } }
+        text-align: left; } }
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   .team-venzo .team-venzo__img {
     width: 100%;
@@ -2095,7 +2034,8 @@ footer {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 20px; }
+    margin-top: 20px;
+    width: 90%; }
     .team-venzo .team-venzo__categorias h2 {
       font-family: "impact", sans-serif, "Anton", sans-serif;
       color: white;
@@ -2147,7 +2087,24 @@ footer {
       margin: 10px 10px; }
       .team-venzo .team-venzo__categorias ul li {
         font-family: "Roboto", sans-serif;
-        font-size: 2.2em; } }
+        font-size: 2.2em; }
+  .team-venzo .ig-feed {
+    width: 100%; }
+    .team-venzo .ig-feed .feed-container {
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .team-venzo .ig-feed .feed-container .ig-title {
+        width: 20%;
+        text-align: left; } }
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .team-venzo .team-venzo__img {
     width: 100%;
@@ -2195,7 +2152,24 @@ footer {
     margin: 10px 10px; }
     .team-venzo .team-venzo__categorias ul li {
       font-family: "Roboto", sans-serif;
-      font-size: 1.5em; } }
+      font-size: 1.5em; }
+  .team-venzo .ig-feed {
+    width: 100%; }
+    .team-venzo .ig-feed .feed-container {
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .team-venzo .ig-feed .feed-container .ig-title {
+        width: 20%;
+        text-align: left; } }
 @font-face {
   font-family: impact;
   src: url(./IMPACT.TTF); }
@@ -2366,26 +2340,91 @@ footer {
           .productos .productos-container__main .productos-img .productos-container .articulos-container__logo img {
             width: 100%;
             height: 100%; }
-      .productos .productos-container__main .marcas-img .productos-container .articulos-container__logo:nth-child(11), .productos .productos-container__main .marcas-img .productos-container .articulos-container__logo:nth-child(12),
-      .productos .productos-container__main .productos-img .productos-container .articulos-container__logo:nth-child(11),
-      .productos .productos-container__main .productos-img .productos-container .articulos-container__logo:nth-child(12) {
-        visibility: hidden; }
-      .productos .productos-container__main .marcas-img .marcas-container .articulos-container__logo:nth-child(1) img,
-      .productos .productos-container__main .productos-img .marcas-container .articulos-container__logo:nth-child(1) img {
+      .productos .productos-container__main .marcas-img .marcas-container__arriba .articulos-container__logo:nth-child(1) img,
+      .productos .productos-container__main .productos-img .marcas-container__arriba .articulos-container__logo:nth-child(1) img {
+        width: 90%;
+        height: 50%; }
+      .productos .productos-container__main .marcas-img .marcas-container__arriba .articulos-container__logo:nth-child(2) img,
+      .productos .productos-container__main .productos-img .marcas-container__arriba .articulos-container__logo:nth-child(2) img {
         width: 90%;
         height: 20%; }
-      .productos .productos-container__main .marcas-img .marcas-container .articulos-container__logo:nth-child(2) img,
-      .productos .productos-container__main .productos-img .marcas-container .articulos-container__logo:nth-child(2) img {
+      .productos .productos-container__main .marcas-img .marcas-container__arriba .articulos-container__logo:nth-child(3) img,
+      .productos .productos-container__main .productos-img .marcas-container__arriba .articulos-container__logo:nth-child(3) img {
+        width: 90%;
+        height: 20%; }
+      .productos .productos-container__main .marcas-img .marcas-container__arriba .articulos-container__logo:nth-child(4) img,
+      .productos .productos-container__main .productos-img .marcas-container__arriba .articulos-container__logo:nth-child(4) img {
+        width: 90%;
+        height: 10%; }
+      .productos .productos-container__main .marcas-img .marcas-container__medio .articulos-container__logo:nth-child(1) img,
+      .productos .productos-container__main .productos-img .marcas-container__medio .articulos-container__logo:nth-child(1) img {
+        width: 90%;
+        height: 50%; }
+      .productos .productos-container__main .marcas-img .marcas-container__medio .articulos-container__logo:nth-child(2) img,
+      .productos .productos-container__main .productos-img .marcas-container__medio .articulos-container__logo:nth-child(2) img {
         width: 90%;
         height: 40%; }
-      .productos .productos-container__main .marcas-img .marcas-container .articulos-container__logo:nth-child(3) img,
-      .productos .productos-container__main .productos-img .marcas-container .articulos-container__logo:nth-child(3) img {
+      .productos .productos-container__main .marcas-img .marcas-container__medio .articulos-container__logo:nth-child(3) img,
+      .productos .productos-container__main .productos-img .marcas-container__medio .articulos-container__logo:nth-child(3) img {
         width: 90%;
-        height: 20%; }
-      .productos .productos-container__main .marcas-img .marcas-container .articulos-container__logo:nth-child(4) img,
-      .productos .productos-container__main .productos-img .marcas-container .articulos-container__logo:nth-child(4) img {
+        height: 70%; }
+      .productos .productos-container__main .marcas-img .marcas-container__medio .articulos-container__logo:nth-child(4) img,
+      .productos .productos-container__main .productos-img .marcas-container__medio .articulos-container__logo:nth-child(4) img {
         width: 90%;
-        height: 20%; }
+        height: 10%; }
+      .productos .productos-container__main .marcas-img .marcas-container__abajo .articulos-container__logo:nth-child(1) img,
+      .productos .productos-container__main .productos-img .marcas-container__abajo .articulos-container__logo:nth-child(1) img {
+        width: 90%;
+        height: 50%; }
+      .productos .productos-container__main .marcas-img .marcas-container__abajo .articulos-container__logo:nth-child(2) img,
+      .productos .productos-container__main .productos-img .marcas-container__abajo .articulos-container__logo:nth-child(2) img {
+        width: 90%;
+        height: 30%; }
+      .productos .productos-container__main .marcas-img .marcas-container__abajo .articulos-container__logo:nth-child(3) img,
+      .productos .productos-container__main .productos-img .marcas-container__abajo .articulos-container__logo:nth-child(3) img {
+        width: 90%;
+        height: 30%; }
+      .productos .productos-container__main .marcas-img .marcas-container__abajo .articulos-container__logo:nth-child(4) .otros,
+      .productos .productos-container__main .productos-img .marcas-container__abajo .articulos-container__logo:nth-child(4) .otros {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        width: 90%;
+        height: 27%;
+        border-radius: 20px;
+        background-color: #201d1b;
+        font-family: "Roboto", sans-serif;
+        font-size: 2.2em;
+        color: white;
+        font-size: 1.8em; }
+      .productos .productos-container__main .marcas-img .productos-container__abajo .otros,
+      .productos .productos-container__main .productos-img .productos-container__abajo .otros {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        width: 90%;
+        height: 27%;
+        border-radius: 20px;
+        background-color: #201d1b;
+        font-family: "Roboto", sans-serif;
+        font-size: 2.2em;
+        color: white;
+        font-size: 1.8em; }
+      .productos .productos-container__main .marcas-img .productos-container__abajo .articulos-container__logo:nth-child(4),
+      .productos .productos-container__main .productos-img .productos-container__abajo .articulos-container__logo:nth-child(4) {
+        visibility: hidden; }
     .productos .productos-container__main .hide {
       display: none; }
 
@@ -2471,6 +2510,34 @@ footer {
         height: 150px;
         background-color: #e0e0e0;
         border: 2px solid black; }
+      .productos .productos-container__main .marcas-img .marcas-container__arriba .articulos-container__logo:nth-child(2) img,
+      .productos .productos-container__main .productos-img .marcas-container__arriba .articulos-container__logo:nth-child(2) img {
+        width: 90%;
+        height: 20%; }
+      .productos .productos-container__main .marcas-img .marcas-container__arriba .articulos-container__logo:nth-child(3) img,
+      .productos .productos-container__main .productos-img .marcas-container__arriba .articulos-container__logo:nth-child(3) img {
+        width: 90%;
+        height: 17%; }
+      .productos .productos-container__main .marcas-img .marcas-container__medio .articulos-container__logo:nth-child(2) img,
+      .productos .productos-container__main .productos-img .marcas-container__medio .articulos-container__logo:nth-child(2) img {
+        width: 90%;
+        height: 35%; }
+      .productos .productos-container__main .marcas-img .marcas-container__medio .articulos-container__logo:nth-child(3) img,
+      .productos .productos-container__main .productos-img .marcas-container__medio .articulos-container__logo:nth-child(3) img {
+        width: 95%;
+        height: 80%; }
+      .productos .productos-container__main .marcas-img .marcas-container__abajo .articulos-container__logo:nth-child(2) img,
+      .productos .productos-container__main .productos-img .marcas-container__abajo .articulos-container__logo:nth-child(2) img {
+        width: 90%;
+        height: 25%; }
+      .productos .productos-container__main .marcas-img .marcas-container__abajo .articulos-container__logo:nth-child(3) img,
+      .productos .productos-container__main .productos-img .marcas-container__abajo .articulos-container__logo:nth-child(3) img {
+        width: 90%;
+        height: 20%; }
+      .productos .productos-container__main .marcas-img .marcas-container__abajo .articulos-container__logo:nth-child(4) img,
+      .productos .productos-container__main .productos-img .marcas-container__abajo .articulos-container__logo:nth-child(4) img {
+        width: 90%;
+        height: 50%; }
     .productos .productos-container__main .hide {
       display: none; } }
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
@@ -2518,8 +2585,7 @@ footer {
             align-self: flex-end;
         color: white;
         background-color: #201d1b;
-        width: 50%;
-        border: 1px solid #ffffff; }
+        width: 50%; }
         .productos .productos-container__main .productos-menu .prod h3,
         .productos .productos-container__main .productos-menu .brand h3 {
           height: 100%;
@@ -2531,7 +2597,7 @@ footer {
       .productos .productos-container__main .productos-menu .brand {
         margin-top: 7vh; }
       .productos .productos-container__main .productos-menu .prod {
-        margin-top: 13vh; }
+        margin-top: 14vh; }
       .productos .productos-container__main .productos-menu .bgONE,
       .productos .productos-container__main .productos-menu .bgTWO {
         position: absolute;
@@ -2755,38 +2821,37 @@ footer {
             -webkit-box-align: center;
                 -ms-flex-align: center;
                     align-items: center; }
-        .productos .productos-container__main .marcas-img .marcas-container .articulos-container__logo:nth-child(1) img,
-        .productos .productos-container__main .productos-img .marcas-container .articulos-container__logo:nth-child(1) img {
+        .productos .productos-container__main .marcas-img .marcas-container__arriba .articulos-container__logo:nth-child(2) img,
+        .productos .productos-container__main .productos-img .marcas-container__arriba .articulos-container__logo:nth-child(2) img {
           width: 90%;
           height: 20%; }
-        .productos .productos-container__main .marcas-img .marcas-container .articulos-container__logo:nth-child(2) img,
-        .productos .productos-container__main .productos-img .marcas-container .articulos-container__logo:nth-child(2) img {
+        .productos .productos-container__main .marcas-img .marcas-container__arriba .articulos-container__logo:nth-child(3) img,
+        .productos .productos-container__main .productos-img .marcas-container__arriba .articulos-container__logo:nth-child(3) img {
           width: 90%;
-          height: 40%; }
-        .productos .productos-container__main .marcas-img .marcas-container .articulos-container__logo:nth-child(3) img,
-        .productos .productos-container__main .productos-img .marcas-container .articulos-container__logo:nth-child(3) img {
+          height: 17%; }
+        .productos .productos-container__main .marcas-img .marcas-container__medio .articulos-container__logo:nth-child(2) img,
+        .productos .productos-container__main .productos-img .marcas-container__medio .articulos-container__logo:nth-child(2) img {
+          width: 90%;
+          height: 35%; }
+        .productos .productos-container__main .marcas-img .marcas-container__medio .articulos-container__logo:nth-child(3) img,
+        .productos .productos-container__main .productos-img .marcas-container__medio .articulos-container__logo:nth-child(3) img {
+          width: 95%;
+          height: 80%; }
+        .productos .productos-container__main .marcas-img .marcas-container__abajo .articulos-container__logo:nth-child(2) img,
+        .productos .productos-container__main .productos-img .marcas-container__abajo .articulos-container__logo:nth-child(2) img {
+          width: 90%;
+          height: 25%; }
+        .productos .productos-container__main .marcas-img .marcas-container__abajo .articulos-container__logo:nth-child(3) img,
+        .productos .productos-container__main .productos-img .marcas-container__abajo .articulos-container__logo:nth-child(3) img {
           width: 90%;
           height: 20%; }
-        .productos .productos-container__main .marcas-img .marcas-container .articulos-container__logo:nth-child(4) img,
-        .productos .productos-container__main .productos-img .marcas-container .articulos-container__logo:nth-child(4) img {
+        .productos .productos-container__main .marcas-img .marcas-container__abajo .articulos-container__logo:nth-child(4) img,
+        .productos .productos-container__main .productos-img .marcas-container__abajo .articulos-container__logo:nth-child(4) img {
           width: 90%;
-          height: 20%; }
-        .productos .productos-container__main .marcas-img .productos-container .articulos-container__logo:nth-child(1) img,
-        .productos .productos-container__main .productos-img .productos-container .articulos-container__logo:nth-child(1) img {
-          width: 90%;
-          height: 70%; }
-        .productos .productos-container__main .marcas-img .productos-container .articulos-container__logo:nth-child(2) img,
-        .productos .productos-container__main .productos-img .productos-container .articulos-container__logo:nth-child(2) img {
-          width: 90%;
-          height: 40%; }
-        .productos .productos-container__main .marcas-img .productos-container .articulos-container__logo:nth-child(3) img,
-        .productos .productos-container__main .productos-img .productos-container .articulos-container__logo:nth-child(3) img {
-          width: 90%;
-          height: 70%; }
-        .productos .productos-container__main .marcas-img .productos-container .articulos-container__logo:nth-child(4) img,
-        .productos .productos-container__main .productos-img .productos-container .articulos-container__logo:nth-child(4) img {
-          width: 90%;
-          height: 70%; }
+          height: 50%; }
+        .productos .productos-container__main .marcas-img .productos-container .articulos-container__logo img,
+        .productos .productos-container__main .productos-img .productos-container .articulos-container__logo img {
+          width: 100%; }
       .productos .productos-container__main .hide {
         display: none; } }
 @font-face {
@@ -3074,6 +3139,8 @@ footer {
 @media only screen and (min-width: 425px) and (max-width: 768px) {
   .cicloturistas {
     width: 100%; }
+    .cicloturistas .cicloturistas-img {
+      height: 45vh; }
     .cicloturistas .cicloturistas-perfiles {
       height: 150vh; } }
 @media only screen and (min-width: 769px) and (max-width: 1024px) {

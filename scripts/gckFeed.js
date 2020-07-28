@@ -1,7 +1,7 @@
-(function () {
+/* (function () {
     new InstagramFeed({
-        username: "venzoarg",
-        container: document.getElementById("venzo__feed"),
+        username: "grupocarloskarabitian",
+        container: document.getElementById("gck__feed"),
         display_profile: false,
         display_biography: false,
         display_gallery: true,
@@ -12,3 +12,4 @@
         margin: 0.1,
     });
 })();
+ */

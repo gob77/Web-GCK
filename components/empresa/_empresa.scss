@@ -132,13 +132,12 @@
             flex-direction: column;
             height: 100vh;
             margin-top: 120px;
-            border: 2px solid white;
 
             .valores-container {
                 margin: 25px;
                 width: 76%;
                 height: 33%;
-                background-color: #fff;
+                background-color: $secondary;
                 padding: 2px;
                 font-size: 1em;
             }
@@ -173,7 +172,7 @@
                 width: 90%;
                 height: 20vh;
                 font-size: 0.7em;
-                top: 450px;
+                top: 400px;
             }
         }
 
@@ -184,8 +183,8 @@
 
             .valores-container {
                 margin: 25px;
-                width: 76%;
-                height: 40%;
+                width: 50%;
+                height: 60%;
             }
         }
     }

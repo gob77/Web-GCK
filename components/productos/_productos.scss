@@ -133,26 +133,18 @@
                 }
             }
 
-            .productos-container {
-                .articulos-container__logo {
-                    &:nth-child(11),
-                    &:nth-child(12) {
-                        visibility: hidden;
-                    }
-                }
-            }
-            .marcas-container {
+            .marcas-container__arriba {
                 .articulos-container__logo {
                     &:nth-child(1) {
                         img {
                             width: 90%;
-                            height: 20%;
+                            height: 50%;
                         }
                     }
                     &:nth-child(2) {
                         img {
                             width: 90%;
-                            height: 40%;
+                            height: 20%;
                         }
                     }
                     &:nth-child(3) {
@@ -164,8 +156,95 @@
                     &:nth-child(4) {
                         img {
                             width: 90%;
-                            height: 20%;
+                            height: 10%;
                         }
+                    }
+                }
+            }
+            .marcas-container__medio {
+                .articulos-container__logo {
+                    &:nth-child(1) {
+                        img {
+                            width: 90%;
+                            height: 50%;
+                        }
+                    }
+                    &:nth-child(2) {
+                        img {
+                            width: 90%;
+                            height: 40%;
+                        }
+                    }
+                    &:nth-child(3) {
+                        img {
+                            width: 90%;
+                            height: 70%;
+                        }
+                    }
+                    &:nth-child(4) {
+                        img {
+                            width: 90%;
+                            height: 10%;
+                        }
+                    }
+                }
+            }
+            .marcas-container__abajo {
+                .articulos-container__logo {
+                    &:nth-child(1) {
+                        img {
+                            width: 90%;
+                            height: 50%;
+                        }
+                    }
+                    &:nth-child(2) {
+                        img {
+                            width: 90%;
+                            height: 30%;
+                        }
+                    }
+                    &:nth-child(3) {
+                        img {
+                            width: 90%;
+                            height: 30%;
+                        }
+                    }
+                    &:nth-child(4) {
+                        .otros {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 90%;
+                            height: 27%;
+                            border-radius: 20px;
+                            background-color: $primary;
+                            font-family: $secondary-font;
+                            font-size: 2.2em;
+                            color: white;
+                            font-size: 1.8em;
+                        }
+                    }
+                }
+            }
+
+            .productos-container__abajo {
+                .otros {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 90%;
+                    height: 27%;
+                    border-radius: 20px;
+                    background-color: $primary;
+                    font-family: $secondary-font;
+                    font-size: 2.2em;
+                    color: white;
+                    font-size: 1.8em;
+                }
+
+                .articulos-container__logo {
+                    &:nth-child(4) {
+                        visibility: hidden;
                     }
                 }
             }
@@ -252,6 +331,62 @@
                         border: 2px solid black;
                     }
                 }
+
+                .marcas-container__arriba {
+                    .articulos-container__logo {
+                        &:nth-child(2) {
+                            img {
+                                width: 90%;
+                                height: 20%;
+                            }
+                        }
+                        &:nth-child(3) {
+                            img {
+                                width: 90%;
+                                height: 17%;
+                            }
+                        }
+                    }
+                }
+
+                .marcas-container__medio {
+                    .articulos-container__logo {
+                        &:nth-child(2) {
+                            img {
+                                width: 90%;
+                                height: 35%;
+                            }
+                        }
+                        &:nth-child(3) {
+                            img {
+                                width: 95%;
+                                height: 80%;
+                            }
+                        }
+                    }
+                }
+                .marcas-container__abajo {
+                    .articulos-container__logo {
+                        &:nth-child(2) {
+                            img {
+                                width: 90%;
+                                height: 25%;
+                            }
+                        }
+                        &:nth-child(3) {
+                            img {
+                                width: 90%;
+                                height: 20%;
+                            }
+                        }
+                        &:nth-child(4) {
+                            img {
+                                width: 90%;
+                                height: 50%;
+                            }
+                        }
+                    }
+                }
             }
 
             .hide {
@@ -298,7 +433,6 @@
                     color: white;
                     background-color: $primary;
                     width: 50%;
-                    border: 1px solid #ffffff;
 
                     h3 {
                         height: 100%;
@@ -316,7 +450,7 @@
                 }
 
                 .prod {
-                    margin-top: 13vh;
+                    margin-top: 14vh;
                 }
 
                 .bgONE,
@@ -506,18 +640,45 @@
                     }
                 }
 
-                .marcas-container {
+                .marcas-container__arriba {
                     .articulos-container__logo {
-                        &:nth-child(1) {
+                        &:nth-child(2) {
                             img {
                                 width: 90%;
                                 height: 20%;
                             }
                         }
+                        &:nth-child(3) {
+                            img {
+                                width: 90%;
+                                height: 17%;
+                            }
+                        }
+                    }
+                }
+
+                .marcas-container__medio {
+                    .articulos-container__logo {
                         &:nth-child(2) {
                             img {
                                 width: 90%;
-                                height: 40%;
+                                height: 35%;
+                            }
+                        }
+                        &:nth-child(3) {
+                            img {
+                                width: 95%;
+                                height: 80%;
+                            }
+                        }
+                    }
+                }
+                .marcas-container__abajo {
+                    .articulos-container__logo {
+                        &:nth-child(2) {
+                            img {
+                                width: 90%;
+                                height: 25%;
                             }
                         }
                         &:nth-child(3) {
@@ -529,7 +690,7 @@
                         &:nth-child(4) {
                             img {
                                 width: 90%;
-                                height: 20%;
+                                height: 50%;
                             }
                         }
                     }
@@ -537,29 +698,8 @@
 
                 .productos-container {
                     .articulos-container__logo {
-                        &:nth-child(1) {
-                            img {
-                                width: 90%;
-                                height: 70%;
-                            }
-                        }
-                        &:nth-child(2) {
-                            img {
-                                width: 90%;
-                                height: 40%;
-                            }
-                        }
-                        &:nth-child(3) {
-                            img {
-                                width: 90%;
-                                height: 70%;
-                            }
-                        }
-                        &:nth-child(4) {
-                            img {
-                                width: 90%;
-                                height: 70%;
-                            }
+                        img {
+                            width: 100%;
                         }
                     }
                 }
