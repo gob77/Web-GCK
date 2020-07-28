@@ -510,13 +510,16 @@ footer {
         -ms-flex-pack: center;
             justify-content: center; }
     .ig-feed .feed-container .ig-title {
-      width: 22%;
+      width: 25%;
       background-color: #201d1b;
       color: white;
       font-family: "impact", sans-serif, "Anton", sans-serif;
       font-weight: 400;
       font-size: 2.4em; }
 
+@media only screen and (max-width: 325px) {
+  .main-container {
+    background-color: #ffffff; } }
 @media only screen and (min-width: 325px) and (max-width: 425px) {
   .carousel {
     width: 100%;
@@ -777,7 +780,7 @@ footer {
           -ms-flex-pack: center;
               justify-content: center; }
       .main-container .ig-feed .feed-container .ig-title {
-        width: 58%;
+        width: 60%;
         text-align: left; } }
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   .carousel {
@@ -1873,7 +1876,7 @@ footer {
           -ms-flex-pack: center;
               justify-content: center; }
       .team-venzo .ig-feed .feed-container .ig-title {
-        width: 30%;
+        width: 10%;
         background-color: #ffdd12;
         color: #201d1b;
         font-family: "impact", sans-serif, "Anton", sans-serif; }
@@ -2008,6 +2011,7 @@ footer {
           -ms-flex-pack: center;
               justify-content: center; }
       .team-venzo .ig-feed .feed-container .ig-title {
+        width: 30%;
         text-align: left; } }
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   .team-venzo .team-venzo__img {
