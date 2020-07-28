@@ -222,17 +222,19 @@
             }
 
             .productos-container__abajo {
-                .otros {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    width: 90%;
-                    height: 27%;
-                    border-radius: 20px;
-                    background-color: $primary;
-                    font-family: $secondary-font;
-                    color: white;
-                    font-size: 1.4em;
+                &:nth-child(3) {
+                    .otros {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 90%;
+                        height: 27%;
+                        border-radius: 20px;
+                        background-color: $primary;
+                        font-family: $secondary-font;
+                        color: white;
+                        font-size: 1.4em;
+                    }
                 }
 
                 .articulos-container__logo {
@@ -249,7 +251,7 @@
     }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 768px) {
+@media only screen and (min-width: 325px) and (max-width: 768px) {
     .productos {
         .productos-txt {
             h2 {
@@ -323,6 +325,11 @@
                         height: 125px;
                         background-color: #e0e0e0;
                         border: 2px solid black;
+
+                        img {
+                            height: 100%;
+                            width: 100%;
+                        }
                     }
                 }
 
@@ -359,6 +366,7 @@
                         }
                     }
                 }
+
                 .marcas-container__abajo {
                     .articulos-container__logo {
                         &:nth-child(2) {
@@ -383,9 +391,11 @@
                 }
 
                 .productos-container__abajo {
-                    .otros {
-                        border-radius: 15px;
-                        font-size: 1.5em;
+                    :nth-child(3) {
+                        .otros {
+                            border-radius: 15px;
+                            font-size: 1.5em;
+                        }
                     }
 
                     .articulos-container__logo {
