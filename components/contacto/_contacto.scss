@@ -55,7 +55,7 @@
                 flex-direction: column;
                 justify-content: space-evenly;
                 align-items: center;
-                width: 70%;
+                width: 60%;
 
                 input {
                     width: 100%;
@@ -88,6 +88,7 @@
                     height: 7vh;
                     font-size: 3em;
                     background-color: $secondary;
+                    margin: 10px 0;
 
                     &:hover {
                         border: 3px solid $primary;
@@ -113,11 +114,13 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
+                width: 90%;
 
                 form {
+                    width: 90%;
+
                     .form-btn {
-                        margin-top: 10px;
-                        width: 100%;
+                        width: 50%;
                         height: 7vh;
                         align-self: center;
 

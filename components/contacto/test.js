@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+/* document.addEventListener("DOMContentLoaded", () => {
     let test = document.getElementsByClassName("test");
     let btn = document.getElementById("btn");
 
@@ -7,4 +7,5 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     btn.parentNode.style.backgroundColor = "red";
-});
+    console.log(btn.parentNode);
+}); */
