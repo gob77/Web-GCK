@@ -296,10 +296,17 @@
         justify-content: center;
 
         .ig-title {
-            width: 25%;
             background-color: $primary;
             color: white;
             font-family: $primary-font;
+        }
+
+        .gck-title {
+            width: 25%;
+            background-color: $primary;
+        }
+        .venzo-title {
+            width: 16%;
         }
     }
 }
