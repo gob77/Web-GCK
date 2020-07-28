@@ -243,7 +243,15 @@
         justify-content: center;
         align-items: center;
 
+        /* .kench {
+            border: 1px solid black;
+            height: 15%;
+        } */
+
         .owl-stage-outer {
+            &:nth-child(5) {
+                border: 1px solid black;
+            }
             .owl-stage {
                 display: flex;
                 align-items: center;
@@ -507,7 +515,8 @@
             }
 
             .ver-mas {
-                width: 60%;
+                width: 30%;
+                padding: 6px 0;
 
                 &:active {
                     position: relative;
@@ -540,6 +549,7 @@
 
                 .ig-title {
                     text-align: left;
+                    font-size: 1.4em;
                 }
 
                 .gck-title {
