@@ -1198,3 +1198,250 @@
         }
     }
 }
+
+/* Iphone media queries */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+    .carousel {
+        width: 100%;
+        height: 25vh;
+
+        .carousel-inner {
+            height: 100%;
+            background-color: #fff;
+
+            .carousel-item {
+                height: 100%;
+
+                img {
+                    height: 100%;
+                }
+            }
+        }
+    }
+
+    .main-container {
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-size: 2em;
+        }
+
+        p {
+            font-size: 1.1em;
+        }
+        .fortalezas {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            margin: 50px auto;
+
+            .top,
+            .low {
+                width: 100%;
+                height: 20%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                .alcance-container,
+                .variedad-container {
+                    width: 90%;
+                    flex-direction: column;
+                    align-items: center;
+                    height: auto;
+                }
+
+                .alcance-container .alcance-img,
+                .variedad-container .variedad-img {
+                    width: 30%;
+                    height: 100%;
+                    border-right: none;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                .alcance-container .alcance-txt,
+                .variedad-container .variedad-txt {
+                    width: 70%;
+                    height: 100%;
+                    margin-left: 5px;
+                    margin-top: 5px;
+
+                    h3 {
+                        font-size: 2.8em;
+                        color: $secondary;
+                        text-align: center;
+                    }
+
+                    p {
+                        font-size: 1.5em;
+                        color: #ffffff;
+                    }
+                }
+            }
+
+            .mid {
+                width: 100%;
+                height: 60%;
+                display: flex;
+                justify-content: space-evenly;
+                flex-direction: column;
+
+                .izquierda,
+                .derecha {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+
+                    .central {
+                        align-self: center;
+                    }
+
+                    .arriba,
+                    .central,
+                    .abajo {
+                        width: 90%;
+                        height: auto;
+                        margin: 20px 0;
+                        flex-direction: column;
+                        align-items: center;
+                        align-self: center;
+                    }
+                }
+
+                .centro {
+                    display: none;
+                }
+
+                .experiencia-container .experiencia-img,
+                .conocimiento-container .conocimiento-img,
+                .distribucion-container .distribucion-img,
+                .garantia-container .garantia-img,
+                .postventa-container .postventa-img,
+                .asesoramiento-container .asesoramiento-img {
+                    width: 30%;
+                    height: 100%;
+                    border-right: none;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                .experiencia-container .experiencia-txt,
+                .conocimiento-container .conocimiento-txt,
+                .distribucion-container .distribucion-txt,
+                .garantia-container .garantia-txt,
+                .postventa-container .postventa-txt,
+                .asesoramiento-container .asesoramiento-txt {
+                    width: 70%;
+                    height: 100%;
+                    margin-left: 5px;
+
+                    h3 {
+                        font-size: 2.8em;
+                        color: $secondary;
+                        text-align: center;
+                    }
+
+                    p {
+                        text-align: center;
+                        font-size: 1.5em;
+                        color: #ffffff;
+                    }
+                }
+            }
+
+            .circulo-exterior,
+            .circulo-interior {
+                display: none;
+            }
+        }
+
+        .principales-marcas {
+            width: 100%;
+            height: auto;
+            background-color: #e0e0e0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+
+            h2 {
+                font-size: 3em;
+                width: auto;
+            }
+
+            .marcas-container {
+                .item {
+                    width: 10vw;
+                    height: 5vh;
+                    margin: 1vw;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+
+            .ver-mas {
+                width: 30%;
+                padding: 6px 0;
+
+                &:active {
+                    position: relative;
+                    top: 1px;
+                }
+            }
+        }
+
+        .ig-feed {
+            width: 100%;
+            background-color: $secondary;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+
+            h2 {
+                font-size: 4em;
+                font-family: $primary-font;
+                background-color: $primary;
+                color: white;
+                text-align: center;
+            }
+
+            .feed-container {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                .ig-title {
+                    text-align: left;
+                    font-size: 1.4em;
+                }
+
+                .gck-title {
+                    width: 41%;
+                }
+
+                .venzo-title {
+                    width: 26%;
+                }
+            }
+        }
+    }
+}
