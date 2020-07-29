@@ -1911,7 +1911,7 @@ footer {
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
               flex-direction: column;
-      height: 100vh;
+      height: auto;
       margin-top: 160px; }
       .empresa .empresa-valores .valores-container {
         margin: 25px;
